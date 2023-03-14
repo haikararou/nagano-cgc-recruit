@@ -1,0 +1,53 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-cource-detail
+-----------------------------------------------------*/
+.p-cource-detail {
+  &__title {
+    @include inc.sizingRem(font-size, wide, 25px, sp, 15px);
+    @include inc.sizing(line-height, wide, 36px, sp, 22px);
+    @include inc.sizing(height, wide, 90px, sp, 70px);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    padding-left: 2em;
+    background-color: #edf6f5;
+    margin-bottom: 20px;
+    &::before {
+      content: "";
+      background-image: url(../img/usapokun-study.png);
+      @include inc.sizing(width, wide, 40px, sp, 24px);
+      @include inc.sizing(height, wide, 50px, sp, 30px);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      margin-left: -1em;
+      margin-right: 0.5em;
+    }
+  }
+  &__vimeo {
+    margin-bottom: 35px;
+  }
+  &__detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    @include inc.mq(lap) {
+      gap: auto;
+    }
+    & > dt {
+      width: 100%;
+      @include inc.mq(lap) {
+        width: 18%;
+      }
+    }
+    & > dd {
+      width: 100%;
+      @include inc.mq(lap) {
+        width: 77%;
+      }
+    }
+  }
+}

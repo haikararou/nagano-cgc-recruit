@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+@use "../inc/" as inc;
+/*
+l-header
+-----------------------------------------------------*/
+.l-header {
+  position: relative;
+  z-index: 11;
+  @include inc.mq(vr) {
+    height: 160px;
+  }
+}

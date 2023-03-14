@@ -1,0 +1,70 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-ale
+-----------------------------------------------------*/
+.p-ale {
+  &__head {
+    width: 87%;
+    @include inc.mq(tab) {
+      width: 265px;
+    }
+    & > img {
+      width: 100%;
+      height: auto;
+    }
+    margin-top: -68px;
+    @include inc.sizing(margin-top, sp, 10px, wide, -68px);
+    @include inc.sizing(margin-bottom, wide, 78px, sp, 48px);
+  }
+  &__text {
+    margin-top: -1em;
+    margin-bottom: 3em !important;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    @include inc.sizing(column-gap, wide, 30px, sp, 18px);
+    @include inc.sizing(row-gap, wide, 61px, sp, 30px);
+    @include inc.mq(tab) {
+      flex-direction: row;
+    }
+  }
+  &__item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 4%;
+    @include inc.mq(tab) {
+      width: 30.8%;
+      flex-direction: column;
+      gap: 0;
+    }
+    @include inc.mq(lap) {
+      width: 22.9%;
+    }
+    & > div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  &__figure {
+    aspect-ratio: 1/1;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > img {
+      width: 52.3%;
+      height: auto;
+      max-height: 75%;
+    }
+    @include inc.mq(tab) {
+      width: 100%;
+    }
+  }
+}

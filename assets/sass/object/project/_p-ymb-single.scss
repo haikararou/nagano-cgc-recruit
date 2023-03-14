@@ -1,0 +1,167 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-ymb-single
+-----------------------------------------------------*/
+.p-ymb-single {
+  &__head {
+    background-color: #edf6f5;
+    border-radius: 20px;
+    width: 91.7%;
+    margin: 0 auto;
+    @include inc.sizing(margin-bottom, wide, 60px, sp, 30px);
+    @include inc.sizing(padding, wide, 64px, sp, 20px);
+    @include inc.mq(tab) {
+      @include inc.sizing(width, wide, 1120px, sp, 305px);
+    }
+  }
+  &__head-inner {
+    gap: 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    @include inc.sizing(margin-bottom, wide, 60px, sp, 30px);
+    & > div {
+      display: flex;
+      @include inc.sizing(gap, wide, 32px, sp, 24px);
+    }
+    & > figure {
+      @include inc.mq(tab) {
+        width: 45.7%;
+      }
+      height: auto;
+      height: 100%;
+      & > img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+    }
+    @include inc.mq(tab) {
+      flex-direction: row;
+      gap: auto;
+    }
+  }
+  &__head-tag {
+    @include inc.sizing(width, wide, 160px, sp, 120px);
+    @include inc.sizing(height, wide, 160px, sp, 120px);
+    background-color: inc.$main-background-color;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include inc.sizing(padding-top, wide, 18px, sp, 16px);
+    @include inc.sizing(padding-bottom, wide, 18px, sp, 16px);
+
+    & > p {
+      color: inc.$main-color;
+      font-family: "Aboreto", cursive;
+      letter-spacing: -0.05em;
+      @include inc.sizingRem(font-size, wide, 50px, sp, 34px);
+      @include inc.sizing(margin-bottom, wide, 16px, sp, 12px);
+    }
+    & > time {
+      @include inc.sizingRem(font-size, wide, 14px, sp, 9px);
+      font-weight: 400;
+      @include inc.sizing(margin-bottom, wide, 21px, sp, 11px);
+    }
+    & > figure {
+      width: 44.2%;
+      & > img {
+        width: 100%;
+      }
+    }
+  }
+  &__shopname {
+    @include inc.sizingRem(font-size, wide, 16px, sp, 12px);
+    @include inc.sizing(margin-bottom, wide, 25px, sp, 16px);
+    font-weight: 400;
+  }
+  &__name {
+    margin-bottom: 0;
+    & > span {
+      display: block;
+      margin-top: 5px;
+      @include inc.sizingRem(font-size, wide, 16px, sp, 12px);
+      @include inc.sizing(line-height, wide, 24px, sp, 20px);
+      font-weight: 400;
+      margin-bottom: 13px;
+    }
+  }
+  &__tag-list {
+    display: flex;
+    gap: 8px;
+  }
+  &__tag {
+    &::before {
+      content: "#";
+    }
+    color: inc.$main-color;
+    font-size: inc.rem(10);
+    font-weight: 400;
+  }
+  &__head-text {
+    @include inc.sizingRem(font-size, wide, 18px, sp, 13px);
+    @include inc.sizing(line-height, wide, 36px, sp, 24px);
+  }
+  &__text-container {
+    margin-bottom: 40px;
+    & > h2 {
+      @include inc.mq(tab) {
+        margin-left: 2.5em;
+      }
+      @include inc.sizingRem(margin-bottom, wide, 40px, sp, 25px);
+      @include inc.sizingRem(font-size, wide, 25px, sp, 16px);
+    }
+    & > div {
+      @include inc.mq(tab) {
+        margin: 0 auto 70px;
+        width: 74.3%;
+      }
+      width: 100%;
+      margin-bottom: 70px;
+    }
+  }
+  &__img-container {
+    @include inc.mq(tab) {
+      flex-direction: row;
+      gap: auto;
+    }
+    flex-direction: column;
+    gap: 11px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    & > figure {
+      width: 100%;
+      height: auto;
+      position: relative;
+      & > img {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    & > figure:not(:last-child) {
+      & > img {
+        margin-right: 2%;
+      }
+    }
+    & > figure:not(:first-child) {
+      @include inc.mq(tab) {
+        margin-left: 2%;
+      }
+    }
+  }
+  &__table-container,
+  &__pager {
+    @include inc.mq(tab) {
+      width: 74.3%;
+    }
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

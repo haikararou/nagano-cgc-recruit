@@ -1,0 +1,110 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-table2
+-----------------------------------------------------*/
+.p-table2 {
+  margin: 0 auto;
+  @include inc.sizing(width, wide, 830px, sp, 686px);
+  table-layout: fixed;
+  @include inc.mq(tab) {
+    width: 100%;
+  }
+  & > thead {
+    border-bottom: none;
+  }
+  &__container {
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  &__head {
+    font-weight: 700;
+    background-color: #edf6f5;
+    @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
+    @include inc.sizing(line-height, wide, 24px, sp, 20px);
+  }
+  &__body {
+    border: 1px solid inc.$border-color;
+    border-top: none;
+    & > tr {
+      display: flex;
+      border-top: 1px solid inc.$border-color;
+      & > th,
+      & > td {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        border-left: 1px solid inc.$border-color;
+        &:first-child {
+          border-left: none;
+        }
+      }
+    }
+  }
+
+  &__data {
+    line-height: 1.6em;
+    font-weight: 400;
+    @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
+    & > span {
+      display: block;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3px 8px;
+      &:first-child {
+        border-bottom: 1px solid inc.$border-color;
+        margin-bottom: 0.2em;
+        padding-bottom: 0.2em;
+      }
+    }
+  }
+  &__2row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  &--officer {
+    & > tr > th,
+    & > tr > td {
+      padding: 0.2em 0;
+      @include inc.sizing(padding-left, wide, 16px, sp, 13px);
+      @include inc.sizing(padding-right, wide, 12px, sp, 9px);
+
+      align-items: flex-start;
+    }
+    & > tr > th:first-child,
+    & > tr > td:first-child,
+    & > tr > th:nth-child(2),
+    & > tr > td:nth-child(2) {
+      width: 14.4%;
+    }
+    & > tr > th:nth-child(3),
+    & > tr > td:nth-child(3) {
+      width: 9.6%;
+    }
+    & > tr > th:nth-child(4),
+    & > tr > td:nth-child(4),
+    & > tr > th:nth-child(5),
+    & > tr > td:nth-child(5) {
+      width: 16.9%;
+    }
+    & > tr > th:nth-child(6),
+    & > tr > td:nth-child(6) {
+      width: 12.1%;
+    }
+    & > tr > th:nth-child(7),
+    & > tr > td:nth-child(7) {
+      width: 15.5%;
+    }
+  }
+}

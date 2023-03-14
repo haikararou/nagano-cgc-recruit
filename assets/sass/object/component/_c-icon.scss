@@ -1,0 +1,40 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+c-icon
+-----------------------------------------------------*/
+.c-icon {
+  &--pdf {
+    display: inline-block;
+    height: 19px;
+    width: 14px;
+    background-image: url(../img/pdf.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 9px;
+    margin-bottom: -4px;
+  }
+  &--excel {
+    display: inline-block;
+    height: 19px;
+    width: 14px;
+    background-image: url(../img/excel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 9px;
+    margin-bottom: -4px;
+  }
+  &--word {
+    display: inline-block;
+    height: 19px;
+    width: 14px;
+    background-image: url(../img/word.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 9px;
+    margin-bottom: -4px;
+  }
+}

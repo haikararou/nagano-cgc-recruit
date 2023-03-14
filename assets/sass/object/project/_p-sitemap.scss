@@ -1,0 +1,100 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-sitemap
+-----------------------------------------------------*/
+.p-sitemap {
+  &__link {
+    @include inc.sizingRem(font-size, wide, 20px, sp, 14px);
+    @include inc.sizing(line-height, wide, 79px, sp, 49px);
+    border-bottom: 1px solid #aaaaaa;
+    padding-left: 1em;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      transform: translateY(-50%);
+      top: 52%;
+      left: 0;
+      display: inline-block;
+      width: 6.1px;
+      height: 9.4px;
+      background-image: url(../img/v.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &--parent {
+      @include inc.sizingRem(font-size, wide, 20px, sp, 14px);
+      @include inc.sizing(line-height, wide, 79px, sp, 49px);
+      padding-left: 1em;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        transform: translateY(-50%);
+        top: 52%;
+        left: 0;
+        display: inline-block;
+        width: 6.1px;
+        height: 9.4px;
+        background-image: url(../img/v.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+    &--child {
+      @include inc.sizing(line-height, wide, 26px, sp, 24px);
+      @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
+      font-weight: 400;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        transform: translateY(-50%);
+        top: 52%;
+        left: 0;
+        display: inline-block;
+        width: 6.1px;
+        height: 9.4px;
+        background-image: url(../img/v.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      & > a {
+        padding-left: 1em;
+      }
+    }
+  }
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 2em;
+    @include inc.mq(tab) {
+      width: 73%;
+    }
+    justify-content: space-between;
+    & > li {
+      width: 100%;
+      @include inc.mq(tab) {
+        width: 47%;
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      height: 1px;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      border-bottom: 1px solid #aaaaaa;
+      @include inc.mq(tab) {
+        width: 141%;
+        left: -21.5%;
+      }
+    }
+  }
+}

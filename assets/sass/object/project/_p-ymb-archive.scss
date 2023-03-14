@@ -1,0 +1,242 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-ymb-archive
+-----------------------------------------------------*/
+.p-ymb-archive {
+  & > h2 {
+    @include inc.sizingRem(font-size, wide, 30px, sp, 16px);
+    @include inc.sizing(line-height, wide, 44px, sp, 24px);
+    @include inc.sizing(margin-bottom, wide, 26px, sp, 15px);
+    font-weight: bold;
+  }
+  &__lead {
+    @include inc.mq(lap) {
+      justify-content: space-between;
+      flex-direction: row;
+      gap: auto;
+      margin-bottom: 60px;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 29px;
+    margin-bottom: 29px;
+    & > p {
+      @include inc.mq(lap) {
+        width: 49.3%;
+        @include inc.sizing(width, wide, 544px, lap, 504px);
+      }
+      width: 100%;
+    }
+  }
+  &__select {
+    @include inc.sizing(margin-bottom, wide, 100px, sp, 55px);
+  }
+  &__checkbox-container {
+    background-color: #edf6f5;
+    border-radius: 5px;
+    & > div:first-child {
+      margin-bottom: 32px;
+    }
+    @include inc.sizing(padding-top, wide, 35px, sp, 18px);
+    @include inc.sizing(padding-bottom, wide, 35px, sp, 18px);
+    @include inc.sizing(padding-left, wide, 37px, sp, 14px);
+    @include inc.sizing(padding-right, wide, 37px, sp, 20px);
+    @include inc.mq(tab) {
+      @include inc.sizing(padding-right, wide, 65px, tab, 40px);
+    }
+  }
+  &__checkbox-inner {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 9px;
+    @include inc.mq(tab) {
+      flex-direction: row;
+      gap: 8.8%;
+    }
+    & > p {
+      @include inc.sizingRem(font-size, wide, 14px, sp, 13px);
+      font-weight: 700;
+      width: auto;
+      min-width: 57px;
+      display: flex;
+      align-items: center;
+      margin-top: 7.5px;
+    }
+    & > ul {
+      @include inc.mq(tab) {
+        gap: 17px;
+      }
+      gap: 7px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__checkbox {
+    border-radius: 5px;
+    background-color: inc.$main-background-color;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    width: 45%;
+    @include inc.mq(tab) {
+      @include inc.sizing(width, wide, 192px, sp, 129px);
+    }
+    & > label {
+      padding: 4px 13px;
+
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: inc.rem(13);
+      line-height: 30px;
+      font-weight: 400;
+      position: relative;
+      &:focus {
+        outline: solid;
+      }
+      @include inc.mq(tab) {
+        padding: 12px 13px;
+      }
+    }
+    & > label > input {
+      opacity: 0;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  &__checkbox-design {
+    display: block;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: 1px solid inc.$main-color;
+  }
+
+  &__list {
+    @include inc.mq(tab) {
+      row-gap: 70px;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 23px;
+    margin-bottom: 51px;
+  }
+  &__card {
+    @include inc.mq(tab) {
+      width: 23% !important;
+    }
+    @include inc.mq(spl) {
+      width: 31%;
+    }
+    position: relative;
+    width: 100%;
+    & > a {
+      @include inc.mq(spl) {
+        flex-direction: column;
+      }
+      display: flex;
+      gap: 5%;
+      width: 100%;
+    }
+  }
+  &__card-number {
+    position: absolute;
+    color: inc.$accent-text-color;
+    font-family: "Aboreto", cursive;
+    letter-spacing: -0.05em;
+    @include inc.sizingRem(font-size, spl, 34px, sp, 25px);
+    top: 2%;
+    left: 3.9%;
+    @include inc.mq(spl) {
+      @include inc.sizingRem(font-size, tab, 35px, spl, 28px);
+      left: 3.9%;
+    }
+    @include inc.mq(tab) {
+      @include inc.sizingRem(font-size, wide, 50px, tab, 28px);
+      left: 3.9%;
+    }
+  }
+  &__card-img {
+    @include inc.mq(spl) {
+      margin-bottom: 12px;
+      width: 100%;
+    }
+    width: 41%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    & > img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__card-text {
+    width: 50%;
+    @include inc.mq(spl) {
+      width: 100%;
+    }
+  }
+  &__card-shopname {
+    @include inc.sizingRem(font-size, wide, 16px, sp, 12px);
+    margin-bottom: 14px;
+    font-weight: 400;
+  }
+  &__card-name {
+    @include inc.sizingRem(font-size, wide, 20px, sp, 16px);
+    @include inc.sizing(margin-bottom, wide, 19px, sp, 16px);
+    & > span {
+      @include inc.sizingRem(font-size, wide, 12px, sp, 10px);
+      font-weight: 400;
+      margin-left: 11px;
+    }
+  }
+  &__tag-list {
+    display: flex;
+    gap: 11px;
+  }
+  &__tag {
+    &::before {
+      content: "#";
+    }
+    color: inc.$main-color;
+    font-size: inc.rem(10);
+    font-weight: 400;
+  }
+  &__submit {
+    margin: 0 auto;
+    border-radius: 99px;
+    @include inc.sizing(margin-top, wide, 44px, sp, 19px);
+  }
+}
+
+.p-ymb-archive__input:checked + .p-ymb-archive__checkbox-design {
+  background-color: inc.$main-color;
+}
+
+.p-ymb-archive__input:checked + .p-ymb-archive__checkbox-design::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: 41% 37%;
+}

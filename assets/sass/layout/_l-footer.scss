@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+@use "../inc/" as inc;
+/*
+l-footer
+-----------------------------------------------------*/
+.l-footer {
+  width: 100%;
+  background-color: inc.$sub-background-color;
+}

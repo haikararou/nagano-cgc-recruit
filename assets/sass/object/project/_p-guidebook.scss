@@ -1,0 +1,49 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-guidebook
+-----------------------------------------------------*/
+.p-guidebook {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    @include inc.sizing(gap, wide, 50px, sp, 30px);
+  }
+  &__item {
+    display: flex;
+    @include inc.sizing(column-gap, wide, 42px, sp, 15px);
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+    }
+    & > div > p > a {
+      display: flex;
+      align-items: center;
+    }
+  }
+  &__figure {
+    aspect-ratio: 1/1;
+    @include inc.sizing(width, wide, 256px, sp, 145px);
+    @include inc.sizing(height, wide, 256px, sp, 145px);
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & > img {
+      height: auto;
+      width: auto;
+      max-height: 75%;
+      max-width: 52.3%;
+    }
+  }
+  &__text {
+    width: 50%;
+    @include inc.mq(spl) {
+      width: 65%;
+    }
+  }
+}

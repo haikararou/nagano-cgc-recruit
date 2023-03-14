@@ -1,0 +1,12 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+c-searchbox
+-----------------------------------------------------*/
+.c-searchbox {
+  border-radius: 99px;
+  border: 1px solid inc.$main-color;
+  line-height: 49px;
+  padding-left: 25px;
+  width: 100%;
+}

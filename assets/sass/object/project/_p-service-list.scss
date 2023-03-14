@@ -1,0 +1,71 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-service-list
+-----------------------------------------------------*/
+.p-service-list {
+  width: 100%;
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 25px;
+    @include inc.mq(tab) {
+      row-gap: 34px;
+    }
+  }
+  &__item {
+    width: 100%;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #00ad9b;
+  }
+  &__lead {
+    @include inc.sizingRem(font-size, wide, 12px, sp, 10px);
+    @include inc.sizing(line-height, wide, 18px, sp, 15px);
+    @include inc.sizing(margin-bottom, wide, 18px, sp, 15px);
+    padding: 0.8em;
+    background-color: #cae7e4;
+    border-radius: 10px 10px 10px 0;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__link {
+    position: relative;
+    @include inc.sizingRem(font-size, wide, 20px, sp, 16px);
+    @include inc.sizing(line-height, wide, 29px, sp, 23px);
+    font-weight: 700;
+    padding-left: 0.9em;
+  }
+  &__check {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid inc$main-color;
+    @include inc.sizing(margin-bottom, wide, 25px, sp, 18px);
+    & > p {
+      position: relative;
+      @include inc.sizingRem(font-size, wide, 13px, sp, 10px);
+      @include inc.sizing(line-height, wide, 23px, sp, 16px);
+      font-weight: 400;
+      padding-left: 17px;
+      &::before {
+        content: "";
+        position: absolute;
+        transform: translateY(-50%);
+        top: 57%;
+        left: 0;
+        display: inline-block;
+        width: 14.6px;
+        height: 14.6px;
+        background-image: url(../img/check-circle.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+  }
+}

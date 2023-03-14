@@ -1,0 +1,114 @@
+@use "../../inc/" as inc;
+/*
+p-table3
+-----------------------------------------------------*/
+.p-table3 {
+  margin: 0 auto;
+  @include inc.sizing(margin-bottom, wide, 22px, sp, 13px);
+  //@include inc.sizing(width, wide, 830px, sp, 686px);
+  width: 100%;
+  &--fee {
+    width: 830px;
+    & td {
+      padding: 1em !important;
+    }
+  }
+  &--fee2 {
+    width: 1000px;
+    & td {
+      padding: 1em !important;
+    }
+  }
+  &--dl {
+    width: 832px;
+    @include inc.mq(tab) {
+      width: 100%;
+    }
+    & > tbody {
+      border-left: 1px solid inc.$border-color;
+    }
+    & > tbody > tr > td:nth-child(1),
+    & > thead > tr > th:nth-child(1) {
+      width: 10%;
+    }
+    & > tbody > tr > td:nth-child(2),
+    & > thead > tr > th:nth-child(2) {
+      width: 15%;
+    }
+    & > tbody > tr > td:nth-child(3),
+    & > thead > tr > th:nth-child(3),
+    & > tbody > tr > td:nth-child(4),
+    & > thead > tr > th:nth-child(4),
+    & > tbody > tr > td:nth-child(5),
+    & > thead > tr > th:nth-child(5) {
+      width: 7%;
+    }
+    &__center {
+      text-align: center;
+    }
+  }
+  &__wide {
+    width: 46% !important;
+  }
+  &__container {
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  table-layout: fixed;
+  & > tbody > tr > th {
+    border-left: 1px solid inc.$border-color;
+  }
+  & > thead {
+    border-left: 1px solid inc.$border-color;
+    border-top: 1px solid inc.$border-color;
+    & > tr {
+      background-color: #edf6f5;
+      font-weight: 700;
+      @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
+      @include inc.sizing(line-height, wide, 24px, sp, 20px);
+      text-align: center;
+      & > td:first-child {
+        width: 26%;
+      }
+    }
+  }
+
+  & th,
+  & td {
+    vertical-align: middle;
+    width: 12%;
+    padding: 1em 1.5em;
+    @include inc.sizing(line-height, wide, 24px, sp, 20px);
+    border-bottom: 1px solid inc.$border-color;
+    border-right: 1px solid inc.$border-color;
+  }
+  & th {
+    background-color: #edf6f5;
+    @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
+    @include inc.sizing(line-height, wide, 24px, sp, 20px);
+  }
+  &__th-parent {
+    border-right: 0 none !important;
+    width: 3%;
+  }
+  &__th-child {
+    border-left: 0 none !important;
+    width: 20%;
+    & > p {
+      margin-left: -135%;
+    }
+  }
+  &__border-left {
+    border-left: 1px solid inc.$border-color;
+  }
+  &__max {
+    & > thead > tr > td:first-child {
+      width: 12%;
+    }
+  }
+}
