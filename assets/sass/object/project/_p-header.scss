@@ -141,6 +141,7 @@ p-header
     height: 21px;
     margin: -5px 0 0 16px;
     transform: translateZ(0);
+    z-index: -1;
     & > span {
       transition: transform 0.2s ease-out;
       content: "";
@@ -161,7 +162,7 @@ p-header
   &__menu-design.active {
     & > span:nth-child(1) {
       transform: rotate(-30deg);
-      margin-top: 14px;
+      margin-top: 4px;
     }
     & > span:nth-child(2) {
       display: none;
@@ -173,7 +174,45 @@ p-header
   }
 }
 
-
+.active.p-header {
+  .p-header__nav-container {
+    display: block;
+    position: absolute;
+    background: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 101vh;
+    padding: 80px 12% 0
+  }
+  .p-header__nav {
+    display: block;
+  }
+  .p-header__nav-list {
+    display: block;
+    width: 100%;
+  }
+  .p-header__nav-item {
+    border-bottom: 1px solid inc.$border-color;
+    padding: .8rem 1.2rem .8rem 0;
+    background: url(../img/arw/blue_right.svg) no-repeat 99% 50%;
+    background-size: 15px;
+  }
+  .p-header__nav-entry {
+    width: 100%;
+    height: 4rem;
+    border-radius: 2rem;
+    padding: 0 1.5rem;
+    margin-top: 2rem;
+  }
+  .p-header__nav-entry span {
+    height: 4rem;
+  }
+  .p-header__nav-entry span::after {
+    top: 42%;
+  }
+}
 
 
 
