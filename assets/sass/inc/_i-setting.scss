@@ -17,15 +17,14 @@ $content-width: 375px !default;
 $breakpoints: (
   sp: 460px,
   tab: 900px,
-  lap: 1025px,
   // sp: 375px,
-  // spl: 540px,
+  spl: 540px,
   // tab: 768px,
-  // lap: 1025px,
-  // desk: 1201px,
-  // vr: 1280px,
-  // wide: 1568px,
-  // full: 1700px,
+  lap: 1025px,
+  desk: 1201px,
+  vr: 1280px,
+  wide: 1568px,
+  full: 1700px,
 );
 
 //====================================
@@ -43,13 +42,23 @@ $sub-color: #009EA7;
 $accent-color1: #ECF1FA;
 
 $border-color: #2B68C9;
+$border-color2: #fff;
 
 // テキストの色
 $main-text-color: #171717;
 $sub-text-color2: #0075BC;
-$accent-text-color1: #fff;
+$accent-text-color: #fff;
+$accent-text-color2: #707070;
 
-
+//====================================
+//  リンクカラー
+//====================================
+a, img, a img {
+  border:none;
+  outline:none;
+  text-decoration: none;
+  color: #171717;
+}
 
 //====================================
 //  Font

@@ -4,8 +4,13 @@
 l-header
 -----------------------------------------------------*/
 .l-header {
-  position: relative;
+  position: fixed;
   z-index: 11;
+  width: 100%;
+  top: 0;
+  height: 60px;
+  background-color: inc.$main-background-color;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   @include inc.mq(vr) {
     height: 100px;
   }
