@@ -7,6 +7,6 @@ l-header
   position: relative;
   z-index: 11;
   @include inc.mq(vr) {
-    height: 160px;
+    height: 100px;
   }
 }

@@ -4,40 +4,40 @@
 p-link-box
 -----------------------------------------------------*/
 .p-link-box {
-  margin-top: 30px;
-  @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
-  @include inc.sizing(line-height, wide, 26px, sp, 24px);
-  font-weight: 400;
-  &__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 1.5em;
-    &--column {
-      flex-direction: column;
-      row-gap: 1.2em;
-    }
-  }
-  &__item {
-    @include inc.mq(tab) {
-      width: 48%;
-    }
-    width: 100%;
-    position: relative;
-    padding-left: 1em;
-    @include inc.sizing(line-height, wide, 17px, sp, 13px);
-    &::before {
-      content: "";
-      position: absolute;
-      transform: translateY(-50%);
-      top: 57%;
-      left: 0;
-      display: inline-block;
-      width: 6.1px;
-      height: 9.4px;
-      background-image: url(../img/v.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-  }
+  // margin-top: 30px;
+  // @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
+  // @include inc.sizing(line-height, wide, 26px, sp, 24px);
+  // font-weight: 400;
+  // &__container {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   justify-content: space-between;
+  //   row-gap: 1.5em;
+  //   &--column {
+  //     flex-direction: column;
+  //     row-gap: 1.2em;
+  //   }
+  // }
+  // &__item {
+  //   @include inc.mq(tab) {
+  //     width: 48%;
+  //   }
+  //   width: 100%;
+  //   position: relative;
+  //   padding-left: 1em;
+  //   @include inc.sizing(line-height, wide, 17px, sp, 13px);
+  //   &::before {
+  //     content: "";
+  //     position: absolute;
+  //     transform: translateY(-50%);
+  //     top: 57%;
+  //     left: 0;
+  //     display: inline-block;
+  //     width: 6.1px;
+  //     height: 9.4px;
+  //     background-image: url(../img/v.svg);
+  //     background-repeat: no-repeat;
+  //     background-size: contain;
+  //   }
+  // }
 }

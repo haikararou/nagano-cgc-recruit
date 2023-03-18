@@ -15,14 +15,17 @@ i-setting
 $content-width: 375px !default;
 // ブレークポイントの設定
 $breakpoints: (
-  sp: 375px,
-  spl: 540px,
-  tab: 768px,
+  sp: 460px,
+  tab: 900px,
   lap: 1025px,
-  desk: 1201px,
-  vr: 1280px,
-  wide: 1568px,
-  full: 1700px,
+  // sp: 375px,
+  // spl: 540px,
+  // tab: 768px,
+  // lap: 1025px,
+  // desk: 1201px,
+  // vr: 1280px,
+  // wide: 1568px,
+  // full: 1700px,
 );
 
 //====================================
@@ -31,18 +34,22 @@ $breakpoints: (
 
 // ベースカラー　背景色
 $main-background-color: #fff;
-$sub-background-color: #edf6f5;
+$sub-background-color: #1B6EC3;
+$accent-background-color: #FFEA00;
 
 //　アクセントカラー
-$main-color: #00ad9b;
-$sub-color: #0f68b2;
-$accent-color1: #ef8618;
-$accent-color2: #6363bf;
-$border-color: #707070;
+$main-color: #1B6EC3;
+$sub-color: #009EA7;
+$accent-color1: #ECF1FA;
+
+$border-color: #2B68C9;
 
 // テキストの色
-$main-text-color: #333;
-$accent-text-color: #fff;
+$main-text-color: #171717;
+$sub-text-color2: #0075BC;
+$accent-text-color1: #fff;
+
+
 
 //====================================
 //  Font
