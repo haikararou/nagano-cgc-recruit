@@ -1,0 +1,135 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-guideline
+-----------------------------------------------------*/
+.p-guideline {
+  & > dl {
+    & > div {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 1px solid inc.$color-light-blu;
+        @include inc.sizing(padding-top, wide, 16px, sp, 16px);
+        @include inc.sizing(padding-bottom, wide, 16px, sp, 16px);
+      & > dt {
+        width: 30%;
+        font-weight: 700;
+        @include inc.sizing(padding-left, wide, 32px, sp, 0px);
+        @include inc.sizing(padding-right, wide, 16px, sp, 0px);
+      }
+      & > dd {
+        width: 70%;
+        & > p {
+          &:last-child {
+            padding-bottom: 0;
+            margin-bottom: 0;
+          }
+        }
+        & > dl {
+          & > div {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 0 .5rem 0;
+            &:last-child {
+              padding-bottom: 0;
+              margin-bottom: 0;
+            }
+            & > dt {
+              width: auto;
+            }
+            & > dd {
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+  &--flow {
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto!important;
+    @include inc.mq(vr) {
+      width: 70%;
+    }
+    li {
+      background: inc.$color-light-blu;
+      @include inc.sizingRem(font-size, wide, 20px, sp, 16px);
+      line-height: 1rem;
+      text-align: center;
+      font-weight: 700;
+      @include inc.sizing(padding-top, wide, 20px, sp, 12px);
+      @include inc.sizing(padding-bottom, wide, 20px, sp, 12px);
+      @include inc.sizing(border-radius, wide, 8px, sp, 4px);
+      margin: 0 0 32px 0;
+      position: relative;
+      &:not(:last-child)::after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 12px;
+        border-style: solid;
+        border-width: 12px 10px 0 10px;
+        border-color: #1b5ec3 transparent transparent transparent;
+        position: absolute;
+        left: calc(50% - 10px);
+        bottom: -22px;
+      }
+    }
+  }
+
+  
+  //}
+  // &__card.active {
+  //   & > dd {
+  //     visibility: visible;
+  //     opacity: 1;
+  //     height: auto;
+  //     @include inc.sizing(padding-top, sp, 15px, wide, 4px);
+  //     @include inc.sizing(padding-bottom, wide, 30px, sp, 20px);
+  //   }
+  // }
+  // &__ol {
+  //   margin-top: 1em;
+  //   margin-left: 2em;
+  //   list-style-type: decimal;
+  // }
+  // &__button {
+  //   @include inc.sizing(height, wide, 40px, sp, 27px);
+  //   @include inc.sizing(width, wide, 40px, sp, 27px);
+  //   border-radius: 99px;
+  //   background-color: inc.$color-blu;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   & > span {
+  //     width: 100%;
+  //     height: 100%;
+  //     position: relative;
+  //     &::before {
+  //       content: " ";
+  //       transition: opacity 0.3s ease-out;
+  //       position: absolute;
+  //       transform: translate(-50%, -50%);
+  //       top: 50%;
+  //       left: 50%;
+  //       background-color: inc.$color-wht;
+  //       @include inc.sizing(width, wide, 2px, sp, 1px);
+  //       @include inc.sizing(height, wide, 16px, sp, 11px);
+  //     }
+  //     &::after {
+  //       content: " ";
+  //       position: absolute;
+  //       transform: translate(-50%, -50%);
+  //       top: 50%;
+  //       left: 50%;
+  //       background-color: inc.$color-wht;
+  //       @include inc.sizing(height, wide, 2px, sp, 1px);
+  //       @include inc.sizing(width, wide, 16px, sp, 11px);
+  //     }
+  //   }
+  // }
+  // &__button.active > span::before {
+  //   opacity: 0;
+  // }
+}

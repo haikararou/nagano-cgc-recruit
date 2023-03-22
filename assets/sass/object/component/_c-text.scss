@@ -4,6 +4,38 @@
 c-text
 -----------------------------------------------------*/
 .c-text {
+  &--h1 {
+    @include inc.sizingRem(font-size, wide, 44px, sp, 24px);
+    @include inc.sizing(line-height, wide, 44px, sp, 24px);
+    @include inc.sizing(margin-bottom, wide, 112px, sp, 48px);
+    font-weight: 700;
+    line-height: 1.6rem;
+    span {
+      @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
+      @include inc.sizing(margin-bottom, wide, 24px, sp, 12px);
+      color: inc.$color-blu2;
+      display: block;
+    }
+  }
+  &--h2 {
+    @include inc.sizingRem(font-size, wide, 24px, sp, 20px);
+    @include inc.sizing(line-height, wide, 24px, sp, 20px);
+    @include inc.sizing(margin-bottom, wide, 24px, sp, 16px);
+    font-weight: 700;
+  }
+  &--h3 {
+    @include inc.sizingRem(font-size, wide, 20px, sp, 16px);
+    @include inc.sizing(line-height, wide, 30px, sp, 24px);
+    @include inc.sizing(margin-bottom, wide, 16px, sp, 12px);
+    @include inc.sizing(padding-left, wide, 16px, sp, 12px);
+    border-left: 1px solid inc.$color-blu;
+    font-weight: 500;
+  }
+
+  // &--border-h2 {
+  //   padding-bottom: 20px;
+  //   border-bottom: 1px solid inc.$color-light-blu;
+  // }
   // @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
   // @include inc.sizing(line-height, wide, 32px, sp, 24px);
   // font-weight: 400;
@@ -21,11 +53,7 @@ c-text
   //   @include inc.sizing(line-height, wide, 24px, sp, 21px);
   //   font-weight: 400;
   // }
-  // &--h1 {
-  //   @include inc.sizingRem(font-size, wide, 42px, sp, 22px);
-  //   @include inc.sizing(line-height, wide, 61px, sp, 32px);
-  //   @include inc.sizing(margin-bottom, wide, 119px, sp, 46px);
-  // }
+  // 
   // &--h1-member {
   //   @include inc.sizingRem(font-size, wide, 50px, sp, 22px);
   //   font-weight: 400;
@@ -57,14 +85,14 @@ c-text
   //   @include inc.sizingRem(font-size, wide, 30px, sp, 16px);
   //   @include inc.sizing(line-height, wide, 44px, sp, 24px);
   //   padding-bottom: 20px;
-  //   border-bottom: 1px solid inc.$border-color;
+  //   border-bottom: 1px solid inc.$color-blu;
   // }
   // &--h3 {
   //   @include inc.sizingRem(font-size, wide, 20px, sp, 14px);
   //   @include inc.sizing(line-height, wide, 29px, sp, 20px);
   //   @include inc.sizing(margin-bottom, wide, 22px, sp, 13px);
   //   padding-bottom: 7px;
-  //   border-bottom: 1px solid inc.$border-color;
+  //   border-bottom: 1px solid inc.$color-blu;
   // }
   // &--normal-h3 {
   //   @include inc.sizingRem(font-size, wide, 20px, sp, 14px);
@@ -87,7 +115,7 @@ c-text
   //   font-weight: 400;
   // }
   // &--white {
-  //   color: inc.$accent-text-color;
+  //   color: inc.$color-wht;
   // }
   // &--dt {
   //   @include inc.sizingRem(font-size, wide, 16px, sp, 13px);

@@ -23,21 +23,21 @@ c-button
   //     content: "";
   //     width: 6.1px;
   //     height: 6.1px;
-  //     border-top: 2px solid inc.$main-color;
-  //     border-right: 2px solid inc.$main-color;
+  //     border-top: 2px solid inc.$color-blu;
+  //     border-right: 2px solid inc.$color-blu;
   //     -webkit-transform: rotate(45deg);
   //     transform: rotate(45deg);
   //   }
   // }
   // &:hover {
-  //   background-color: inc.$main-color;
-  //   color: inc.$accent-text-color;
-  //   border-color: inc.$main-color;
+  //   background-color: inc.$color-blu;
+  //   color: inc.$color-wht;
+  //   border-color: inc.$color-blu;
   //   & > p {
   //     &::after {
   //       transition: all 0.3s ease-out;
   //       margin-right: -5px;
-  //       border-color: inc.$accent-text-color;
+  //       border-color: inc.$color-wht;
   //     }
   //   }
   // }
@@ -47,9 +47,9 @@ c-button
   //   justify-content: center;
   //   height: 50px;
   //   width: 160px;
-  //   background-color: inc.$main-color;
-  //   color: inc.$accent-text-color;
-  //   border-color: inc.$main-color;
+  //   background-color: inc.$color-blu;
+  //   color: inc.$color-wht;
+  //   border-color: inc.$color-blu;
   // }
   // &--back-top {
   //   width: 160px;

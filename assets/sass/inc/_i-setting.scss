@@ -32,23 +32,32 @@ $breakpoints: (
 //====================================
 
 // ベースカラー　背景色
-$main-background-color: #fff;
-$sub-background-color: #1B6EC3;
-$accent-background-color: #FFEA00;
+$color-wht: #fff;
+$color-blu: #1B6EC3;
+$color-blu2: #008BBA; //#0075BC;
+$color-light-blu: #ECF1FA;
+$color-yel: #FFEA00;
+$color-grn: #009EA7;
+$color-gry: #707070;
+$color-blk: #171717;
+
+// $main-background-color: #fff;
+// $sub-background-color: #1B6EC3;
+// $accent-background-color: #FFEA00;
 
 //　アクセントカラー
-$main-color: #1B6EC3;
-$sub-color: #009EA7;
-$accent-color1: #ECF1FA;
+// $color-blu: #1B6EC3;
+// $color-grn: #009EA7;
+// $accent-color1: #ECF1FA;
 
-$border-color: #2B68C9;
-$border-color2: #fff;
+// $color-blu: #2B68C9;
+// $color-blu2: #fff;
 
 // テキストの色
-$main-text-color: #171717;
-$sub-text-color2: #0075BC;
-$accent-text-color: #fff;
-$accent-text-color2: #707070;
+// $main-text-color: #171717;
+// $sub-text-color2: #0075BC;
+// $accent-text-color: #fff;
+// $accent-text-color2: #707070;
 
 //====================================
 //  リンクカラー
@@ -66,8 +75,8 @@ a, img, a img {
 body {
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 500;
-  color: $main-text-color;
-  background-color: $main-background-color;
+  color: $color-blk;
+  background-color: $color-wht;
   position: relative;
   width: 100%;
   -webkit-font-smoothing: antialiased;

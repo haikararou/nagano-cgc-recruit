@@ -6,7 +6,7 @@ p-nav
 .p-nav {
   &--about {
     @include inc.mq(lap) {
-      background-color: inc.$main-background-color;
+      background-color: inc.$color-wht;
     }
     border-radius: 10px 0 0 10px;
     padding: 39px 32px;
@@ -43,7 +43,7 @@ p-nav
         width: 10px;
         height: 10px;
         display: inline-block;
-        background-color: inc.$main-color;
+        background-color: inc.$color-blu;
         border-radius: 99px;
         margin-right: 10px;
         opacity: 0.3;
@@ -57,7 +57,7 @@ p-nav
   }
   &--member {
     @include inc.mq(lap) {
-      background-color: inc.$main-background-color;
+      background-color: inc.$color-wht;
     }
     border-radius: 10px 0 0 10px;
     padding: 39px 32px;
@@ -91,7 +91,7 @@ p-nav
         width: 10px;
         height: 10px;
         display: inline-block;
-        background-color: inc.$sub-color;
+        background-color: inc.$color-grn;
         border-radius: 99px;
         margin-right: 10px;
         opacity: 0.3;
@@ -110,7 +110,7 @@ p-nav
     background-color: #edf6f5;
     @include inc.mq(lap) {
       display: block;
-      background-color: inc.$main-color;
+      background-color: inc.$color-blu;
     }
     &--sp {
       display: block;
@@ -136,9 +136,9 @@ p-nav
     }
     &__item {
       position: relative;
-      color: inc.$main-text-color;
+      color: inc.$color-blk;
       @include inc.mq(lap) {
-        color: inc.$accent-text-color;
+        color: inc.$color-wht;
       }
       &::before {
         @include inc.mq(tab) {
@@ -154,9 +154,9 @@ p-nav
         border-radius: 99px;
         margin-right: 10px;
         opacity: 0.3;
-        background-color: inc.$main-color;
+        background-color: inc.$color-blu;
         @include inc.mq(lap) {
-          background-color: inc.$accent-text-color;
+          background-color: inc.$color-wht;
         }
       }
       &.current {

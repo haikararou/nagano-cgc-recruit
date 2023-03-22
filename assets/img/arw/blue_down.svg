@@ -1,3 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <circle id="楕円形_23" data-name="楕円形 23" cx="8" cy="8" r="8" fill="#1b6ec3"/>
+  <g id="グループ_26406" data-name="グループ 26406" transform="translate(399 -711) rotate(90)">
+    <circle id="楕円形_23" data-name="楕円形 23" cx="8" cy="8" r="8" transform="translate(711 383)" fill="#1b6ec3"/>
+    <g id="Icon_-_ArrowRight_-_Small" data-name="Icon - ArrowRight - Small" transform="translate(715.95 386.3)">
+      <path id="パス_36" data-name="パス 36" d="M6.7,8.1,2,3.4,3.4,2,6.7,5.3,10,2l1.4,1.4Z" transform="translate(-2 11.4) rotate(-90)" fill="#fff"/>
+    </g>
+  </g>
 </svg>

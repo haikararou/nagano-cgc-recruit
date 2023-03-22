@@ -17,6 +17,7 @@
 @use "layout/l-footer";
 @use "layout/l-nav";
 @use "layout/l-body";
+@use "layout/l-hero";
 
 /* =====================================================
   3.0 - Object
@@ -45,6 +46,8 @@
 @use "object/project/p-breadcrumb";
 @use "object/project/p-link-box";
 @use "object/project/p-faq";
+@use "object/project/p-guideline";
+@use "object/project/p-environment";
 
 /*
   3.3 - Utility

@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+@use "../inc/" as inc;
+/*
+l-hero
+-----------------------------------------------------*/
+.l-hero {
+    padding: 0 0 0 calc(50% - 304px);
+    img {
+        border-radius: 0 0 0 .8rem;
+    }
+}

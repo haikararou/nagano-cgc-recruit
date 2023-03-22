@@ -1,0 +1,139 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-environment
+-----------------------------------------------------*/
+.p-environment {
+  &--state {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    figure {
+      width: 50%;
+      figcaption {
+        display: inline;
+        font-weight: 700;
+      }
+    }
+    ul {
+      width: calc(50% - 2rem);
+      margin: 0;
+      padding: 0 80px 0 0;
+      list-style-type: none;
+      li {
+        list-style-type: none;
+        position:relative;
+        margin-bottom: 1.2rem;
+        &::after {
+          content: "";
+          width: 60px;
+          height: 60px;
+          position: absolute;
+          right: -80px;
+          top: calc(50% - 30px);
+        }
+        span {
+          @include inc.sizingRem(font-size, wide, 16px, sp, 14px);
+          @include inc.sizing(line-height, wide, 28px, sp, 21px);
+          @include inc.sizingRem(padding-top, wide, 12px, sp, 8px);
+          @include inc.sizingRem(padding-bottom, wide, 12px, sp, 8px);
+          @include inc.sizingRem(padding-left, wide, 24px, sp, 16px);
+          @include inc.sizingRem(padding-right, wide, 24px, sp, 16px);
+          border-radius:10px 10px 0 10px;
+          background: inc.$color-wht;
+          filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, .1));
+          position: relative;
+          display: block;
+          &:after{
+            content:'';
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 12px 0 0px 16px;
+            border-color: transparent transparent transparent inc.$color-wht;
+            pointer-events:none;
+            position:absolute;
+            margin-top: -12px;
+            left:100%;
+            top:100%;
+            background: none;
+          }
+        }
+      }
+    }
+  }
+  &--stateA {
+    figure {
+      figcaption {
+        color: inc.$color-blu;
+        border-bottom: 1px solid inc.$color-blu;
+      }
+    }
+    ul {
+      li {
+        &:nth-child(1)::after {
+          background: url(../img/environment/voice_01A.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(2)::after {
+          background: url(../img/environment/voice_01B.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(3)::after {
+          background: url(../img/environment/voice_01C.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(4)::after {
+          background: url(../img/environment/voice_01D.svg) no-repeat 50% 50% / 60px;
+        }
+      }
+    }
+  }
+  &--stateB {
+    @include inc.sizing(margin-top, wide, 112px, sp, 80px);
+    figure {
+      figcaption {
+        color: inc.$color-blu2;
+        border-bottom: 1px solid inc.$color-blu2;
+      }
+    }
+    ul {
+      li {
+        &:nth-child(1)::after {
+          background: url(../img/environment/voice_02A.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(2)::after {
+          background: url(../img/environment/voice_02B.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(3)::after {
+          background: url(../img/environment/voice_02C.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(4)::after {
+          background: url(../img/environment/voice_02D.svg) no-repeat 50% 50% / 60px;
+        }
+      }
+    }
+  }
+  &--stateC {
+    @include inc.sizing(margin-top, wide, 112px, sp, 80px);
+    figure {
+      figcaption {
+        color: inc.$color-grn;
+        border-bottom: 1px solid inc.$color-grn;
+      }
+    }
+    ul {
+      li {
+        &:nth-child(1)::after {
+          background: url(../img/environment/voice_03A.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(2)::after {
+          background: url(../img/environment/voice_03B.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(3)::after {
+          background: url(../img/environment/voice_03C.svg) no-repeat 50% 50% / 60px;
+        }
+        &:nth-child(4)::after {
+          background: url(../img/environment/voice_03D.svg) no-repeat 50% 50% / 60px;
+        }
+      }
+    }
+  }
+}

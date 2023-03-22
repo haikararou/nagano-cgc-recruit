@@ -46,7 +46,7 @@ p-header
     & > a::after {
       content: "採用サイト";
       @include inc.sizingRem(font-size, wide, 18px, sp, 10px);
-      color: inc.$main-text-color;
+      color: inc.$color-blk;
       font-weight: 700;
       position: absolute;
       right: -3.6rem;
@@ -89,14 +89,14 @@ p-header
     height: 40px;
     border-radius: 20px;
     padding: 0 1.5rem;
-    background: inc.$accent-background-color;
+    background: inc.$color-yel;
     span {
       height: 40px;
       position: relative;
       display:flex;
       flex-direction:column;
       justify-content:center;
-      color:inc.$sub-text-color2;
+      color:inc.$color-blu2;
       @include inc.sizingRem(font-size, wide, 16px, sp, 16px);
       font-weight: 700;
       &::after {
@@ -145,7 +145,7 @@ p-header
     & > span {
       transition: transform 0.2s ease-out;
       content: "";
-      border-top: 1px solid inc.$main-color;
+      border-top: 1px solid inc.$color-blu;
       width: 27px;
       display: block;
     }
@@ -194,7 +194,7 @@ p-header
     width: 100%;
   }
   .p-header__nav-item {
-    border-bottom: 1px solid inc.$border-color;
+    border-bottom: 1px solid inc.$color-blu;
     padding: .8rem 1.2rem .8rem 0;
     background: url(../img/arw/blue_right.svg) no-repeat 99% 50%;
     background-size: 15px;
@@ -248,7 +248,7 @@ p-header
 //     margin-bottom: 100px;
 //   }
 //   &__shadow {
-//     background-color: inc.$main-background-color;
+//     background-color: inc.$color-wht;
 //     visibility: hidden;
 //     z-index: -1;
 //     position: fixed;
@@ -271,7 +271,7 @@ p-header
 //     z-index: 1;
 //     @include inc.mq(vr) {
 //       position: fixed;
-//       background-color: inc.$main-background-color;
+//       background-color: inc.$color-wht;
 //       @include inc.sizing(width, wide, 417px, tab, 230px);
 //       height: 42px;
 //       padding-left: 0;
@@ -332,13 +332,13 @@ p-header
 //     width: 46px;
 //     height: 30px;
 //     border-radius: 5px;
-//     border: 1px solid inc.$main-color;
-//     background-color: inc.$main-background-color;
+//     border: 1px solid inc.$color-blu;
+//     background-color: inc.$color-wht;
 //     transform: translateZ(0);
 //     & > span {
 //       transition: transform 0.2s ease-out;
 //       content: "";
-//       border-top: 1px solid inc.$main-color;
+//       border-top: 1px solid inc.$color-blu;
 //       width: 27px;
 //       display: block;
 //     }
@@ -394,7 +394,7 @@ p-header
 //     width: 100%;
 //     top: 0;
 //     left: 0;
-//     background-color: inc.$main-background-color;
+//     background-color: inc.$color-wht;
 //   }
 //   &__menu-container.active {
 //     display: flex;
@@ -506,7 +506,7 @@ p-header
 //     display: flex;
 //     align-items: center;
 //     justify-content: flex-end;
-//     background-color: inc.$sub-background-color;
+//     background-color: inc.$color-blu;
 //     height: 60px;
 //     border-radius: 0 0 0 20px;
 //   }
@@ -522,7 +522,7 @@ p-header
 //     width: 25%;
 //     height: 100%;
 //     background-color: #3c8fd5;
-//     color: inc.$accent-text-color;
+//     color: inc.$color-wht;
 //     @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
 //     &:hover {
 //       background-color: #2a7dc3;
@@ -539,8 +539,8 @@ p-header
 //     transition: all 0.1s ease-out;
 //     width: 25%;
 //     height: 100%;
-//     background-color: inc.$sub-color;
-//     color: inc.$accent-text-color;
+//     background-color: inc.$color-grn;
+//     color: inc.$color-wht;
 //     @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
 //     &:hover {
 //       background-color: #0359a0;
@@ -578,7 +578,7 @@ p-header
 //     justify-content: space-between;
 //     @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
 //     height: 100px;
-//     background-color: inc.$main-background-color;
+//     background-color: inc.$color-wht;
 //     @include inc.mq(vr) {
 //       @include inc.sizing(width, wide, 1151px, vr, 930px);
 //       margin-left: auto;
@@ -624,7 +624,7 @@ p-header
 //   position: absolute;
 //   width: 100vw;
 //   height: 100vh;
-//   background-color: inc.$main-background-color;
+//   background-color: inc.$color-wht;
 //   top: 0;
 //   left: 0;
 // }

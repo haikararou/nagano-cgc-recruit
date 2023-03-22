@@ -3,26 +3,60 @@
 /*
 l-wrapper
 -----------------------------------------------------*/
+
 .l-wrapper {
-  max-width: calc(81rem + 4rem);
+  //max-width: calc(81rem + 4rem); //1296
+  max-width: calc(80rem + 4rem); //1280
   width: 100%;
   padding: 0 2rem;
+  padding: 0 5%;
   margin: 0 auto;
   @include inc.mq(vr) {
-    padding: 0 5%;
+    // padding: 0 5%;
+    padding: 0 2rem;
   }
 }
 .l-wrapper2 {
-  max-width: calc(69rem + 4rem);
+  max-width: calc(69rem + 4rem); //1104
   width: 100%;
   padding: 0 2rem;
   margin: 0 auto;
 }
 .l-wrapper3 {
-  max-width: calc(52rem + 4rem);
+  max-width: calc(52rem + 4rem); //832
   width: 100%;
   padding: 0 2rem;
   margin: 0 auto;
+}
+
+.l-wrapper__outer {
+  @include inc.sizing(padding-top, wide, 192px, sp, 48px);
+}
+.l-wrapper__outer2 {
+  //@include inc.sizing(padding-top, wide, 178px, sp, 48px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.l-wrapper--left {
+  //max-width: calc(18rem); //288
+  max-width: calc(21rem); //336
+  width: 100%;
+  margin: 0;
+  @include inc.sizing(padding-right, wide, 32px, sp, 0px);
+  &--fixed {
+    position: absolute;
+    top: 278px;
+  }
+}
+.l-wrapper--right {
+  //max-width: calc(52rem); //832
+  max-width: calc(59rem); //944
+  width: 100%;
+  margin: 0;
+  @include inc.sizing(padding-top, wide, 178px, sp, 48px);
+  @include inc.sizing(padding-right, wide, 96px, sp, 0px);
 }
 
 // .l-wrapper {
@@ -103,7 +137,7 @@ l-wrapper
 //       @include inc.sizing(padding-top, tab, 386px, sp, 188px);
 
 //       padding-bottom: 48px;
-//       background-color: inc.$main-color;
+//       background-color: inc.$color-blu;
 //       @include inc.mq(tab) {
 //         margin-top: -33px;
 //         @include inc.sizing(margin-top, lap, -112px, tab, -33px);

@@ -6,7 +6,7 @@ p-footer
 .p-footer {
   padding: 0 0 2rem;
   &__banner {
-    background: inc.$sub-background-color;
+    background: inc.$color-blu;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -40,7 +40,7 @@ p-footer
       z-index: 1;
     }
     &-text {
-      color: inc.$accent-text-color;
+      color: inc.$color-wht;
       @include inc.sizingRem(font-size, wide, 39px, sp, 24px);
       font-weight: 700;
       text-align: center;
@@ -68,7 +68,7 @@ p-footer
           border-radius: 2.5rem;
         }
         span {
-          color: inc.$sub-text-color2;
+          color: inc.$color-blu2;
           font-weight: 700;
           width: 100%;
           height: 100%;
@@ -82,7 +82,7 @@ p-footer
           }
         }
         &.-white {
-          background: url(../img/arw/blue_right.svg) no-repeat calc(100% - 2rem) 50% inc.$main-background-color;
+          background: url(../img/arw/blue_right.svg) no-repeat calc(100% - 2rem) 50% inc.$color-wht;
           background-size: 15px;
           @include inc.mq(vr) {
             background-size: 20px;
@@ -90,7 +90,7 @@ p-footer
           }
         }
         &.-yellow {
-          background: url(../img/icon/blue_blank.svg) no-repeat calc(100% - 2rem) 53% inc.$accent-background-color;
+          background: url(../img/icon/blue_blank.svg) no-repeat calc(100% - 2rem) 53% inc.$color-yel;
           @include inc.mq(vr) {
             background-size: 20px;
             background-position: calc(100% - 3rem) 50%;
@@ -105,11 +105,11 @@ p-footer
         }
         a {
           span {
-            color:inc.$accent-text-color;
+            color:inc.$color-wht;
             @include inc.sizingRem(font-size, wide, 18px, sp, 14px);
             padding: 0 1.6rem 4px 0;
             position: relative;
-            border-bottom: 1px solid inc.$border-color2;
+            border-bottom: 1px solid inc.$color-wht;
             @include inc.mq(vr) {
               padding: 0 2rem 5px 0;
             }
@@ -159,7 +159,7 @@ p-footer
     &::after {
       content: "採用サイト";
       @include inc.sizingRem(font-size, wide, 18px, sp, 10px);
-      color: inc.$main-text-color;
+      color: inc.$color-blk;
       font-weight: 700;
       position: absolute;
       left: 13.5rem;
@@ -210,7 +210,7 @@ p-footer
       }
       @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
       a {
-        color: inc.$accent-text-color2;
+        color: inc.$color-gry;
       }
       &.-sp {
         width: auto;
@@ -287,9 +287,9 @@ p-footer
 
 // .p-footer {
 //   border-top: 1px solid #cae7e4;
-//   background-color: inc.$sub-background-color;
+//   background-color: inc.$color-blu;
 //   &__inner-banner {
-//     background-color: inc.$main-background-color;
+//     background-color: inc.$color-wht;
 //     width: 100%;
 //   }
 //   &__banner {
@@ -502,14 +502,14 @@ p-footer
 //   }
 //   &__inner-bottom {
 //     width: 100%;
-//     background-color: inc.$main-color;
+//     background-color: inc.$color-blu;
 //   }
 //   &__bottom {
 //     padding: 18px 25px 18px 0;
 //     margin-left: 7%;
 //     width: 85%;
 //     font-family: "Montserrat", sans-serif;
-//     color: inc.$accent-text-color;
+//     color: inc.$color-wht;
 //     @include inc.sizingRem(font-size, wide, 15px, sp, 10px);
 //     @include inc.sizing(line-height, wide, 40px, sp, 12px);
 //     @include inc.mq(sp) {

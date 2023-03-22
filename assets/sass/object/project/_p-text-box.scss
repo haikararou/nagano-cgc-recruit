@@ -5,150 +5,150 @@ p-text-box
 -----------------------------------------------------*/
 .p-text-box {
   @include inc.sizing(margin-bottom, wide, 100px, sp, 80px);
-  & > p:not(:last-child) {
-    margin-bottom: 1em;
-  }
-  & > ul > li:not(:last-child) {
-    margin-bottom: 0.8em;
-  }
-  & > p > a,
-  & > ul > li > a {
-    position: relative;
-    width: fit-content;
-    &::after {
-      transition: all 0.09s ease-out;
-      content: "";
-      height: 1px;
-      width: 100%;
-      position: absolute;
-      display: block;
-      bottom: -10px;
-      left: 0;
-      background-color: inc.$border-color;
-      transform: scale(0, 1);
-      transform-origin: left top;
-    }
-    &:hover {
-      &::after {
-        transform: scale(1, 1);
-      }
-    }
-  }
-  & > ul > li > a {
-    display: flex;
-    align-items: center;
-  }
-  & > blockquote {
-    @include inc.sizing(padding, wide, 30px, sp, 20px);
-    @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
-    @include inc.sizing(line-height, wide, 26px, sp, 22px);
-    font-weight: 400;
-    background-color: #f3f3f3;
-    @include inc.sizing(margin-bottom, wide, 49px, sp, 35px);
-  }
-  & div > ul {
-    @include inc.sizing(margin-bottom, wide, 49px, sp, 35px);
-  }
-  & div > table {
-    @include inc.sizing(margin-bottom, wide, 49px, sp, 35px);
-  }
-  &__figure {
-    width: 100%;
-    height: auto;
-    & > img {
-      width: 100%;
-      height: auto;
-    }
-    &--support {
-      @include inc.mq(lap) {
-        width: 50%;
-      }
-    }
-  }
-  &__ol {
-    @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
-    @include inc.sizing(line-height, wide, 32px, sp, 24px);
-    font-weight: 400;
-    list-style-type: decimal;
-    padding-left: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em;
-  }
-  &__ul {
-    list-style: "・";
-    padding-left: 1em;
-    & > li {
-      margin-bottom: 0 !important;
-    }
-  }
-  &__vimeo {
-    @include inc.sizing(margin-top, wide, 66px, sp, 33px);
-    @include inc.sizing(margin-bottom, wide, 66px, sp, 33px);
-  }
-  &__figure-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    @include inc.sizing(margin-bottom, wide, 26px, sp, 15px);
-    width: 100%;
-    @include inc.mq(spl) {
-      flex-direction: row;
-    }
-    & > figure {
-      padding-bottom: 2em;
-      width: 100%;
-      @include inc.mq(spl) {
-        width: 48%;
-      }
-      & > img {
-        @include inc.sizing(border-radius, wide, 10px, sp, 5px);
-        aspect-ratio: 4/3;
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-      }
-      & > figcaption {
-        @include inc.sizingRem(font-size, wide, 13px, sp, 10px);
-        margin-top: 1em;
-      }
-    }
-  }
-  &__margin-bottom {
-    margin-bottom: 3em !important;
-  }
-  &__list-disc {
-    list-style-type: "・";
-    padding-left: 0.7em;
-  }
-  &__indent {
-    @include inc.sizing(margin-top, wide, 30px, sp, 20px);
-    @include inc.sizing(padding-left, wide, 25px, sp, 18px);
-    & > h3 {
-      margin-bottom: 0.5em;
-    }
-  }
-  &__annotation {
-    @include inc.sizingRem(font-size, wide, 13px, sp, 10px);
-    @include inc.sizing(line-height, wide, 26px, sp, 22px);
-    font-weight: 400;
-    & > p {
-      padding-left: 1.2em;
-      &::before {
-        content: "※";
-        margin-left: -1.2em;
-      }
-    }
-    & > p.p-text-box__annotation-head {
-      padding-left: 0;
-      &::before {
-        content: none;
-      }
-    }
-  }
+  // & > p:not(:last-child) {
+  //   margin-bottom: 1em;
+  // }
+  // & > ul > li:not(:last-child) {
+  //   margin-bottom: 0.8em;
+  // }
+  // & > p > a,
+  // & > ul > li > a {
+  //   position: relative;
+  //   width: fit-content;
+  //   &::after {
+  //     transition: all 0.09s ease-out;
+  //     content: "";
+  //     height: 1px;
+  //     width: 100%;
+  //     position: absolute;
+  //     display: block;
+  //     bottom: -10px;
+  //     left: 0;
+  //     background-color: inc.$color-blu;
+  //     transform: scale(0, 1);
+  //     transform-origin: left top;
+  //   }
+  //   &:hover {
+  //     &::after {
+  //       transform: scale(1, 1);
+  //     }
+  //   }
+  // }
+  // & > ul > li > a {
+  //   display: flex;
+  //   align-items: center;
+  // }
+  // & > blockquote {
+  //   @include inc.sizing(padding, wide, 30px, sp, 20px);
+  //   @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
+  //   @include inc.sizing(line-height, wide, 26px, sp, 22px);
+  //   font-weight: 400;
+  //   background-color: #f3f3f3;
+  //   @include inc.sizing(margin-bottom, wide, 49px, sp, 35px);
+  // }
+  // & div > ul {
+  //   @include inc.sizing(margin-bottom, wide, 49px, sp, 35px);
+  // }
+  // & div > table {
+  //   @include inc.sizing(margin-bottom, wide, 49px, sp, 35px);
+  // }
+  // &__figure {
+  //   width: 100%;
+  //   height: auto;
+  //   & > img {
+  //     width: 100%;
+  //     height: auto;
+  //   }
+  //   &--support {
+  //     @include inc.mq(lap) {
+  //       width: 50%;
+  //     }
+  //   }
+  // }
+  // &__ol {
+  //   @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
+  //   @include inc.sizing(line-height, wide, 32px, sp, 24px);
+  //   font-weight: 400;
+  //   list-style-type: decimal;
+  //   padding-left: 1em;
+  //   margin-bottom: 1em;
+  //   margin-left: 1em;
+  // }
+  // &__ul {
+  //   list-style: "・";
+  //   padding-left: 1em;
+  //   & > li {
+  //     margin-bottom: 0 !important;
+  //   }
+  // }
+  // &__vimeo {
+  //   @include inc.sizing(margin-top, wide, 66px, sp, 33px);
+  //   @include inc.sizing(margin-bottom, wide, 66px, sp, 33px);
+  // }
+  // &__figure-box {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: space-between;
+  //   @include inc.sizing(margin-bottom, wide, 26px, sp, 15px);
+  //   width: 100%;
+  //   @include inc.mq(spl) {
+  //     flex-direction: row;
+  //   }
+  //   & > figure {
+  //     padding-bottom: 2em;
+  //     width: 100%;
+  //     @include inc.mq(spl) {
+  //       width: 48%;
+  //     }
+  //     & > img {
+  //       @include inc.sizing(border-radius, wide, 10px, sp, 5px);
+  //       aspect-ratio: 4/3;
+  //       width: 100%;
+  //       height: auto;
+  //       object-fit: cover;
+  //     }
+  //     & > figcaption {
+  //       @include inc.sizingRem(font-size, wide, 13px, sp, 10px);
+  //       margin-top: 1em;
+  //     }
+  //   }
+  // }
+  // &__margin-bottom {
+  //   margin-bottom: 3em !important;
+  // }
+  // &__list-disc {
+  //   list-style-type: "・";
+  //   padding-left: 0.7em;
+  // }
+  // &__indent {
+  //   @include inc.sizing(margin-top, wide, 30px, sp, 20px);
+  //   @include inc.sizing(padding-left, wide, 25px, sp, 18px);
+  //   & > h3 {
+  //     margin-bottom: 0.5em;
+  //   }
+  // }
+  // &__annotation {
+  //   @include inc.sizingRem(font-size, wide, 13px, sp, 10px);
+  //   @include inc.sizing(line-height, wide, 26px, sp, 22px);
+  //   font-weight: 400;
+  //   & > p {
+  //     padding-left: 1.2em;
+  //     &::before {
+  //       content: "※";
+  //       margin-left: -1.2em;
+  //     }
+  //   }
+  //   & > p.p-text-box__annotation-head {
+  //     padding-left: 0;
+  //     &::before {
+  //       content: none;
+  //     }
+  //   }
+  // }
 }
-#counter:target {
-  scroll-margin-top: 60px;
-  @include inc.mq(vr) {
-    scroll-margin-top: 100px;
-  }
-}
+// #counter:target {
+//   scroll-margin-top: 60px;
+//   @include inc.mq(vr) {
+//     scroll-margin-top: 100px;
+//   }
+// }

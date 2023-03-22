@@ -64,7 +64,7 @@ p-top-head
     width: 91.6%;
     line-height: 22px;
     background-color: #e1f4f2;
-    color: inc.$main-color;
+    color: inc.$color-blu;
     border-radius: 5px;
     padding-left: 23px;
     transform: translateX(-50%);
@@ -102,7 +102,7 @@ p-top-head
   }
   &__text {
     position: absolute;
-    color: inc.$accent-text-color;
+    color: inc.$color-wht;
     @include inc.sizingRem(font-size, wide, 40px, sp, 20px);
     @include inc.sizing(line-height, wide, 58px, sp, 29px);
     text-align: right;
@@ -155,7 +155,7 @@ p-top-head
     justify-content: space-between;
     flex-direction: column;
     row-gap: 20px;
-    background-color: inc.$main-background-color;
+    background-color: inc.$color-wht;
     border-radius: 0 10px 10px 0;
     width: 93%;
     max-width: 1376px;
@@ -283,8 +283,8 @@ p-top-head
     }
   }
   &__notice-head {
-    color: inc.$accent-color1;
-    border: 1px solid inc.$accent-color1;
+    color: inc.$color-light-blu;
+    border: 1px solid inc.$color-light-blu;
     border-radius: 10px;
     @include inc.sizingRem(font-size, wide, 13px, sp, 8px);
     @include inc.sizing(height, wide, 40px, sp, 27px);
