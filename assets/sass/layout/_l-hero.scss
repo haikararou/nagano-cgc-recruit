@@ -4,8 +4,24 @@
 l-hero
 -----------------------------------------------------*/
 .l-hero {
-    padding: 0 0 0 calc(50% - 304px);
+    padding: 0 0 0 8%;
     img {
-        border-radius: 0 0 0 .8rem;
+        border-radius: 0.8rem 0 0 .8rem;
+        margin-top: 0rem;
+        @include inc.mq(vr) {
+            margin-top: -.8rem;
+        }
+    }
+    @include inc.mq(vr) {
+        padding: 0 0 0 calc(50% - 304px);
+    }
+    h1 {
+        @include inc.sizing(padding-top, vr, 96px, sp, 48px);
+        @include inc.sizing(margin-bottom, vr, 80px, sp, 32px);
+        display: block;
+        padding-left: 0;
+        @include inc.mq(vr) {
+            display: none;
+        }
     }
 }

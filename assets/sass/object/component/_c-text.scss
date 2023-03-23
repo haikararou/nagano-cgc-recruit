@@ -10,6 +10,10 @@ c-text
     @include inc.sizing(margin-bottom, wide, 112px, sp, 48px);
     font-weight: 700;
     line-height: 1.6rem;
+    padding-left: 4%;
+    @include inc.mq(vr) {
+      padding-left: 0;
+    }
     span {
       @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
       @include inc.sizing(margin-bottom, wide, 24px, sp, 12px);

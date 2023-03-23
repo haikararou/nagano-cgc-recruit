@@ -4,7 +4,10 @@
 p-header
 -----------------------------------------------------*/
 .p-header {
-  height: 100px;
+  height: 60px!important;
+  @include inc.mq(vr) {
+    height: 100px!important;
+  }
   overscroll-behavior: contain;
   overflow-y: scroll;
   scrollbar-width: none;
@@ -12,23 +15,21 @@ p-header
   touch-action: none;
   display: flex;
   justify-content: space-between;
-  @include inc.mq(vr) {
-    padding: 0 2%;
-  }
-  padding: 0 5%;
+  padding: 0 5% 0 3%;
   &__logo {
+    height: 60px!important;
     z-index: 1;
-    @include inc.mq(vr) {
-      @include inc.sizing(width, wide, 275px, tab, 275px);
-      height: 100px;
-      padding-left: 0;
-    }
-    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    @include inc.sizing(width, wide, 137px, sp, 137px);
+    width: 137px;
+    @include inc.mq(vr) {
+      //padding: 0 2%;
+      height: 100px!important;
+      width: 275px;
+    }
+    //@include inc.sizing(width, wide, 275px, tab, 137px);
     & > a {
       display: flex;
       align-items: center;
@@ -36,32 +37,38 @@ p-header
       position: relative;
     }
     & > a > img {
+      width: 100%;
       @include inc.mq(vr) {
-        width: 65.9%;
+        width: 100%;
         margin-top: -11px;
-        margin-left: -20px;
       }
       height: auto;
     }
     & > a::after {
       content: "採用サイト";
-      @include inc.sizingRem(font-size, wide, 18px, sp, 10px);
+      font-size: 10px;
+      @include inc.mq(vr) {
+        font-size: 18px;
+      }
+      //@include inc.sizingRem(font-size, vr, 18px, tab, 10px);
       color: inc.$color-blk;
       font-weight: 700;
       position: absolute;
-      right: -3.6rem;
-      bottom: -1px;
+      right: -3.8rem;
+      bottom: -2px;
       @include inc.mq(vr) {
         right: -6.4rem;
         bottom: -2px;
       }
     }
   }
+
   &__nav-container { //グローバルナビ
     //@include inc.sizing(width, wide, 860px, vr, 860px);
     display: none;
     @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
     height: 100px;
+    //@include inc.sizing(height, wide, 100px, tab, 60px);
     @include inc.mq(vr) {
       display: flex;
       @include inc.sizing(width, wide, 930px, vr, 800px);
@@ -213,8 +220,6 @@ p-header
     top: 42%;
   }
 }
-
-
 
 
 

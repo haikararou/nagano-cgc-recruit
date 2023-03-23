@@ -1,0 +1,110 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-about
+-----------------------------------------------------*/
+.p-about {
+  &--merit {
+    width: 100%;
+    margin: 80px auto 0;
+    padding: 0;
+    background: none;
+    @include inc.mq(spl) {
+      margin: 32px auto 0;
+      background: url(../img/about/mimipo.png) no-repeat 3% 50%;
+      background-size: 12%;
+      padding: 0 0 0 20%;
+      width: 90%;
+    }
+    @include inc.mq(tab) {
+      background-position: 9% 100%;
+      background-size: 80px;
+    }
+    h2 {
+      font-weight: 700;
+      color: inc.$color-blu;
+      @include inc.sizingRem(font-size, wide, 26px, sp, 15px);
+      line-height: 1.6;
+      position: relative;
+      padding-left: 21%;
+      &::before {
+        content:"";
+        background: url(../img/about/mimipo.png) no-repeat 50% 50%;
+        background-size: contain;
+        display: block;
+        width: 17%;
+        height: 22vw;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+      }
+      @include inc.mq(spl) {
+        padding: 0;
+        &::before {
+         display: none;
+        }
+      }
+      // @include inc.mq(tab) {
+      //   padding: 0;
+      // }
+      &::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 20px;
+        background: url(../img/about/line.svg) no-repeat 0 100%;
+        background-size: contain;
+        @include inc.mq(spl) {
+          height: 32px;
+        }
+      }
+      // &::before {
+      //   content: "";
+      //   display: block;
+      //   background: url(../img/about/mimipo.png) no-repeat 3% 100%;
+      //   background-size: 80px;
+      //   width: 15%;
+      //   height: 180%;
+      //   position: absolute;
+      //   left: 0;
+      //   bottom: 0;
+      //   @include inc.mq(spl) {
+      //     display: none;
+      //   }
+      // }
+    }
+  }
+  ul {
+    @include inc.sizing(margin-top, wide, 24px, sp, 16px);
+    padding: 0;
+    @include inc.mq(spl) {
+      padding: 0 0 0 0px;
+    }
+    list-style-type: none;
+    @include inc.mq(tab) {
+      padding: 0 0 0 106px;
+    }
+    li {
+      @include inc.sizingRem(font-size, wide, 18px, sp, 13px);
+      line-height: 1.4;
+      padding: 0;
+      position: relative;
+      &::before {
+        content: "●";
+        color: inc.$color-blu;
+        @include inc.sizingRem(font-size, wide, 18px, sp, 14px);
+        @include inc.sizing(padding-right, wide, 10px, sp, 8px);
+      }
+      & + li {
+        @include inc.sizing(margin-top, wide, 12px, sp, 8px);
+      }
+    }
+  }
+  &--philosophy {
+    @include inc.sizingRem(font-size, wide, 20px, sp, 14px);
+    line-height: 2;
+    @include inc.mq(spl) {
+      text-align: center;
+    }
+  }
+}

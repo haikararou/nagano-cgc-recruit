@@ -10,8 +10,12 @@ l-nav
         margin: 0;
         padding: 0;
         display: flex;
-        flex-direction:column;
+        flex-wrap: wrap;
         @include inc.sizing(gap, wide, 16px, sp, 14px);
+        @include inc.mq(vr) {
+            display: flex;
+            flex-direction: column;
+        }
         li {
             @include inc.sizingRem(font-size, wide, 14px, sp, 11px);
             @include inc.sizing(line-height, wide, 14px, sp, 11px);
@@ -29,5 +33,9 @@ l-nav
                 @include inc.sizing(left, wide, 16px, sp, 14px);
             }
         }
+    }
+    margin: 2rem 4% 4rem 4%;
+    @include inc.mq(vr) {
+        margin: 0;
     }
 }

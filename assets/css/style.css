@@ -39,7 +39,7 @@ l-wrapper
   max-width: 84rem;
   width: 100%;
   padding: 0 2rem;
-  padding: 0 5%;
+  padding: 0 4%;
   margin: 0 auto;
 }
 @media screen and (min-width: 1280px) {
@@ -51,19 +51,29 @@ l-wrapper
 .l-wrapper2 {
   max-width: 73rem;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 0rem;
   margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .l-wrapper2 {
+    padding: 0 2rem;
+  }
 }
 
 .l-wrapper3 {
   max-width: 56rem;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 8%;
   margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .l-wrapper3 {
+    padding: 0 2rem;
+  }
 }
 
 .l-wrapper__outer {
-  padding-top: clamp(48px, 13vw - 11.8px, 192px);
+  padding-top: clamp(48px, 50vw - 592px, 192px);
 }
 
 .l-wrapper__outer2 {
@@ -78,22 +88,41 @@ l-wrapper
 }
 
 .l-wrapper--left {
-  max-width: 21rem;
+  max-width: 100%;
   width: 100%;
   margin: 0;
-  padding-right: clamp(0px, 2.89vw - 13.3px, 32px);
 }
-.l-wrapper--left--fixed {
-  position: absolute;
-  top: 278px;
+@media screen and (min-width: 1280px) {
+  .l-wrapper--left {
+    max-width: 21rem;
+  }
+}
+.l-wrapper--left--fixed h1 {
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .l-wrapper--left--fixed h1 {
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .l-wrapper--left--fixed {
+    position: absolute;
+    top: 256px;
+  }
 }
 
 .l-wrapper--right {
-  max-width: 59rem;
+  max-width: 100%;
   width: 100%;
   margin: 0;
-  padding-top: clamp(48px, 11.73vw - 5.9px, 178px);
-  padding-right: clamp(0px, 8.66vw - 39.8px, 96px);
+  padding: 0 4%;
+}
+@media screen and (min-width: 1280px) {
+  .l-wrapper--right {
+    padding-left: calc(50% - 304px);
+    padding-top: clamp(96px, 28.47vw - 268.4px, 178px);
+  }
 }
 
 /*
@@ -134,6 +163,9 @@ l-footer
 /*
 l-nav
 -----------------------------------------------------*/
+.l-nav {
+  margin: 2rem 4% 4rem 4%;
+}
 .l-nav ul {
   border-left: 1px solid #1B6EC3;
   list-style-type: none;
@@ -142,11 +174,20 @@ l-nav
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: clamp(14px, 0.18vw + 13.2px, 16px);
+}
+@media screen and (min-width: 1280px) {
+  .l-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 .l-nav ul li {
   font-size: clamp(0.6875rem, 0.27vw + 0.6125rem, 0.875rem);
@@ -165,6 +206,11 @@ l-nav
   top: 0;
   left: clamp(14px, 0.18vw + 13.2px, 16px);
 }
+@media screen and (min-width: 1280px) {
+  .l-nav {
+    margin: 0;
+  }
+}
 
 /*
 l-body
@@ -182,10 +228,32 @@ l-body
 l-hero
 -----------------------------------------------------*/
 .l-hero {
-  padding: 0 0 0 calc(50% - 304px);
+  padding: 0 0 0 8%;
 }
 .l-hero img {
-  border-radius: 0 0 0 0.8rem;
+  border-radius: 0.8rem 0 0 0.8rem;
+  margin-top: 0rem;
+}
+@media screen and (min-width: 1280px) {
+  .l-hero img {
+    margin-top: -0.8rem;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .l-hero {
+    padding: 0 0 0 calc(50% - 304px);
+  }
+}
+.l-hero h1 {
+  padding-top: clamp(48px, 5.85vw + 21.1px, 96px);
+  margin-bottom: clamp(32px, 5.85vw + 5.1px, 80px);
+  display: block;
+  padding-left: 0;
+}
+@media screen and (min-width: 1280px) {
+  .l-hero h1 {
+    display: none;
+  }
 }
 
 /*
@@ -197,6 +265,12 @@ c-text
   margin-bottom: clamp(48px, 5.78vw + 21.4px, 112px);
   font-weight: 700;
   line-height: 1.6rem;
+  padding-left: 4%;
+}
+@media screen and (min-width: 1280px) {
+  .c-text--h1 {
+    padding-left: 0;
+  }
 }
 .c-text--h1 span {
   font-size: clamp(0.75rem, 0.18vw + 0.7rem, 0.875rem);
@@ -676,7 +750,7 @@ p-footer
 p-header
 -----------------------------------------------------*/
 .p-header {
-  height: 100px;
+  height: 60px !important;
   -ms-scroll-chaining: none;
       overscroll-behavior: contain;
   overflow-y: scroll;
@@ -690,16 +764,16 @@ p-header
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 5%;
+  padding: 0 5% 0 3%;
 }
 @media screen and (min-width: 1280px) {
   .p-header {
-    padding: 0 2%;
+    height: 100px !important;
   }
 }
 .p-header__logo {
+  height: 60px !important;
   z-index: 1;
-  height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -713,13 +787,12 @@ p-header
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: clamp(137px, 0vw + 137px, 137px);
+  width: 137px;
 }
 @media screen and (min-width: 1280px) {
   .p-header__logo {
-    width: clamp(275px, 0vw + 275px, 275px);
-    height: 100px;
-    padding-left: 0;
+    height: 100px !important;
+    width: 275px;
   }
 }
 .p-header__logo > a {
@@ -735,23 +808,28 @@ p-header
   position: relative;
 }
 .p-header__logo > a > img {
+  width: 100%;
   height: auto;
 }
 @media screen and (min-width: 1280px) {
   .p-header__logo > a > img {
-    width: 65.9%;
+    width: 100%;
     margin-top: -11px;
-    margin-left: -20px;
   }
 }
 .p-header__logo > a::after {
   content: "採用サイト";
-  font-size: clamp(0.625rem, 0.72vw + 0.41875rem, 1.125rem);
+  font-size: 10px;
   color: #171717;
   font-weight: 700;
   position: absolute;
-  right: -3.6rem;
-  bottom: -1px;
+  right: -3.8rem;
+  bottom: -2px;
+}
+@media screen and (min-width: 1280px) {
+  .p-header__logo > a::after {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .p-header__logo > a::after {
@@ -1487,6 +1565,25 @@ p-text-box
 .p-text-box {
   margin-bottom: clamp(80px, 1.81vw + 71.6px, 100px);
 }
+.p-text-box--bluBox {
+  border-style: solid;
+  border-color: #ECF1FA;
+  border-width: clamp(3px, 0.36vw + 1.4px, 7px);
+  border-radius: clamp(8px, 0.72vw + 4.7px, 16px);
+}
+.p-text-box--bluBox h2 {
+  font-size: clamp(1rem, 0.36vw + 0.9rem, 1.25rem);
+  line-height: clamp(24px, 0.72vw + 20.7px, 32px);
+  font-weight: 700;
+  color: #1B6EC3;
+  text-align: center;
+  background: #ECF1FA;
+  padding-top: clamp(16px, 0.72vw + 12.7px, 24px);
+  padding-bottom: clamp(16px, 0.72vw + 12.7px, 24px);
+}
+.p-text-box--bluBox--inner {
+  padding: clamp(24px, 2.17vw + 14px, 48px);
+}
 
 /*
 p-table
@@ -1853,8 +1950,14 @@ p-faq
   font-weight: 700;
   line-height: 1rem;
   position: absolute;
-  top: 8px;
-  left: -2.8rem;
+  top: 5px;
+  left: -2rem;
+}
+@media screen and (min-width: 900px) {
+  .p-faq > dl > div > dt span:before {
+    top: 8px;
+    left: -2.8rem;
+  }
 }
 .p-faq > dl > div > dd {
   padding-left: clamp(48px, 2.53vw + 36.3px, 76px);
@@ -1873,7 +1976,13 @@ p-faq
   line-height: 1rem;
   position: absolute;
   top: 3px;
-  left: -2.7rem;
+  left: -1.9rem;
+}
+@media screen and (min-width: 900px) {
+  .p-faq > dl > div > dd span:before {
+    top: 3px;
+    left: -2.7rem;
+  }
 }
 .p-faq > dl > div + div {
   margin-top: clamp(32px, 1.44vw + 25.4px, 48px);
@@ -1893,13 +2002,29 @@ p-guideline
   padding-bottom: clamp(16px, 0vw + 16px, 16px);
 }
 .p-guideline > dl > div > dt {
-  width: 30%;
+  width: 100%;
+  margin-bottom: 1rem;
   font-weight: 700;
-  padding-left: clamp(0px, 2.89vw - 13.3px, 32px);
-  padding-right: clamp(0px, 1.44vw - 6.6px, 16px);
+  padding-left: clamp(0px, 4.79vw - 43.1px, 32px);
+  padding-right: clamp(0px, 2.4vw - 21.6px, 16px);
+}
+@media screen and (min-width: 900px) {
+  .p-guideline > dl > div > dt {
+    width: 25%;
+    margin-bottom: 0rem;
+  }
 }
 .p-guideline > dl > div > dd {
-  width: 70%;
+  width: 100%;
+}
+@media screen and (min-width: 900px) {
+  .p-guideline > dl > div > dd {
+    width: 75%;
+  }
+}
+.p-guideline > dl > div > dd > ul {
+  margin: 0;
+  padding-left: 1.2rem;
 }
 .p-guideline > dl > div > dd > p:last-child {
   padding-bottom: 0;
@@ -1928,7 +2053,7 @@ p-guideline
   width: 100%;
   margin: 0 auto !important;
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 900px) {
   .p-guideline--flow {
     width: 70%;
   }
@@ -2078,6 +2203,110 @@ p-environment
 }
 .p-environment--stateC ul li:nth-child(4)::after {
   background: url(../img/environment/voice_03D.svg) no-repeat 50% 50%/60px;
+}
+
+/*
+p-about
+-----------------------------------------------------*/
+.p-about--merit {
+  width: 100%;
+  margin: 80px auto 0;
+  padding: 0;
+  background: none;
+}
+@media screen and (min-width: 540px) {
+  .p-about--merit {
+    margin: 32px auto 0;
+    background: url(../img/about/mimipo.png) no-repeat 3% 50%;
+    background-size: 12%;
+    padding: 0 0 0 20%;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .p-about--merit {
+    background-position: 9% 100%;
+    background-size: 80px;
+  }
+}
+.p-about--merit h2 {
+  font-weight: 700;
+  color: #1B6EC3;
+  font-size: clamp(0.9375rem, 0.99vw + 0.65625rem, 1.625rem);
+  line-height: 1.6;
+  position: relative;
+  padding-left: 21%;
+}
+.p-about--merit h2::before {
+  content: "";
+  background: url(../img/about/mimipo.png) no-repeat 50% 50%;
+  background-size: contain;
+  display: block;
+  width: 17%;
+  height: 22vw;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+@media screen and (min-width: 540px) {
+  .p-about--merit h2 {
+    padding: 0;
+  }
+  .p-about--merit h2::before {
+    display: none;
+  }
+}
+.p-about--merit h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 20px;
+  background: url(../img/about/line.svg) no-repeat 0 100%;
+  background-size: contain;
+}
+@media screen and (min-width: 540px) {
+  .p-about--merit h2::after {
+    height: 32px;
+  }
+}
+.p-about ul {
+  margin-top: clamp(16px, 0.72vw + 12.7px, 24px);
+  padding: 0;
+  list-style-type: none;
+}
+@media screen and (min-width: 540px) {
+  .p-about ul {
+    padding: 0 0 0 0px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .p-about ul {
+    padding: 0 0 0 106px;
+  }
+}
+.p-about ul li {
+  font-size: clamp(0.8125rem, 0.45vw + 0.68125rem, 1.125rem);
+  line-height: 1.4;
+  padding: 0;
+  position: relative;
+}
+.p-about ul li::before {
+  content: "●";
+  color: #1B6EC3;
+  font-size: clamp(0.875rem, 0.36vw + 0.775rem, 1.125rem);
+  padding-right: clamp(8px, 0.18vw + 7.2px, 10px);
+}
+.p-about ul li + li {
+  margin-top: clamp(8px, 0.36vw + 6.4px, 12px);
+}
+.p-about--philosophy {
+  font-size: clamp(0.875rem, 0.54vw + 0.71875rem, 1.25rem);
+  line-height: 2;
+}
+@media screen and (min-width: 540px) {
+  .p-about--philosophy {
+    text-align: center;
+  }
 }
 
 /* =====================================================

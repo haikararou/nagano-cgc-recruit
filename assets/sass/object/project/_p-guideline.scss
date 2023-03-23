@@ -12,13 +12,25 @@ p-guideline
         @include inc.sizing(padding-top, wide, 16px, sp, 16px);
         @include inc.sizing(padding-bottom, wide, 16px, sp, 16px);
       & > dt {
-        width: 30%;
+        width: 100%;
+        margin-bottom: 1rem;
         font-weight: 700;
-        @include inc.sizing(padding-left, wide, 32px, sp, 0px);
-        @include inc.sizing(padding-right, wide, 16px, sp, 0px);
+        @include inc.sizing(padding-left, wide, 32px, tab, 0px);
+        @include inc.sizing(padding-right, wide, 16px, tab, 0px);
+        @include inc.mq(tab) {
+          width: 25%;
+          margin-bottom: 0rem;
+        }
       }
       & > dd {
-        width: 70%;
+        width: 100%;
+        @include inc.mq(tab) {
+          width: 75%;
+        }
+        & > ul {
+          margin: 0;
+          padding-left: 1.2rem;
+        }
         & > p {
           &:last-child {
             padding-bottom: 0;
@@ -49,7 +61,7 @@ p-guideline
     list-style-type: none;
     width: 100%;
     margin: 0 auto!important;
-    @include inc.mq(vr) {
+    @include inc.mq(tab) {
       width: 70%;
     }
     li {

@@ -5,6 +5,25 @@ p-text-box
 -----------------------------------------------------*/
 .p-text-box {
   @include inc.sizing(margin-bottom, wide, 100px, sp, 80px);
+  &--bluBox {
+    border-style: solid;
+    border-color: inc.$color-light-blu;
+    @include inc.sizing(border-width, wide, 7px, sp, 3px);
+    @include inc.sizing(border-radius, wide, 16px, sp, 8px);
+    h2 {
+      @include inc.sizingRem(font-size, wide, 20px, sp, 16px);
+      @include inc.sizing(line-height, wide, 32px, sp, 24px);
+      font-weight: 700;
+      color:inc.$color-blu;
+      text-align: center;
+      background: inc.$color-light-blu;
+      @include inc.sizing(padding-top, wide, 24px, sp, 16px);
+      @include inc.sizing(padding-bottom, wide, 24px, sp, 16px);
+    }
+    &--inner {
+      @include inc.sizing(padding, wide, 48px, sp, 24px);
+    }
+  }
   // & > p:not(:last-child) {
   //   margin-bottom: 1em;
   // }

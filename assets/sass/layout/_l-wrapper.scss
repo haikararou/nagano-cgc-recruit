@@ -9,7 +9,7 @@ l-wrapper
   max-width: calc(80rem + 4rem); //1280
   width: 100%;
   padding: 0 2rem;
-  padding: 0 5%;
+  padding: 0 4%;
   margin: 0 auto;
   @include inc.mq(vr) {
     // padding: 0 5%;
@@ -19,18 +19,24 @@ l-wrapper
 .l-wrapper2 {
   max-width: calc(69rem + 4rem); //1104
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 0rem;
   margin: 0 auto;
+  @include inc.mq(tab) {
+    padding: 0 2rem;
+  }
 }
 .l-wrapper3 {
   max-width: calc(52rem + 4rem); //832
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 8%;
   margin: 0 auto;
+  @include inc.mq(tab) {
+    padding: 0 2rem;
+  }
 }
 
 .l-wrapper__outer {
-  @include inc.sizing(padding-top, wide, 192px, sp, 48px);
+  @include inc.sizing(padding-top, wide, 192px, vr, 48px);
 }
 .l-wrapper__outer2 {
   //@include inc.sizing(padding-top, wide, 178px, sp, 48px);
@@ -40,24 +46,50 @@ l-wrapper
 }
 
 .l-wrapper--left {
-  //max-width: calc(18rem); //288
-  max-width: calc(21rem); //336
+  max-width: 100%; //336
   width: 100%;
   margin: 0;
-  @include inc.sizing(padding-right, wide, 32px, sp, 0px);
+  @include inc.mq(vr) {
+    max-width: calc(21rem); //336
+  }
+  //@include inc.sizing(padding-right, wide, 32px, vr, 16px);
   &--fixed {
-    position: absolute;
-    top: 278px;
+    h1 { display: none;
+      @include inc.mq(vr) {
+        display: block;
+      }
+    }
+    @include inc.mq(vr) {
+      position: absolute;
+      top: 256px;
+    }
   }
 }
 .l-wrapper--right {
-  //max-width: calc(52rem); //832
-  max-width: calc(59rem); //944
+  max-width: 100%; //944
   width: 100%;
+  // @include inc.mq(vr) {
+  //   max-width: calc(59rem); //944
+  // }
   margin: 0;
-  @include inc.sizing(padding-top, wide, 178px, sp, 48px);
-  @include inc.sizing(padding-right, wide, 96px, sp, 0px);
+  padding: 0 4%;
+  @include inc.mq(vr) {
+    padding-left: calc(50% - 304px);
+    @include inc.sizing(padding-top, wide, 178px, vr, 96px);
+  }
+  //@include inc.sizing(padding-right, wide, 96px, vr, 48px);
 }
+
+
+
+
+
+
+
+
+
+
+
 
 // .l-wrapper {
 //   @include inc.mq(sp) {
