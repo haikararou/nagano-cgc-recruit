@@ -35,6 +35,14 @@ c-text
     border-left: 1px solid inc.$color-blu;
     font-weight: 500;
   }
+  &--h4 {
+    @include inc.sizingRem(font-size, wide, 18px, sp, 14px);
+    @include inc.sizing(line-height, wide, 32px, sp, 24px);
+    @include inc.sizing(margin-bottom, wide, 16px, sp, 12px);
+    @include inc.sizing(padding-bottom, wide, 16px, sp, 12px);
+    border-bottom: 2px solid inc.$color-light-blu;
+    font-weight: 700;
+  }
 
   // &--border-h2 {
   //   padding-bottom: 20px;
