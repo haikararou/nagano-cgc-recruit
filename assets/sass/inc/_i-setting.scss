@@ -16,9 +16,10 @@ $content-width: 375px !default;
 // ブレークポイントの設定
 $breakpoints: (
   sp: 460px,
-  tab: 900px,
   // sp: 375px,
   spl: 540px,
+  tabs: 768px,
+  tab: 900px,
   // tab: 768px,
   lap: 1025px,
   desk: 1201px,
@@ -35,11 +36,18 @@ $breakpoints: (
 $color-wht: #fff;
 $color-blu: #1B6EC3;
 $color-blu2: #008BBA; //#0075BC;
+$color-blu3: #0075BC;
+$color-blu4: #0F68B2;
 $color-light-blu: #ECF1FA;
 $color-yel: #FFEA00;
 $color-grn: #009EA7;
+$color-grn2: #009AB5;
+$color-grn3: #ebf6f9;
+$color-grn4: #469ca5;
 $color-gry: #707070;
 $color-blk: #171717;
+
+
 
 // $main-background-color: #fff;
 // $sub-background-color: #1B6EC3;
