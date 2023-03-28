@@ -6,16 +6,35 @@ p-people
 .p-people {
   &--intro {
     display: block;
-    // display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-between;
-    // gap: 2rem;
+    @include inc.mq(tabs) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 2rem;
+    }
     &--div {
-      width: calc(39% + 3rem);
-      padding-right: 3rem;
+      position: relative;
+      display: block;
+      width: 100%;
+      margin: 0 auto;
+      @include inc.mq(spl) {
+        width: 80%;
+      }
+      @include inc.mq(tabs) {
+        width: calc(39% + 3rem);
+        padding-right: 3rem;
+        margin: 0;
+      }
       figure {
         margin: 0 0 24px;
         position: relative;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 30%;
+        @include inc.mq(tabs) {
+          width: 100%;
+          padding-right:0;
+        }
         figcaption {
           @include inc.sizing(width, wide, 160px, sp, 134px);
           @include inc.sizing(height, wide, 160px, sp, 134px);
@@ -28,9 +47,15 @@ p-people
           align-items: center;
           text-align: center;
           position: absolute;
+          top: 24px;
+          bottom: auto;
+          //right: -96px;
+          right: calc(50% - 172px);
+          @include inc.mq(spl) {
             top: 24px;
             bottom: auto;
-            right: -96px;
+            right: calc(50% - 172px);
+          }
           @include inc.mq(tabs) {
             top: auto;
             bottom: -12px;
@@ -39,6 +64,11 @@ p-people
         }
       }
       h2 {
+        width: 40%;
+        text-align: center;
+        position: absolute;
+        bottom: 32px;
+        right: 0;
         text-align: center;
         font-weight: 700;
         @include inc.sizingRem(font-size, wide, 21px, sp, 16px);
@@ -48,24 +78,43 @@ p-people
           font-weight: 500;
           @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
         }
+        @include inc.mq(tabs) {
+          position: static;
+          width: 100%;
+        }
       }
       &:nth-child(even){
         figure {
+          padding-right: 0;
+          padding-left: 30%;
+          @include inc.mq(tabs) {
+            padding-right:0;
+            padding-left:0;
+          }
           figcaption {
-            // top: auto;
-            // bottom: -12px;
-            // right: auto;
-            // left: -50px;
-            top: 24px;
+            left: calc(50% - 172px);
+            @include inc.mq(spl) {
+              top: 24px;
               bottom: auto;
-              left: auto;
-              right: -96px;
-            @include inc.mq(tabs) {
-              // top: 24px;
-              // bottom: auto;
-              // left: auto;
-              // right: -96px;
+              right: auto;
+              left: calc(50% - 172px);
             }
+            @include inc.mq(tabs) {
+              top: auto;
+              bottom: -12px;
+              right: -50px;
+              left: auto;
+            }
+          }
+        }
+        h2 {
+          bottom: 32px;
+          right: auto;
+          left: 0;
+          @include inc.mq(tabs) {
+            bottom: 32px;
+            right: 0;
+            left: auto;
           }
         }
       }
@@ -98,12 +147,40 @@ p-people
         }
       }
     }
-    @include inc.mq(tabs) {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 2rem;
+
+    &--other {
+      gap: 2rem 1rem;
+      @include inc.mq(tab) {
+        padding-right: 2rem;
+      }
+      .p-people--intro--div {
+        @include inc.mq(spl) {
+          //width: 80%;
+        }
+        @include inc.mq(tabs) {
+          // width: 20%;
+          // padding: 0;
+          // padding-right: 3rem;
+          // margin: 0;
+        }
+        @include inc.mq(tab) {
+          width: 20%;
+          padding: 0;
+        }
+        figure {
+          //padding: 0;
+          figcaption {
+            @include inc.mq(tab) {
+              width: 112px;
+              height: 112px;
+              font-size: 11px;
+              bottom: -24px;
+            }
+          }
+        }
+      }
     }
+
   }
   &--bnr {
     background: url(../img/people/zadankai_bg.png) no-repeat 50% 0;

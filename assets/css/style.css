@@ -2455,13 +2455,49 @@ p-people
 .p-people--intro {
   display: block;
 }
+@media screen and (min-width: 768px) {
+  .p-people--intro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 2rem;
+  }
+}
 .p-people--intro--div {
-  width: calc(39% + 3rem);
-  padding-right: 3rem;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 540px) {
+  .p-people--intro--div {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div {
+    width: calc(39% + 3rem);
+    padding-right: 3rem;
+    margin: 0;
+  }
 }
 .p-people--intro--div figure {
   margin: 0 0 24px;
   position: relative;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 30%;
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div figure {
+    width: 100%;
+    padding-right: 0;
+  }
 }
 .p-people--intro--div figure figcaption {
   width: clamp(134px, 2.35vw + 123.2px, 160px);
@@ -2480,7 +2516,14 @@ p-people
   position: absolute;
   top: 24px;
   bottom: auto;
-  right: -96px;
+  right: calc(50% - 172px);
+}
+@media screen and (min-width: 540px) {
+  .p-people--intro--div figure figcaption {
+    top: 24px;
+    bottom: auto;
+    right: calc(50% - 172px);
+  }
 }
 @media screen and (min-width: 768px) {
   .p-people--intro--div figure figcaption {
@@ -2490,6 +2533,11 @@ p-people
   }
 }
 .p-people--intro--div h2 {
+  width: 40%;
+  text-align: center;
+  position: absolute;
+  bottom: 32px;
+  right: 0;
   text-align: center;
   font-weight: 700;
   font-size: clamp(1rem, 0.45vw + 0.86875rem, 1.3125rem);
@@ -2500,11 +2548,52 @@ p-people
   font-weight: 500;
   font-size: clamp(0.75rem, 0.18vw + 0.7rem, 0.875rem);
 }
+@media screen and (min-width: 768px) {
+  .p-people--intro--div h2 {
+    position: static;
+    width: 100%;
+  }
+}
+.p-people--intro--div:nth-child(even) figure {
+  padding-right: 0;
+  padding-left: 30%;
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div:nth-child(even) figure {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
 .p-people--intro--div:nth-child(even) figure figcaption {
-  top: 24px;
-  bottom: auto;
-  left: auto;
-  right: -96px;
+  left: calc(50% - 172px);
+}
+@media screen and (min-width: 540px) {
+  .p-people--intro--div:nth-child(even) figure figcaption {
+    top: 24px;
+    bottom: auto;
+    right: auto;
+    left: calc(50% - 172px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div:nth-child(even) figure figcaption {
+    top: auto;
+    bottom: -12px;
+    right: -50px;
+    left: auto;
+  }
+}
+.p-people--intro--div:nth-child(even) h2 {
+  bottom: 32px;
+  right: auto;
+  left: 0;
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div:nth-child(even) h2 {
+    bottom: 32px;
+    right: 0;
+    left: auto;
+  }
 }
 .p-people--intro--div.intro_02 figure figcaption {
   background: #009AB5;
@@ -2518,17 +2607,26 @@ p-people
 .p-people--intro--div.intro_05 figure figcaption {
   background: #0F68B2;
 }
-@media screen and (min-width: 768px) {
-  .p-people--intro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    gap: 2rem;
+.p-people--intro--other {
+  gap: 2rem 1rem;
+}
+@media screen and (min-width: 900px) {
+  .p-people--intro--other {
+    padding-right: 2rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .p-people--intro--other .p-people--intro--div {
+    width: 20%;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  .p-people--intro--other .p-people--intro--div figure figcaption {
+    width: 112px;
+    height: 112px;
+    font-size: 11px;
+    bottom: -24px;
   }
 }
 .p-people--bnr {
