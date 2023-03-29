@@ -44,6 +44,9 @@ l-wrapper
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.l-wrapper__outer {
+  @include inc.sizing(padding-top, wide, 112px, sp, 32px);
+}
 
 .l-wrapper--left {
   max-width: 100%; //336
@@ -78,6 +81,9 @@ l-wrapper
     @include inc.sizing(padding-top, wide, 178px, vr, 96px);
   }
   //@include inc.sizing(padding-right, wide, 96px, vr, 48px);
+  &.--peopel {
+    @include inc.sizing(padding-top, wide, 112px, vr, 48px);
+  }
 }
 
 

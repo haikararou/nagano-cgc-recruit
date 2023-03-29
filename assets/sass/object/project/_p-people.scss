@@ -3,6 +3,7 @@
 /*
 p-people
 -----------------------------------------------------*/
+
 .p-people {
   &--intro {
     display: block;
@@ -206,7 +207,9 @@ p-people
     border-radius: 15px;
     padding: 52px 72px;
     dl {
-      column-count: 2;
+      @include inc.mq(tab) {
+        column-count: 2;
+      }
       div {
         display: flex;
         gap: 0 2.5rem;
