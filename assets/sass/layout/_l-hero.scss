@@ -82,3 +82,115 @@ l-hero
         padding: 0 0 0 calc(50% - 304px);
     }
 }
+
+
+.l-hero--zadankai {
+    //@include inc.sizing(padding-top, wide, 48px, tab, 640px);
+    position: relative;
+    padding-top: 48px;
+    text-align: center;
+    background: url(../img/people/zadankai/bg.png) repeat-x 50% 100%;
+    background-size: cover;
+    &--title {
+        @include inc.sizing(width, wide, 384px, tab, 256px);
+        text-align: center;
+        margin: 0 auto 20px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &--text {
+        margin: 0;
+        @include inc.sizingRem(font-size, wide, 18px, sp, 14px);
+        @include inc.sizing(line-height, wide, 28px, sp, 24px);
+        @include inc.sizing(padding-left, wide, 32px, sp, 32px);
+        @include inc.sizing(padding-right, wide, 32px, sp, 32px);
+    }
+    &--people {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        @include inc.mq(vr) {
+            margin-top: -32px;
+        }
+        @include inc.mq(vr) {
+            margin-top: -80px;
+        }
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        display: block;
+    }
+    &--balloon {
+        display: none;
+        position: absolute;
+        //display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        left: 50%;
+        transform: translate(-50%, 0);
+        @include inc.sizing(margin-left, wide, 54px, tab, 24px);
+        bottom: 32px;
+        width: 80%;
+        div {
+            display:flex; flex-direction:column; justify-content:center; align-items:center;
+            border-radius: 50%;
+            @include inc.sizing(width, wide, 144px, tab, 112px);
+            @include inc.sizing(height, wide, 144px, tab, 112px);
+            color: inc.$color-wht;
+            @include inc.sizingRem(font-size, wide, 16px, tab, 14px);
+            position: relative;
+            span {
+                margin-top: 6px;
+                @include inc.sizingRem(font-size, wide, 14px, tab, 12px);
+            }
+            &::before {
+                content: "";
+                @include inc.sizing(width, wide, 21px, tab, 18px);
+                @include inc.sizing(height, wide, 21px, tab, 18px);
+                position: absolute;
+                left: 15%;
+                top: 0;
+                display: block;
+                border-radius: 50%;
+            }
+        }
+        &01 {
+            background: inc.$color-grn;
+            &::before {
+                background: inc.$color-grn;
+            }
+
+        }
+        &02 {
+            background: inc.$color-grn2;
+            &::before {
+                background: inc.$color-grn2;
+            }
+        }
+        &03 {
+            background: inc.$color-blu2;
+            &::before {
+                background: inc.$color-blu2;
+            }
+        }
+        &04 {
+            background: inc.$color-blu3;
+            &::before {
+                background: inc.$color-blu3;
+            }
+        }
+        &05 {
+            background: inc.$color-blu4;
+            &::before {
+                background: inc.$color-blu4;
+            }
+        }
+        @include inc.mq(tabs) {
+            display: flex;
+          }
+    }
+}

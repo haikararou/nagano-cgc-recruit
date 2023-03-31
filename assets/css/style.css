@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;700display=swap");
 /*
 i-functions
 -----------------------------------------------------*/
@@ -332,6 +333,138 @@ l-hero
 @media screen and (min-width: 1280px) {
   .l-hero--people {
     padding: 0 0 0 calc(50% - 304px);
+  }
+}
+
+.l-hero--zadankai {
+  position: relative;
+  padding-top: 48px;
+  text-align: center;
+  background: url(../img/people/zadankai/bg.png) repeat-x 50% 100%;
+  background-size: cover;
+}
+.l-hero--zadankai--title {
+  width: clamp(256px, 19.16vw + 83.6px, 384px);
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.l-hero--zadankai--title img {
+  display: block;
+  margin: 0 auto;
+}
+.l-hero--zadankai--text {
+  margin: 0;
+  font-size: clamp(0.875rem, 0.36vw + 0.775rem, 1.125rem);
+  line-height: clamp(24px, 0.36vw + 22.4px, 28px);
+  padding-left: clamp(32px, 0vw + 32px, 32px);
+  padding-right: clamp(32px, 0vw + 32px, 32px);
+}
+.l-hero--zadankai--people {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  display: block;
+}
+@media screen and (min-width: 1280px) {
+  .l-hero--zadankai--people {
+    margin-top: -32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .l-hero--zadankai--people {
+    margin-top: -80px;
+  }
+}
+.l-hero--zadankai--balloon {
+  display: none;
+  position: absolute;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  margin-left: clamp(24px, 4.49vw - 16.4px, 54px);
+  bottom: 32px;
+  width: 80%;
+}
+.l-hero--zadankai--balloon div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  width: clamp(112px, 4.79vw + 68.9px, 144px);
+  height: clamp(112px, 4.79vw + 68.9px, 144px);
+  color: #fff;
+  font-size: clamp(0.875rem, 0.3vw + 0.70625rem, 1rem);
+  position: relative;
+}
+.l-hero--zadankai--balloon div span {
+  margin-top: 6px;
+  font-size: clamp(0.75rem, 0.3vw + 0.58125rem, 0.875rem);
+}
+.l-hero--zadankai--balloon div::before {
+  content: "";
+  width: clamp(18px, 0.45vw + 13.9px, 21px);
+  height: clamp(18px, 0.45vw + 13.9px, 21px);
+  position: absolute;
+  left: 15%;
+  top: 0;
+  display: block;
+  border-radius: 50%;
+}
+.l-hero--zadankai--balloon01 {
+  background: #009EA7;
+}
+.l-hero--zadankai--balloon01::before {
+  background: #009EA7;
+}
+.l-hero--zadankai--balloon02 {
+  background: #009AB5;
+}
+.l-hero--zadankai--balloon02::before {
+  background: #009AB5;
+}
+.l-hero--zadankai--balloon03 {
+  background: #008BBA;
+}
+.l-hero--zadankai--balloon03::before {
+  background: #008BBA;
+}
+.l-hero--zadankai--balloon04 {
+  background: #0075BC;
+}
+.l-hero--zadankai--balloon04::before {
+  background: #0075BC;
+}
+.l-hero--zadankai--balloon05 {
+  background: #0F68B2;
+}
+.l-hero--zadankai--balloon05::before {
+  background: #0F68B2;
+}
+@media screen and (min-width: 768px) {
+  .l-hero--zadankai--balloon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -2811,6 +2944,131 @@ p-people
 }
 .p-people--schedule dl div:last-child dd::before {
   top: -20px;
+}
+
+/*
+p-zadankai
+-----------------------------------------------------*/
+.p-zadankai--member {
+  display: block;
+  text-align: center;
+}
+.p-zadankai--member h2 {
+  font-family: "Hind", sans-serif;
+  font-size: clamp(0.75rem, 1.36vw + 0.3625rem, 1.125rem);
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.p-zadankai--member--list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem 5%;
+}
+.p-zadankai--member--list figure {
+  width: 30%;
+}
+.p-zadankai--member--list figure img {
+  width: 100%;
+}
+.p-zadankai--member--list figure figcaption {
+  width: 100%;
+  margin-top: 6px;
+  font-size: clamp(0.8125rem, 1.14vw + 0.48125rem, 1.125rem);
+  font-weight: 700;
+  text-align: center;
+}
+.p-zadankai--member--list figure figcaption span {
+  display: block;
+  font-size: clamp(0.625rem, 0.91vw + 0.3625rem, 0.875rem);
+  font-weight: 500;
+}
+.p-zadankai--member--list figure:nth-child(1) {
+  margin-left: 1rem;
+}
+.p-zadankai--member--list figure:nth-child(2) {
+  margin-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .p-zadankai--member {
+    display: none;
+  }
+}
+.p-zadankai--q-title {
+  border: 2px solid #1B6EC3;
+  padding-top: clamp(16px, 1.44vw + 9.4px, 32px);
+  padding-bottom: clamp(16px, 1.44vw + 9.4px, 32px);
+  padding-left: clamp(54px, 3.79vw + 36.6px, 96px);
+  padding-right: clamp(24px, 3.61vw + 7.4px, 64px);
+  font-size: clamp(1.125rem, 0.9vw + 0.86875rem, 1.75rem);
+  font-weight: 700;
+  color: #1B6EC3;
+  border-radius: 200px;
+  background: url(../img/people/zadankai/bg2.png) repeat 0 50%;
+  background-size: 540px;
+  position: relative;
+}
+.p-zadankai--q-title::before {
+  content: "Q1";
+  font-size: clamp(1.125rem, 0.9vw + 0.86875rem, 1.75rem);
+  font-weight: 700;
+  color: #1B6EC3;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  margin-top: clamp(16px, 1.71vw + 8.2px, 35px);
+  margin-left: clamp(20px, 2.53vw + 8.3px, 48px);
+  font-family: "Hind", sans-serif;
+}
+.p-zadankai--q-title.--q-title02::before {
+  content: "Q2";
+}
+.p-zadankai--q-title.--q-title03::before {
+  content: "Q3";
+}
+.p-zadankai--dl {
+  margin-top: clamp(24px, 0.72vw + 20.7px, 32px);
+  margin-bottom: clamp(24px, 0.72vw + 20.7px, 32px);
+}
+.p-zadankai--dl div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0 1.5rem;
+}
+.p-zadankai--dl div dt {
+  width: 55px;
+}
+@media screen and (min-width: 768px) {
+  .p-zadankai--dl div dt {
+    width: 84px;
+  }
+}
+.p-zadankai--dl div dt figcaption {
+  font-size: clamp(0.625rem, 0.27vw + 0.55rem, 0.8125rem);
+  font-weight: 700;
+  text-align: center;
+}
+.p-zadankai--dl div dd {
+  width: calc(100% - (55px + 2rem));
+  font-size: clamp(0.875rem, 0.18vw + 0.825rem, 1rem);
+  line-height: clamp(28px, 0.36vw + 26.4px, 32px);
+}
+@media screen and (min-width: 768px) {
+  .p-zadankai--dl div dd {
+    width: calc(100% - (84px + 2rem));
+  }
+}
+.p-zadankai--dl div + div {
+  margin-top: clamp(24px, 0.72vw + 20.7px, 32px);
 }
 
 /* =====================================================
