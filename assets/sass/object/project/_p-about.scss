@@ -107,4 +107,319 @@ p-about
       text-align: center;
     }
   }
+
+  &--numbers {
+    &--outer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem 2%;
+    }
+    border: 2px solid inc.$color-blu;
+    border-radius: 16px;
+    @include inc.sizing(padding, lap, 32px, sp, 16px);
+    @include inc.sizing(padding-bottom, lap, 48px, sp, 24px);
+    @include inc.mq(lap) {
+      padding: 2rem;
+    }
+    text-align: center;
+    h2 {
+      @include inc.sizingRem(font-size, wide, 22px, sp, 12px);
+      font-weight: 500;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .--left {
+      text-align: left;
+    }
+    .--center {
+      text-align: center
+    }
+    .number {
+      @include inc.sizingRem(font-size, wide, 110px, sp, 57px);
+      color: inc.$color-blu;
+      font-weight: 500;
+      line-height: 1;
+      font-family: 'Hind', sans-serif;
+      position: relative;
+      display: inline-block;
+      span.unit {
+        @include inc.sizingRem(font-size, wide, 31px, sp, 17px);
+        font-weight: 500;
+        line-height: 1;
+      }
+      span.as_of {
+        @include inc.sizingRem(font-size, wide, 12px, sp, 9px);
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -12px;
+        color: inc.$color-blk;
+      }
+    }
+    &.numbers01 {
+      width: 100%;
+      .p-about--numbers--flex {
+        gap: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .--center {
+          @include inc.sizing(width, lap, 200px, sp, 150px);
+        }
+        figure {
+          display:flex; flex-direction:column; justify-content:center; align-items:center;
+          img {
+            @include inc.sizing(width, lap, 200px, sp, 150px);
+          }
+        }
+      }
+      @include inc.mq(lap) {
+        width: 45%;
+        .p-about--numbers--flex {
+          display: block;
+          .--center {
+            width: 100%;
+          }
+          figure {
+            img {
+              width: 80%;
+              display: block;
+              margin: 24px auto 0;
+            }
+          }
+        }
+      }
+    }
+    &.numbers02 {
+      width: 100%;
+      .p-about--numbers--flex {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 326px;
+        padding-bottom: 2rem;
+        position: relative;
+        figure {
+          width: 96px;
+          position: absolute;
+          right: 0px;
+          bottom: 50%;
+          transform: translate(0, 50%);
+          img {
+            width: 100%;
+          }
+        }
+      }
+      @include inc.mq(lap) {
+        width: 53%;
+        .p-about--numbers--flex {
+          margin: 0 auto;
+          width: 100%;
+          max-width: 406px;
+          padding-bottom: 5.5rem;
+          figure {
+            width: 136px;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    &.numbers03 {
+      width: 100%;
+      .p-about--numbers--flex {
+        gap: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .--center {
+          @include inc.sizing(width, lap, 200px, sp, 150px);
+        }
+        figure {
+          display:flex; flex-direction:column; justify-content:center; align-items:center;
+          img {
+            @include inc.sizing(width, lap, 200px, sp, 150px);
+          }
+        }
+      }
+      @include inc.mq(lap) {
+        width: 49%;
+        .p-about--numbers--flex {
+          gap: 1.5rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .--center {
+            width: 180px;
+          }
+          figure {
+            display:flex; flex-direction:column; justify-content:center; align-items:center;
+            img {
+              width: 150px;
+            }
+          }
+        }
+      }
+    }
+    &.numbers04 {
+      width: 49%;
+      .p-about--numbers--flex {
+        display: block;
+        figure {
+          display:flex; flex-direction:column; justify-content:center; align-items:center;
+          img {
+            margin-top: 32px;
+            width:45%;
+          }
+        }
+      }
+      @include inc.mq(lap) {
+        .p-about--numbers--flex {
+          gap: 1.5rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .--center {
+            width: 184px;
+          }
+          figure {
+            display:flex; flex-direction:column; justify-content:center; align-items:center;
+            img {
+              width: 140px;
+            }
+          }
+        }
+      }
+    }
+    &.numbers05 {
+      width: 49%;
+      figure {
+        img {
+          display: block;
+          margin: 32px auto 0;
+          width:45%;
+        }
+      }
+      @include inc.mq(lap) {
+        width: 38%;
+        figure {
+          display:flex; flex-direction:column; justify-content:center; align-items:center;
+          img {
+            width: 96px;
+            display: block;
+            margin: 24px auto 0;
+          }
+        }
+      }
+    }
+    &.numbers06 {
+      width: 100%;
+      .p-about--numbers--flex {
+        gap: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .--center {
+          @include inc.sizing(width, lap, 150px, sp, 150px);
+          .number {
+            @include inc.sizing(width, lap, 150px, sp, 120px);
+          }
+        }
+        figure {
+          display:flex; flex-direction:column; justify-content:center; align-items:center;
+          img {
+            @include inc.sizing(width, lap, 200px, sp, 150px);
+          }
+        }
+      }
+      @include inc.mq(lap) {
+        width: 60%;
+        .p-about--numbers--flex {
+          gap: 1.5rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .--center {
+            width: 216px;
+            .number {
+              display: block;
+              text-align: center;
+            }
+          }
+          figure {
+            display:flex; flex-direction:column; justify-content:center; align-items:center;
+            img {
+              width: 212px;
+            }
+          }
+        }
+      }
+    }
+    &.numbers07 {
+      width: 49%;
+      .p-about--numbers--flex {
+        display: block;
+        figure {
+          display:flex; flex-direction:column; justify-content:center; align-items:center;
+          img {
+            margin-top: 32px;
+            width: 70%;
+          }
+        }
+      }
+      @include inc.mq(lap) {
+        width: 44%;
+        .p-about--numbers--flex {
+          gap: 1.5rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .--center {
+            width: 202px;
+          }
+          figure {
+            display:flex; flex-direction:column; justify-content:center; align-items:center;
+            img {
+              width: 88px;
+            }
+          }
+        }
+      }
+    }
+    &.numbers08 {
+      width: 49%;
+      .p-about--numbers--flex {
+        display: block;
+        figure {
+          display:flex; flex-direction:column; justify-content:center; align-items:center;
+          img {
+            margin-top: 32px;
+            width: 70%;
+          }
+        }
+      }
+      @include inc.mq(lap) {
+        width: 54%;
+        .p-about--numbers--flex {
+          gap: 1.5rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .--center {
+            width: 188px;
+          }
+          figure {
+            display:flex; flex-direction:column; justify-content:center; align-items:center;
+            img {
+              width: 142px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
+

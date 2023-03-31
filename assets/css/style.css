@@ -2693,6 +2693,519 @@ p-about
     text-align: center;
   }
 }
+.p-about--numbers {
+  border: 2px solid #1B6EC3;
+  border-radius: 16px;
+  padding: clamp(16px, 2.83vw + 3px, 32px);
+  padding-bottom: clamp(24px, 4.25vw + 4.4px, 48px);
+  text-align: center;
+}
+.p-about--numbers--outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem 2%;
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers {
+    padding: 2rem;
+  }
+}
+.p-about--numbers h2 {
+  font-size: clamp(0.75rem, 0.9vw + 0.49375rem, 1.375rem);
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+}
+.p-about--numbers .--left {
+  text-align: left;
+}
+.p-about--numbers .--center {
+  text-align: center;
+}
+.p-about--numbers .number {
+  font-size: clamp(3.5625rem, 4.78vw + 2.1875rem, 6.875rem);
+  color: #1B6EC3;
+  font-weight: 500;
+  line-height: 1;
+  font-family: "Hind", sans-serif;
+  position: relative;
+  display: inline-block;
+}
+.p-about--numbers .number span.unit {
+  font-size: clamp(1.0625rem, 1.26vw + 0.7rem, 1.9375rem);
+  font-weight: 500;
+  line-height: 1;
+}
+.p-about--numbers .number span.as_of {
+  font-size: clamp(0.5625rem, 0.27vw + 0.4875rem, 0.75rem);
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+  color: #171717;
+}
+.p-about--numbers.numbers01 {
+  width: 100%;
+}
+.p-about--numbers.numbers01 .p-about--numbers--flex {
+  gap: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.p-about--numbers.numbers01 .p-about--numbers--flex .--center {
+  width: clamp(150px, 8.85vw + 109.3px, 200px);
+}
+.p-about--numbers.numbers01 .p-about--numbers--flex figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.p-about--numbers.numbers01 .p-about--numbers--flex figure img {
+  width: clamp(150px, 8.85vw + 109.3px, 200px);
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers.numbers01 {
+    width: 45%;
+  }
+  .p-about--numbers.numbers01 .p-about--numbers--flex {
+    display: block;
+  }
+  .p-about--numbers.numbers01 .p-about--numbers--flex .--center {
+    width: 100%;
+  }
+  .p-about--numbers.numbers01 .p-about--numbers--flex figure img {
+    width: 80%;
+    display: block;
+    margin: 24px auto 0;
+  }
+}
+.p-about--numbers.numbers02 {
+  width: 100%;
+}
+.p-about--numbers.numbers02 .p-about--numbers--flex {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 326px;
+  padding-bottom: 2rem;
+  position: relative;
+}
+.p-about--numbers.numbers02 .p-about--numbers--flex figure {
+  width: 96px;
+  position: absolute;
+  right: 0px;
+  bottom: 50%;
+  -webkit-transform: translate(0, 50%);
+          transform: translate(0, 50%);
+}
+.p-about--numbers.numbers02 .p-about--numbers--flex figure img {
+  width: 100%;
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers.numbers02 {
+    width: 53%;
+  }
+  .p-about--numbers.numbers02 .p-about--numbers--flex {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 406px;
+    padding-bottom: 5.5rem;
+  }
+  .p-about--numbers.numbers02 .p-about--numbers--flex figure {
+    width: 136px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
+  .p-about--numbers.numbers02 .p-about--numbers--flex figure img {
+    width: 100%;
+  }
+}
+.p-about--numbers.numbers03 {
+  width: 100%;
+}
+.p-about--numbers.numbers03 .p-about--numbers--flex {
+  gap: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.p-about--numbers.numbers03 .p-about--numbers--flex .--center {
+  width: clamp(150px, 8.85vw + 109.3px, 200px);
+}
+.p-about--numbers.numbers03 .p-about--numbers--flex figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.p-about--numbers.numbers03 .p-about--numbers--flex figure img {
+  width: clamp(150px, 8.85vw + 109.3px, 200px);
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers.numbers03 {
+    width: 49%;
+  }
+  .p-about--numbers.numbers03 .p-about--numbers--flex {
+    gap: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p-about--numbers.numbers03 .p-about--numbers--flex .--center {
+    width: 180px;
+  }
+  .p-about--numbers.numbers03 .p-about--numbers--flex figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .p-about--numbers.numbers03 .p-about--numbers--flex figure img {
+    width: 150px;
+  }
+}
+.p-about--numbers.numbers04 {
+  width: 49%;
+}
+.p-about--numbers.numbers04 .p-about--numbers--flex {
+  display: block;
+}
+.p-about--numbers.numbers04 .p-about--numbers--flex figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.p-about--numbers.numbers04 .p-about--numbers--flex figure img {
+  margin-top: 32px;
+  width: 45%;
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers.numbers04 .p-about--numbers--flex {
+    gap: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p-about--numbers.numbers04 .p-about--numbers--flex .--center {
+    width: 184px;
+  }
+  .p-about--numbers.numbers04 .p-about--numbers--flex figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .p-about--numbers.numbers04 .p-about--numbers--flex figure img {
+    width: 140px;
+  }
+}
+.p-about--numbers.numbers05 {
+  width: 49%;
+}
+.p-about--numbers.numbers05 figure img {
+  display: block;
+  margin: 32px auto 0;
+  width: 45%;
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers.numbers05 {
+    width: 38%;
+  }
+  .p-about--numbers.numbers05 figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .p-about--numbers.numbers05 figure img {
+    width: 96px;
+    display: block;
+    margin: 24px auto 0;
+  }
+}
+.p-about--numbers.numbers06 {
+  width: 100%;
+}
+.p-about--numbers.numbers06 .p-about--numbers--flex {
+  gap: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.p-about--numbers.numbers06 .p-about--numbers--flex .--center {
+  width: clamp(150px, 0vw + 150px, 150px);
+}
+.p-about--numbers.numbers06 .p-about--numbers--flex .--center .number {
+  width: clamp(120px, 5.31vw + 95.6px, 150px);
+}
+.p-about--numbers.numbers06 .p-about--numbers--flex figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.p-about--numbers.numbers06 .p-about--numbers--flex figure img {
+  width: clamp(150px, 8.85vw + 109.3px, 200px);
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers.numbers06 {
+    width: 60%;
+  }
+  .p-about--numbers.numbers06 .p-about--numbers--flex {
+    gap: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p-about--numbers.numbers06 .p-about--numbers--flex .--center {
+    width: 216px;
+  }
+  .p-about--numbers.numbers06 .p-about--numbers--flex .--center .number {
+    display: block;
+    text-align: center;
+  }
+  .p-about--numbers.numbers06 .p-about--numbers--flex figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .p-about--numbers.numbers06 .p-about--numbers--flex figure img {
+    width: 212px;
+  }
+}
+.p-about--numbers.numbers07 {
+  width: 49%;
+}
+.p-about--numbers.numbers07 .p-about--numbers--flex {
+  display: block;
+}
+.p-about--numbers.numbers07 .p-about--numbers--flex figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.p-about--numbers.numbers07 .p-about--numbers--flex figure img {
+  margin-top: 32px;
+  width: 70%;
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers.numbers07 {
+    width: 44%;
+  }
+  .p-about--numbers.numbers07 .p-about--numbers--flex {
+    gap: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p-about--numbers.numbers07 .p-about--numbers--flex .--center {
+    width: 202px;
+  }
+  .p-about--numbers.numbers07 .p-about--numbers--flex figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .p-about--numbers.numbers07 .p-about--numbers--flex figure img {
+    width: 88px;
+  }
+}
+.p-about--numbers.numbers08 {
+  width: 49%;
+}
+.p-about--numbers.numbers08 .p-about--numbers--flex {
+  display: block;
+}
+.p-about--numbers.numbers08 .p-about--numbers--flex figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.p-about--numbers.numbers08 .p-about--numbers--flex figure img {
+  margin-top: 32px;
+  width: 70%;
+}
+@media screen and (min-width: 1025px) {
+  .p-about--numbers.numbers08 {
+    width: 54%;
+  }
+  .p-about--numbers.numbers08 .p-about--numbers--flex {
+    gap: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p-about--numbers.numbers08 .p-about--numbers--flex .--center {
+    width: 188px;
+  }
+  .p-about--numbers.numbers08 .p-about--numbers--flex figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .p-about--numbers.numbers08 .p-about--numbers--flex figure img {
+    width: 142px;
+  }
+}
 
 /*
 p-people
