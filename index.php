@@ -136,14 +136,18 @@ CASE
 
 
 
-
-ENVIRONMENT
-働く環境
-
-充実した福利厚生や、職員同士助け合う空気。
-協会には、安心して働ける「支え合い」の地盤があります。
-
-もっと見る
+  <section class="l-wrapper">
+    <div>
+      <figure>
+        <img src="" art="">
+      </figure>
+      <div>
+        <h2><span>ENVIRONMENT</span>働く環境</h2>
+        <p>充実した福利厚生や、職員同士助け合う空気。<br>協会には、安心して働ける「支え合い」の地盤があります。</p>
+        <a href=""><span>もっと見る</span></a>
+      </div>
+    </div>
+  </section>
 
 </main>
 
