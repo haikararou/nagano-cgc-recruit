@@ -1,69 +1,33 @@
+<?php
+$title_2nd = '支援事例';
+// $title_3rd = '';
+$directory_2nd = 'case';
+// $directory_3rd = '';
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#"  class="no-js">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<title>支援事例 | 採用サイト | 長野県信用保証協会</title>
-
-<meta name="robots" content="max-image-preview:large" />
-<link rel="canonical" href="http://nagano-cgc-orjp.check-xbiz.jp/cms/recruit" />
-<meta property="og:locale" content="ja_JP" />
-<meta property="og:site_name" content="支援事例 | 採用サイト | 長野県信用保証協会" />
-<meta property="og:type" content="company" />
-<meta property="og:title" content="支援事例 | 採用サイト | 長野県信用保証協会" />
-<meta property="og:url" content="http://nagano-cgc-orjp.check-xbiz.jp/cms/recruit/guideline" />
-<meta property="og:image" content="http://nagano-cgc-orjp.check-xbiz.jp/cms/recruit/ogp.png" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="支援事例 | 採用サイト | 長野県信用保証協会" />
-<meta name="twitter:image" content="http://nagano-cgc-orjp.check-xbiz.jp/cms/recruit/ogp.png" />
-
-<link rel='stylesheet' href='../assets/css/reset.css?ver=6.1.1' type='text/css' media='all' />
-<link rel='stylesheet' href='../assets/css/style.css?ver=6.1.1' type='text/css' media='all' />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-<link rel="icon" href="http://nagano-cgc-orjp.check-xbiz.jp/cms/recruit/favicon.png" type="image/png"/>
+<?php
+$url = $_SERVER["REQUEST_URI"];
+if (strstr($url, 'test/')) {
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit_test/assets/inc/meta.php");
+} else {
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/meta.php");
+}
+?>
 </head>
 
 <body class="l-body" id="case">
-
-<div class="p-header__sp">
-  <button class="p-header__menu-button"></button>
-  <div class="p-header__menu-design">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-
-<header class="l-header">
-  <div class="p-header">
-    <figure class="p-header__logo">
-      <a href="http://nagano-cgc-orjp.check-xbiz.jp/cms">
-        <img src="../assets/img/logo.png" alt="長野県信用保証協会 採用サイト">
-      </a>
-    </figure>
-    <div class="p-header__nav-container">
-      <nav class="p-header__nav">
-        <ul class="p-header__nav-list">
-          <li class="p-header__nav-item c-link--animation-ub2"><a href="../about">長野県信用保証協会とは</a></li>
-          <li class="p-header__nav-item c-link--animation-ub2"><a href="../works/">仕事を知る</a></li>
-          <li class="p-header__nav-item c-link--animation-ub2"><a href="../people/">人を知る</a></li>
-          <li class="p-header__nav-item c-link--animation-ub2"><a href="../case/">支援事例</a></li>
-          <li class="p-header__nav-item c-link--animation-ub2"><a href="../environment/">働く環境</a></li>
-          <li class="p-header__nav-item c-link--animation-ub2"><a href="../guideline/">募集要項</a></li>
-        </ul>
-        <div class="p-header__nav-entry"><a href=""><span>エントリー</span></a></div>
-      </nav>
-    </div>
-  </div>
-</header>
+<?php
+$url = $_SERVER["REQUEST_URI"];
+if (strstr($url, 'test/')) {
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit_test/assets/inc/meta.php");
+} else {
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/meta.php");
+}
+?>
 
 <main class="l-main">
-
-  <!-- <div class="l-hero">
-    <h1 class="c-text--h1"><span>CASE</span>支援事例</h1>
-    <img src="../assets/img/works/main.png" alt="">
-  </div> -->
-
   <section class="l-wrapper__outer2 l-wrapper">
     <section class="l-wrapper--left">
       <div class="l-wrapper--left--fixed">
@@ -80,14 +44,13 @@
       </div>
     </section>
     <section class="l-wrapper__container l-wrapper--right p-case">
-
       <div class="p-text-box" id="anchor--01">
         <h2 class="c-text--h2">創業者支援</h2>
         <div class="p-text-box--bluBox">
           <h2 class="p-text-box--bluBox--h2"><span>CASE 01</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="../assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -115,7 +78,7 @@
           <h2 class="p-text-box--bluBox--h2"><span>CASE 02</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="../assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -140,14 +103,13 @@
           </div>
         </div>
       </div>
-
       <div class="p-text-box" id="anchor--02">
         <h2 class="c-text--h2">事業継承支援</h2>
         <div class="p-text-box--bluBox">
           <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="../assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -172,14 +134,13 @@
           </div>
         </div>
       </div>
-
       <div class="p-text-box" id="anchor--03">
         <h2 class="c-text--h2">経営改善支援</h2>
         <div class="p-text-box--bluBox">
           <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="../assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -204,14 +165,13 @@
           </div>
         </div>
       </div>
-
       <div class="p-text-box" id="anchor--04">
         <h2 class="c-text--h2">課題解決支援</h2>
         <div class="p-text-box--bluBox">
           <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="../assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -236,14 +196,13 @@
           </div>
         </div>
       </div>
-
       <div class="p-text-box" id="anchor--05">
         <h2 class="c-text--h2">事業再生支援</h2>
         <div class="p-text-box--bluBox">
           <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="../assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -268,98 +227,17 @@
           </div>
         </div>
       </div>
-
     </section>
   </section>
 </main>
 
-<footer class="l-footer">
-  <div class="p-footer">
-
-    <div class="p-footer__banner">
-      <div class="p-footer__banner-inner l-wrapper3">
-        <h2 class="p-footer__banner-text">誰かの一歩を、<br class="c-br--tab">支える人になりませんか？</h2>
-        <ul class="p-footer__banner-list">
-          <li class="p-footer__banner-list-item -white"><a href=""><span>募集要項を確認する</span></a></li>
-          <li class="p-footer__banner-list-item -yellow"><a href="" target="_blank"><span>エントリーはこちら</span></a></li>
-        </ul>
-        <div class="p-footer__banner-list-faq"><a href=""><span>よくあるご質問</span></a></div>
-      </div>
-    </div>
-
-    <div class="l-wrapper">
-      <div class="p-footer__inner-sitemap">
-        <div class="p-footer__inner-logo">
-          <figure class="p-footer__logo">
-            <img src="../assets/img/logo.png" alt="長野県信用保証協会 採用サイト">
-          </figure>
-        </div>
-        <div class="p-footer__inner-list">
-          <dl class="p-footer__list">
-            <div class="p-footer__list-item">
-              <dt><a href="../about/">長野県信用保証協会とは</a></dt>
-              <dd><a href="../about/role/">私たちの役割</a></dd>
-              <dd><a href="../about/principle/">基本理念</a></dd>
-              <dd><a href="../about/detail/">数字で見る長野県信用保証協会</a></dd>
-            </div>
-            <div class="p-footer__list-item">
-              <dt><a href="../works/">仕事を知る</a></dt>
-              <dd><a href="../works/business/">営業部</a></dd>
-              <dd><a href="../works/support/">企業支援部</a></dd>
-              <dd><a href="../works/management/">業務統括部</a></dd>
-              <dd><a href="../works/generalAffairs">総務部</a></dd>
-              <dd><a href="../works/compliance/">コンプライアンス統括部</a></dd>
-            </div>
-            <div class="p-footer__list-item">
-              <dt><a href="../people/">人を知る</a></dt>
-              <dd><a href="../people/people01/">職員紹介 中島 菜々子</a></dd>
-              <dd><a href="../people/people02/">職員紹介 本田 朋樹</a></dd>
-              <dd><a href="../people/people03/">職員紹介 浦野 章博</a></dd>
-              <dd><a href="../people/people04/">職員紹介 一ノ瀬 美波</a></dd>
-              <dd><a href="../people/people05/">職員紹介 石坂 友弥</a></dd>
-              <dd><a href="../people/symposium/">座談会</a></dd>
-            </div>
-          </dl>
-          <dl class="p-footer__list">
-            <div class="p-footer__list-item">
-              <dt><a href="../case/">支援事例</a></dt>
-              <dd><a href="../case/founder/">創業者支援
-              <dd><a href="../case/businessSuccession/">事業承継支援</a></dd>
-              <dd><a href="../case/managementImprovement/">経営改善支援</a></dd>
-              <dd><a href="../case/problemSolving/">課題解決支援</a></dd>
-              <dd><a href="../case/jigyosaisei/">事業再生支援</a></dd>
-            </div>
-            <div class="p-footer__list-item">
-              <dt><a href="../environment/">働く環境</a></dt>
-              <dd><a href="../Welfare/">福利厚生</a></dd>
-              <dd><a href="../training/">研修制度</a></dd>
-              <dd><a href="../state/">協会の様子</a></dd>
-            </div>
-            <div class="p-footer__list-item">
-              <dt><a href="../guideline/">募集要項</a></dt>
-            </div>
-            <div class="p-footer__list-item">
-              <dt><a href="../faq/">よくあるご質問</a></dt>
-            </div>
-          </dl>
-        </div>
-      </div>
-
-      <div class="p-footer__inner-bottom">
-        <div class="p-footer__bottom">
-          <small>&copy; 2023 CREDIT GUARANTEE CORPORATION OF NAGANO-KEN.<br class="c-br--tab">All rights reserved.</small>
-        </div>
-        <ul class="p-footer__corporate">
-          <li><a href=""><span class="c-icon--blank">コーポレートサイト</span></a></li>
-          <li><a href=""><span>個人情報保護方針</span></a></li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-</footer>
-<script src="../assets/js/common.js"></script>
+<?php
+$url = $_SERVER["REQUEST_URI"];
+if (strstr($url, 'test/')) {
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit_test/assets/inc/footer.php");
+} else {
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/footer.php");
+}
+?>
 </body>
-
 </html>
-

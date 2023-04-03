@@ -1,0 +1,7 @@
+#AddHandler x-httpd-php5.3 .php .phps .html
+AddHandler fcgid-script .html
+
+AuthUserFile "/home/naganocgc/nagano-cgc.or.jp/htpasswd/recruit_test/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
