@@ -21,9 +21,9 @@ if (strstr($url, 'test/')) {
 <?php
 $url = $_SERVER["REQUEST_URI"];
 if (strstr($url, 'test/')) {
-  include($_SERVER['DOCUMENT_ROOT'] . "/recruit_test/assets/inc/meta.php");
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit_test/assets/inc/header.php");
 } else {
-  include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/meta.php");
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/header.php");
 }
 ?>
 
@@ -51,7 +51,7 @@ if (strstr($url, 'test/')) {
         <p>信用保証協会は、信用保証協会法に基づいて設立された公的機関です。<br>
           中小企業・小規模事業者のお客様が金融機関から事業資金を借入する際に「公的な保証人」となり、資金調達をサポートしています。万が一返済できなかった場合には、金融機関に立替払い（代位弁済）することを約束します。中小企業の事業資金について「公的保証人」となれるのは、信用保証協会だけ。協会は全国に51（47都道府県＋横浜市、川崎市、岐阜市、名古屋市）あり、長野県信用保証協会はそのひとつです。</p>
         <div class="p-text-box--bluBox">
-          <h2>信用保証制度のしくみ</h2>
+          <h2 class="p-text-box--bluBox--h2">信用保証制度のしくみ</h2>
           <div class="p-text-box--bluBox--inner">
             <img src="<?php echo $path; ?>assets/img/about/fig.png" alt="">
           </div>

@@ -1,11 +1,3 @@
-<?php
-$url = $_SERVER["REQUEST_URI"];
-if (strstr($url, 'test/')) {
-$path = 'https://nagano-cgc.or.jp/recruit_test/';
-} else {
-$path = 'https://nagano-cgc.or.jp/recruit/';
-}
-?>
 <div class="p-header__sp">
 <button class="p-header__menu-button"></button>
 <div class="p-header__menu-design">

@@ -21,9 +21,9 @@ if (strstr($url, 'test/')) {
 <?php
 $url = $_SERVER["REQUEST_URI"];
 if (strstr($url, 'test/')) {
-  include($_SERVER['DOCUMENT_ROOT'] . "/recruit_test/assets/inc/meta.php");
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit_test/assets/inc/header.php");
 } else {
-  include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/meta.php");
+  include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/header.php");
 }
 ?>
 

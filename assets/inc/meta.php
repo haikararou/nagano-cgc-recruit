@@ -1,3 +1,11 @@
+<?php
+$url = $_SERVER["REQUEST_URI"];
+if (strstr($url, 'test/')) {
+$path = 'https://nagano-cgc.or.jp/recruit_test/';
+} else {
+$path = 'https://nagano-cgc.or.jp/recruit/';
+}
+?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <title><?php if(!empty($title_3rd) ){ echo $title_3rd.' | '; } ?><?php if(!empty($title_2nd) ){ echo $title_2nd.' | '; } ?>採用サイト | 長野県信用保証協会</title>
