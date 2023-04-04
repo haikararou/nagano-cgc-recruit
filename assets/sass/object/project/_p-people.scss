@@ -35,6 +35,11 @@ p-people
         @include inc.mq(tabs) {
           width: 100%;
           padding-right:0;
+          // background: url(../img/people/people01B.png) no-repeat 50% 50%;
+          // background-size: contain;
+          img {
+            transition: .5s;
+          }
         }
         figcaption {
           @include inc.sizing(width, wide, 160px, sp, 134px);
@@ -50,7 +55,6 @@ p-people
           position: absolute;
           top: 24px;
           bottom: auto;
-          //right: -96px;
           right: calc(50% - 172px);
           @include inc.mq(spl) {
             top: 24px;
@@ -63,13 +67,20 @@ p-people
             right: -50px;
           }
         }
+        &:hover {
+          img {
+            opacity: 0;
+          }
+        }
       }
       h2 {
         width: 40%;
         text-align: center;
         position: absolute;
-        bottom: 32px;
-        right: 0;
+        // bottom: 32px;
+        // right: 0;
+        bottom: 6px;
+        right: -10px;
         text-align: center;
         font-weight: 700;
         @include inc.sizingRem(font-size, wide, 21px, sp, 16px);
@@ -109,9 +120,11 @@ p-people
           }
         }
         h2 {
-          bottom: 32px;
           right: auto;
-          left: 0;
+          // bottom: 32px;
+          // left: 0;
+          bottom: 6px;
+          left: -10px;
           @include inc.mq(tabs) {
             bottom: 32px;
             right: 0;
@@ -120,8 +133,45 @@ p-people
         }
       }
     }
+    &--title.home {
+      width: 100%;
+      @include inc.mq(tabs) {
+        width: calc(30% + 0rem);
+        padding-right: 3rem;
+        margin: 0;
+      }
+    }
+    &--div.home {
+      @include inc.mq(tabs) {
+        width: calc(30% + 0rem);
+        padding-right: 3rem;
+        margin: 0;
+      }
+      figcaption {
+        width: 134px;
+        height: 134px;
+        font-size: 12px;
+        @include inc.mq(tabs) {
+          @include inc.sizing(width, wide, 160px, tabs, 112px);
+          @include inc.sizing(height, wide, 160px, tabs, 112px);
+          @include inc.sizingRem(font-size, wide, 14px, tabs, 10px);
+        }
+      }
+    }
+    &--div.intro_01 {
+      figure {
+        @include inc.mq(tabs) {
+          background: url(../img/people/people01B.png) no-repeat 50% 50%;
+          background-size: contain;
+        }
+      }
+    }
     &--div.intro_02 {
       figure {
+        @include inc.mq(tabs) {
+          background: url(../img/people/people02B.png) no-repeat 50% 50%;
+          background-size: contain;
+        }
         figcaption {
           background: inc.$color-grn2;
         }
@@ -129,6 +179,10 @@ p-people
     }
     &--div.intro_03 {
       figure {
+        @include inc.mq(tabs) {
+          background: url(../img/people/people03B.png) no-repeat 50% 50%;
+          background-size: contain;
+        }
         figcaption {
           background: inc.$color-blu2;
         }
@@ -136,6 +190,10 @@ p-people
     }
     &--div.intro_04 {
       figure {
+        @include inc.mq(tabs) {
+          background: url(../img/people/people04B.png) no-repeat 50% 50%;
+          background-size: contain;
+        }
         figcaption {
           background: inc.$color-blu3;
         }
@@ -143,6 +201,10 @@ p-people
     }
     &--div.intro_05 {
       figure {
+        @include inc.mq(tabs) {
+          background: url(../img/people/people05B.png) no-repeat 50% 50%;
+          background-size: contain;
+        }
         figcaption {
           background: inc.$color-blu4;
         }
@@ -169,7 +231,6 @@ p-people
           padding: 0;
         }
         figure {
-          //padding: 0;
           figcaption {
             @include inc.mq(tab) {
               width: 112px;
@@ -190,16 +251,30 @@ p-people
     text-align: center;
     &--title {
       text-align: center;
-      margin: 0 auto 20px;
+      margin: 0 auto 16px;
+      padding: 0 12%;
+      @include inc.mq(tab) {
+        margin: 0 auto 20px;
+        padding: 0;
+      }
       img {
         display: block;
         margin: 0 auto;
       }
     }
+    &--text {
+      @include inc.sizingRem(font-size, wide, 16px, tabs, 12px);
+      margin: 0 0 1rem;
+      @include inc.mq(tab) {
+        margin: 0 0 2rem;
+      }
+    }
     &--people {
       position: relative;
       z-index: 0;
-      margin-top: -48px;
+      @include inc.mq(tab) {
+        margin-top: -48px;
+      }
     }
   }
   &--schedule {

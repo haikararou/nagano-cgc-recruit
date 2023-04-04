@@ -1,0 +1,432 @@
+@charset 'UTF-8';
+@use "../../inc/" as inc;
+/*
+p-home
+-----------------------------------------------------*/
+.p-home {
+  position: relative;
+  &--main {
+    &--move {
+      @include inc.sizing(height, wide, 864px, sp, 528px);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow: hidden;
+      z-index: -1;
+      // img {
+      //   position: absolute;
+      //   top: 50%;
+      //   transform: translate(0%, -50%);
+      //   right: -120px;
+      //   width: 90%;
+      // }
+    }
+    &--outer {
+      position: relative;
+      .list02 {
+        display: block;
+        @include inc.sizing(padding-top, tab, 32px, sp, 24px);
+        @include inc.sizing(padding-bottom, tab, 32px, sp, 24px);
+        max-width: 305px;
+        width: 100%;
+        margin: 0 auto;
+        @include inc.mq(tab) {
+          display: none;
+        }
+        .p-home--main-list-item {
+          max-width: 100%;
+          width: 100%;
+          height: 60px;
+          border-radius: 30px;
+          list-style-type: none;
+        }
+      }
+    }
+    @include inc.sizing(height, wide, 864px, sp, 528px);
+    @include inc.sizing(padding-top, wide, 112px, sp, 24px);
+    h1 {
+      @include inc.sizingRem(font-size, wide, 57px, sp, 34px);
+      @include inc.sizing(margin-bottom, wide, 40px, sp, 20px);
+      line-height: 1.4;
+      font-weight: 700;
+    }
+    &-list {
+      &-item {
+        max-width: 288px;
+        width: 100%;
+        height: 70px;
+        border-radius: 35px;
+        list-style-type: none;
+        span {
+          color: inc.$color-blu;
+          font-weight: 700;
+          width: 100%;
+          height: 100%;
+          padding: 0 2rem;
+          display:flex;
+          flex-direction:column;
+          justify-content:center;
+          @include inc.sizingRem(font-size, wide, 17px, sp, 16px);
+        }
+        &.-white {
+          background: url(../img/arw/blue_right.svg) no-repeat calc(100% - 2rem) 50% inc.$color-wht;
+          background-size: 15px;
+          border: 1px solid inc.$color-blu;
+        }
+        &.-yellow {
+          margin-top: 12px;
+          background: url(../img/icon/blue_blank.svg) no-repeat calc(100% - 2rem) 53% inc.$color-yel;
+        }
+      }
+      &.list01 {
+        display: none;
+        @include inc.mq(tab) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  &--about {
+    &--outer {
+      @include inc.sizing(margin-bottom, wide, 112px, sp, 74px);
+      background: url(../img/top/hand_sp.png) no-repeat 105% 100% inc.$color-blu;
+      background-size: contain;
+      background-size: 40%;
+      @include inc.sizing(padding-top, wide, 96px, sp, 64px);
+      @include inc.sizing(padding-bottom, wide, 96px, sp, 64px);
+      @include inc.mq(tab) {
+        background: url(../img/top/hand.png) no-repeat calc(50% - 40%) 0 inc.$color-blu;
+        background-size: contain;
+      }
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: inc.$color-wht;
+    h2 {
+      width: 100%;
+      br {
+        display: none;
+      }
+      @include inc.mq(tab) {
+        width: 50%;
+        br {
+          display: block;
+        }
+      }
+      @include inc.sizingRem(font-size, wide, 36px, sp, 28px);
+      @include inc.sizing(margin-bottom, wide, 32px, sp, 16px);
+      font-weight: 700;
+      list-style: 1.6;
+      span {
+        @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
+        @include inc.sizing(margin-bottom, wide, 24px, sp, 10px);
+        font-weight: 500;
+        list-style: 1;
+        display: block;
+      }
+    }
+    p {
+      width: 100%;
+      @include inc.mq(tab) {
+        width: 44%;
+        margin-top: 42px;
+      }
+    }
+  }
+
+  &--works,
+  &--environment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px 0;
+    @include inc.sizing(margin-bottom, wide, 124px, sp, 64px);
+    figure {
+      width: 100%;
+      @include inc.mq(tabs) {
+        width: 55%;
+      }
+      @include inc.mq(tab) {
+        width: 60%;
+      }
+    }
+    div {
+      width: 100%;
+      @include inc.mq(tabs) {
+        width: 40%;
+      }
+      @include inc.mq(tab) {
+        width: 30%;
+        padding-right: 4rem;
+      }
+      h2 {
+        @include inc.sizingRem(font-size, wide, 36px, sp, 28px);
+        @include inc.sizing(margin-bottom, wide, 32px, sp, 16px);
+        font-weight: 700;
+        list-style: 1.6;
+        span {
+          @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
+          @include inc.sizing(margin-bottom, wide, 24px, sp, 10px);
+          color: inc.$color-blu;
+          font-weight: 500;
+          list-style: 1;
+          display: block;
+        }
+      }
+    }
+  }
+  &--people {
+    @include inc.sizing(margin-bottom, wide, 80px, sp, 64px);
+    .p-people--intro--title {
+      h2 {
+        @include inc.sizingRem(font-size, wide, 36px, sp, 28px);
+        @include inc.sizing(margin-bottom, wide, 32px, sp, 16px);
+        font-weight: 700;
+        list-style: 1.6;
+        span {
+          @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
+          @include inc.sizing(margin-bottom, wide, 24px, sp, 10px);
+          color: inc.$color-blu;
+          font-weight: 500;
+          list-style: 1;
+          display: block;
+        }
+      }
+    }
+  }
+  &--zadankai {
+    @include inc.sizing(margin-bottom, wide, 80px, sp, 64px);
+    @include inc.sizing(padding-top, wide, 160px, sp, 80px);
+    @include inc.sizing(padding-bottom, wide, 128px, sp, 72px);
+    background: url(../img/top/zadankai_sp.png) no-repeat 50% 50%;
+    background-size: cover;
+    @include inc.mq(tabs) {
+      background: url(../img/top/zadankai.png) no-repeat 50% 50%;
+    }
+    &--title {
+      text-align: center;
+      margin: 0 auto 20px;
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+    &--text {
+      text-align: center;
+      color: inc.$color-wht;
+    }
+  }
+  &--case {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    @include inc.sizing(margin-bottom, wide, 64px, sp, 16px);
+    div {
+      width: 100%;
+      @include inc.mq(tabs) {
+        width: calc(100% - (224px + 4rem));
+      }
+      h2 {
+        @include inc.sizingRem(font-size, wide, 36px, sp, 28px);
+        @include inc.sizing(margin-bottom, wide, 32px, sp, 16px);
+        font-weight: 700;
+        list-style: 1.6;
+        span {
+          @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
+          @include inc.sizing(margin-bottom, wide, 24px, sp, 10px);
+          color: inc.$color-blu;
+          font-weight: 500;
+          list-style: 1;
+          display: block;
+        }
+      }
+      p {
+        margin: 0 0 0rem;
+        @include inc.mq(tabs) {
+          margin: 0 0 .5rem;
+        }
+      }
+    }
+    .btn01 {
+      display: none;
+      @include inc.mq(tabs) {
+        display: contents;
+      }
+    }
+  }
+  &--slide {
+    @include inc.sizing(margin-bottom, wide, 124px, sp, 64px);
+    .btn02 {
+      display: block;
+      @include inc.mq(tabs) {
+        display: none;
+      }
+    }
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction:column;
+  width: 260px;
+  @include inc.mq(tabs) {
+    width: 307px;
+    height:343px;
+  }
+  #omote {
+    order: 2;
+    background: inc.$color-blu;
+    padding: 1rem 2rem;
+    width: 260px;
+    height: 180px;
+    border-radius: 0 0 15px 15px;
+    @include inc.mq(tabs) {
+      padding: 2rem;
+      width: 307px;
+      height:343px;
+      border-radius: 15px;
+    }
+    h2 {
+      @include inc.sizingRem(font-size, wide, 22px, sp, 12px);
+      @include inc.sizing(margin-bottom, wide, 20px, sp, 16px);
+      font-weight: 700;
+      color: inc.$color-wht;
+      text-align: center;
+      line-height: 1;
+    }
+    p {
+      @include inc.sizingRem(font-size, wide, 18px, sp, 12px);
+      line-height: 1.6;
+      font-weight: 700;
+      color: inc.$color-wht;
+      text-align: left;
+    }
+  }
+  #ura {
+    order: 1;
+    background: inc.$color-light-blu;
+    padding: 1rem 2rem;
+    width: 260px;
+    height: 210px;
+    border-radius: 15px 15px 0 0;
+    @include inc.mq(tabs) {
+      padding: 2rem;
+      width: 307px;
+      height:343px;
+      border-radius: 15px;
+    }
+    h2 {
+      @include inc.sizingRem(font-size, wide, 22px, sp, 12px);
+      @include inc.sizing(margin-bottom, wide, 20px, sp, 16px);
+      font-weight: 700;
+      color: inc.$color-blu;
+      text-align: center;
+      line-height: 1;
+    }
+    figure {
+      height: 80px;
+      @include inc.mq(tabs) {
+        height: 126px;
+      }
+      img {
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        @include inc.sizing(margin-bottom, wide, 32px, sp, 16px);
+      }
+      figcaption {
+        @include inc.sizingRem(font-size, wide, 22px, sp, 12px);
+        font-weight: 700;
+        color: inc.$color-blu;
+        text-align: center;
+      }
+    }
+  }
+}
+.fuda {
+  display: inline-block;
+  transition: 1s;
+  backface-visibility: hidden;
+  //border-radius: 15px;
+  @include inc.mq(tabs) {
+    position: absolute;
+  }
+}
+// .csize {
+//   width: 260px;
+//   height: 400px;
+//   @include inc.mq(tabs) {
+//     width: 307px;
+//     height:343px;
+//   }
+// }
+@include inc.mq(tabs) {
+  .card {
+    display: block;
+    position: relative;
+    perspective: 500px;
+    // width: 307px;
+    // height:343px;
+  }
+  #omote {
+    transform: rotateY(180deg);
+    // width: 307px;
+    // height:343px;
+    // border-radius: 15px;
+  }
+  #ura {
+    transform: rotateY(0deg);
+    // width: 307px;
+    // height:343px;
+    // border-radius: 15px;
+  }
+  .card:hover #omote {
+    transform: rotateY(0deg);
+  }
+  .card:hover #ura {
+    transform: rotateY(-180deg);
+  }
+}
+
+.swiper-slide {
+  width: 260px;
+  height:auto;
+  margin: 0 24px;
+  @include inc.mq(tabs) {
+    width: 307px;
+    height:343px;
+    margin: 0 32px;
+  }
+}
+
+.sample-slider{
+  width:100%;
+  overflow: hidden;
+  padding: 0 0 24px!important;
+  @include inc.mq(tabs) {
+    padding: 64px 0!important;
+  }
+}
+.sample-slider .swiper-wrapper{
+  transition-timing-function: linear;
+}
+
+
+.slider-main {
+  transform:rotate(-45deg);
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  @include inc.mq(tabs) {
+    left: 20%;
+  }
+}
+.slider-main .swiper-wrapper{
+  transition-timing-function: linear;
+}

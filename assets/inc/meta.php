@@ -22,5 +22,8 @@ $path = 'https://nagano-cgc.or.jp/recruit/';
 <meta name="twitter:image" content="<?php echo $path; ?>ogp.png" />
 <link rel='stylesheet' href='<?php echo $path; ?>assets/css/reset.css?ver=6.1.1' type='text/css' media='all' />
 <link rel='stylesheet' href='<?php echo $path; ?>assets/css/style.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' href='<?php echo $path; ?>assets/css/swiper.min.css?ver=6.2' type='text/css' media='all' />
+<link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <link rel="icon" href="<?php echo $path; ?>favicon.png" type="image/png"/>

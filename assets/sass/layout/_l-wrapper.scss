@@ -5,14 +5,17 @@ l-wrapper
 -----------------------------------------------------*/
 
 .l-wrapper {
-  //max-width: calc(81rem + 4rem); //1296
   max-width: calc(80rem + 4rem); //1280
   width: 100%;
-  padding: 0 2rem;
   padding: 0 4%;
   margin: 0 auto;
+  &.home {
+    padding: 0 8%;
+    @include inc.mq(tab) {
+      padding: 0 2rem;
+    }
+  }
   @include inc.mq(vr) {
-    // padding: 0 5%;
     padding: 0 2rem;
   }
 }
@@ -21,12 +24,27 @@ l-wrapper
   width: 100%;
   padding: 0 0rem;
   margin: 0 auto;
+  &.home {
+    padding: 0 8%;
+    @include inc.mq(tab) {
+      padding: 0 2rem;
+    }
+  }
   @include inc.mq(tab) {
     padding: 0 2rem;
   }
 }
 .l-wrapper3 {
   max-width: calc(52rem + 4rem); //832
+  width: 100%;
+  padding: 0 8%;
+  margin: 0 auto;
+  @include inc.mq(tab) {
+    padding: 0 2rem;
+  }
+}
+.l-wrapper4 {
+  max-width: calc(33rem + 4rem); //528
   width: 100%;
   padding: 0 8%;
   margin: 0 auto;
