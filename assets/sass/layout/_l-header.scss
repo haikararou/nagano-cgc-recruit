@@ -3,6 +3,15 @@
 /*
 l-header
 -----------------------------------------------------*/
+
+html { scroll-behavior: smooth;}
+:target {
+  scroll-margin-top: 80px;
+  @include inc.mq(vr) {
+    scroll-margin-top: 120px;
+  }
+}
+
 .l-header {
   position: fixed;
   z-index: 11;

@@ -19,6 +19,8 @@ p-text-box
       background: inc.$color-light-blu;
       @include inc.sizing(padding-top, wide, 24px, sp, 16px);
       @include inc.sizing(padding-bottom, wide, 24px, sp, 16px);
+      padding-left: 1rem;
+      padding-right: 1rem;
       span {
         @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
         display: block;

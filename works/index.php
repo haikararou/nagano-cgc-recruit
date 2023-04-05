@@ -30,7 +30,7 @@ if (strstr($url, 'test/')) {
 <main class="l-main">
   <div class="l-hero">
     <h1 class="c-text--h1"><span>WORKS</span>仕事を知る</h1>
-    <img src="<?php echo $path; ?>assets/img/works/main.png" alt="">
+    <img src="<?php echo $path; ?>assets/img/works/main.png" alt="仕事を知る" width="2176" height="938">
   </div>
   <section class="l-wrapper__outer2 l-wrapper">
     <section class="l-wrapper--left">

@@ -169,6 +169,19 @@ l-main
 /*
 l-header
 -----------------------------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 80px;
+}
+@media screen and (min-width: 1280px) {
+  :target {
+    scroll-margin-top: 120px;
+  }
+}
+
 .l-header {
   position: fixed;
   z-index: 11;
@@ -363,6 +376,34 @@ l-hero
   }
 }
 
+.people02 .l-hero--people figure {
+  background: #009AB5;
+}
+.people02 .l-hero--people figure figcaption {
+  color: #009AB5;
+}
+
+.people03 .l-hero--people figure {
+  background: #008BBA;
+}
+.people03 .l-hero--people figure figcaption {
+  color: #008BBA;
+}
+
+.people04 .l-hero--people figure {
+  background: #0075BC;
+}
+.people04 .l-hero--people figure figcaption {
+  color: #0075BC;
+}
+
+.people05 .l-hero--people figure {
+  background: #0F68B2;
+}
+.people05 .l-hero--people figure figcaption {
+  color: #0F68B2;
+}
+
 .l-hero--zadankai {
   position: relative;
   padding-top: 48px;
@@ -516,6 +557,7 @@ c-text
   color: #008BBA;
   display: block;
   line-height: 1;
+  font-family: "Hind", sans-serif;
 }
 .c-text--h1.--peopel {
   margin-bottom: clamp(16px, 1.44vw + 9.4px, 32px);
@@ -571,6 +613,22 @@ c-text
   padding-bottom: clamp(12px, 0.36vw + 10.4px, 16px);
   border-bottom: 2px solid #ECF1FA;
   font-weight: 700;
+}
+
+.people02 .c-text--h2.--peopel2 span {
+  color: #009AB5;
+}
+
+.people03 .c-text--h2.--peopel2 span {
+  color: #008BBA;
+}
+
+.people04 .c-text--h2.--peopel2 span {
+  color: #0075BC;
+}
+
+.people05 .c-text--h2.--peopel2 span {
+  color: #0F68B2;
 }
 
 /*
@@ -1895,6 +1953,8 @@ p-text-box
   background: #ECF1FA;
   padding-top: clamp(16px, 0.72vw + 12.7px, 24px);
   padding-bottom: clamp(16px, 0.72vw + 12.7px, 24px);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .p-text-box--bluBox--h2 span {
   font-size: clamp(0.75rem, 0.18vw + 0.7rem, 0.875rem);
@@ -2486,6 +2546,7 @@ p-home
   font-weight: 500;
   list-style: 1;
   display: block;
+  font-family: "Hind", sans-serif;
 }
 .p-home--about p {
   width: 100%;
@@ -2548,6 +2609,7 @@ p-home
   font-weight: 500;
   list-style: 1;
   display: block;
+  font-family: "Hind", sans-serif;
 }
 .p-home--people {
   margin-bottom: clamp(64px, 1.44vw + 57.4px, 80px);
@@ -2565,6 +2627,7 @@ p-home
   font-weight: 500;
   list-style: 1;
   display: block;
+  font-family: "Hind", sans-serif;
 }
 .p-home--zadankai {
   margin-bottom: clamp(64px, 1.44vw + 57.4px, 80px);
@@ -2625,6 +2688,7 @@ p-home
   font-weight: 500;
   list-style: 1;
   display: block;
+  font-family: "Hind", sans-serif;
 }
 .p-home--case div p {
   margin: 0 0 0rem;
@@ -2998,31 +3062,51 @@ p-guideline
 p-environment
 -----------------------------------------------------*/
 .p-environment--state {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .p-environment--state {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 .p-environment--state figure {
-  width: 50%;
+  width: 100%;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .p-environment--state figure {
+    width: 50%;
+    margin-bottom: 0;
+  }
 }
 .p-environment--state figure figcaption {
   display: inline;
   font-weight: 700;
 }
 .p-environment--state ul {
-  width: calc(50% - 2rem);
   margin: 0;
-  padding: 0 80px 0 0;
+  padding: 0;
   list-style-type: none;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .p-environment--state ul {
+    padding: 0 80px 0 0;
+    width: calc(50% - 2rem);
+  }
 }
 .p-environment--state ul li {
   list-style-type: none;
   position: relative;
+  margin-left: 0;
+  margin-right: 80px;
   margin-bottom: 1.2rem;
 }
 .p-environment--state ul li::after {
@@ -3060,6 +3144,47 @@ p-environment
   left: 100%;
   top: 100%;
   background: none;
+}
+.p-environment--state ul li:nth-child(even) {
+  margin-left: 80px;
+  margin-right: 0px;
+}
+.p-environment--state ul li:nth-child(even)::after {
+  right: auto;
+  left: -80px;
+  top: calc(50% - 30px);
+}
+.p-environment--state ul li:nth-child(even) span {
+  border-radius: 10px 10px 10px 0;
+}
+.p-environment--state ul li:nth-child(even) span:after {
+  border-width: 0 0 12px 16px;
+  border-color: transparent transparent #fff transparent;
+  left: -16px;
+}
+@media screen and (min-width: 768px) {
+  .p-environment--state ul li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .p-environment--state ul li:nth-child(even) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .p-environment--state ul li:nth-child(even)::after {
+    right: -80px;
+    left: auto;
+    top: calc(50% - 30px);
+  }
+  .p-environment--state ul li:nth-child(even) span {
+    border-radius: 10px 10px 0 10px;
+  }
+  .p-environment--state ul li:nth-child(even) span:after {
+    content: "";
+    border-width: 12px 0 0px 16px;
+    border-color: transparent transparent transparent #fff;
+    left: 100%;
+  }
 }
 .p-environment--stateA figure figcaption {
   color: #1B6EC3;
@@ -3338,9 +3463,10 @@ p-about
   width: 96px;
   position: absolute;
   right: 0px;
-  bottom: 50%;
+  bottom: 30%;
   -webkit-transform: translate(0, 50%);
           transform: translate(0, 50%);
+  z-index: -1;
 }
 .p-about--numbers.numbers02 .p-about--numbers--flex figure img {
   width: 100%;
@@ -3359,7 +3485,7 @@ p-about
     width: 136px;
     position: absolute;
     right: 0px;
-    bottom: 0px;
+    bottom: 20%;
   }
   .p-about--numbers.numbers02 .p-about--numbers--flex figure img {
     width: 100%;
@@ -4115,6 +4241,46 @@ p-people
   top: -20px;
 }
 
+.people02 .p-people--schedule {
+  background: #e9f6f9;
+}
+.people02 .p-people--schedule dl div dt::after {
+  background: #009AB5;
+}
+.people02 .p-people--schedule dl div dd::before {
+  background: #009AB5;
+}
+
+.people03 .p-people--schedule {
+  background: #e9f5f9;
+}
+.people03 .p-people--schedule dl div dt::after {
+  background: #008BBA;
+}
+.people03 .p-people--schedule dl div dd::before {
+  background: #008BBA;
+}
+
+.people04 .p-people--schedule {
+  background: #e9f3f9;
+}
+.people04 .p-people--schedule dl div dt::after {
+  background: #0075BC;
+}
+.people04 .p-people--schedule dl div dd::before {
+  background: #0075BC;
+}
+
+.people05 .p-people--schedule {
+  background: #ebf2fa;
+}
+.people05 .p-people--schedule dl div dt::after {
+  background: #0F68B2;
+}
+.people05 .p-people--schedule dl div dd::before {
+  background: #0F68B2;
+}
+
 /*
 p-zadankai
 -----------------------------------------------------*/
@@ -4200,6 +4366,18 @@ p-zadankai
 }
 .p-zadankai--q-title.--q-title03::before {
   content: "Q3";
+}
+.p-zadankai--q-title.--q-title04::before {
+  content: "Q4";
+}
+.p-zadankai--q-title.--q-title04::before {
+  content: "Q5";
+}
+.p-zadankai--q-title.--q-title06::before {
+  content: "Q6";
+}
+.p-zadankai--q-title.--q-title07::before {
+  content: "Q7";
 }
 .p-zadankai--dl {
   margin-top: clamp(24px, 0.72vw + 20.7px, 32px);

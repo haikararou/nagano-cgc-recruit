@@ -82,7 +82,46 @@ l-hero
         padding: 0 0 0 calc(50% - 304px);
     }
 }
-
+.people02 {
+    .l-hero--people {
+        figure {
+            background: inc.$color-grn2;
+            figcaption {
+                color: inc.$color-grn2;
+            }
+        }
+    }
+}
+.people03 {
+    .l-hero--people {
+        figure {
+            background: inc.$color-blu2;
+            figcaption {
+                color: inc.$color-blu2;
+            }
+        }
+    }
+}
+.people04 {
+    .l-hero--people {
+        figure {
+            background: inc.$color-blu3;
+            figcaption {
+                color: inc.$color-blu3;
+            }
+        }
+    }
+}
+.people05 {
+    .l-hero--people {
+        figure {
+            background: inc.$color-blu4;
+            figcaption {
+                color: inc.$color-blu4;
+            }
+        }
+    }
+}
 
 .l-hero--zadankai {
     //@include inc.sizing(padding-top, wide, 48px, tab, 640px);
@@ -191,6 +230,6 @@ l-hero
         }
         @include inc.mq(tabs) {
             display: flex;
-          }
+        }
     }
 }

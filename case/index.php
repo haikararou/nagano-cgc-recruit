@@ -50,7 +50,7 @@ if (strstr($url, 'test/')) {
           <h2 class="p-text-box--bluBox--h2"><span>CASE 01</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/case_01.png" alt="" width="266" height="456"></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -78,7 +78,7 @@ if (strstr($url, 'test/')) {
           <h2 class="p-text-box--bluBox--h2"><span>CASE 02</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/case_01.png" alt="" width="266" height="456"></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -109,7 +109,7 @@ if (strstr($url, 'test/')) {
           <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/case_02.png" alt="" width="317" height="466"></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -140,7 +140,7 @@ if (strstr($url, 'test/')) {
           <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/case_03.png" alt="" width="394" height="447"></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -171,7 +171,7 @@ if (strstr($url, 'test/')) {
           <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/case_04.png" alt="" width="394" height="447"></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
@@ -202,7 +202,7 @@ if (strstr($url, 'test/')) {
           <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>コロナ渦で苦しむケーキ屋さんの販路開拓を支援</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/dummy.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/case/case_05.png" alt="" width="394" height="447"></figure>
               <dl class="p-text-box--bluBox--dl">
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>

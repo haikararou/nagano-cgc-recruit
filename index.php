@@ -70,7 +70,7 @@ if (strstr($url, 'test/')) {
   <section class="l-wrapper home">
     <div class="p-home--works">
       <figure>
-        <img src="./assets/img/top/works.png" art="WORKS 仕事を知る">
+        <img src="./assets/img/top/works.png" art="WORKS 仕事を知る" width="1394" height="932">
       </figure>
       <div>
         <h2><span>WORKS</span>仕事を知る</h2>
@@ -89,35 +89,35 @@ if (strstr($url, 'test/')) {
         </div>
         <a href="./people/people01/" class="p-people--intro--div home intro_01">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子">
+            <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子" width="659" height="765">
             <figcaption>明朗快活で<br>場を明るくする<br>期待の新人職員</figcaption>
           </figure>
           <h2>中島 菜々子<span>1年目 松本営業部業務第1課</span></h2>
         </a>
         <a href="./people/people02/" class="p-people--intro--div home intro_02 even">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹">
+            <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹" width="662" height="761">
             <figcaption>課題を<br>本質から解決する<br>気鋭の若手職員</figcaption>
           </figure>
           <h2>本田 朋樹<span>2年目 松本営業部業務第2課</span></h2>
         </a>
         <a href="./people/people03/" class="p-people--intro--div home intro_03">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博">
+            <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博" width="659" height="764">
             <figcaption>相手の話に<br>しっかり寄り添う<br>気さくな<br>広報担当職員</figcaption>
           </figure>
           <h2>浦野 章博<span>8年目 総務部企画情報課</span></h2>
         </a>
         <a href="./people/people04/" class="p-people--intro--div home intro_04 even">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波">
+            <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波" width="659" height="765">
             <figcaption>誠実に<br>お客様と向き合う<br>優しい<br>ワーキングママ</figcaption>
           </figure>
           <h2>一ノ瀬 美波<span>14年目 本店営業部業務第2課</span></h2>
         </a>
         <a href="./people/people05/" class="p-people--intro--div home intro_05">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥">
+            <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥" width="659" height="764">
             <figcaption>さりげない<br>気配りで<br>誰からも頼られる<br>ベテラン社員</figcaption>
           </figure>
           <h2>石坂 友弥<span>16年目 業務統括部業務課</span></h2>
@@ -128,7 +128,7 @@ if (strstr($url, 'test/')) {
 
   <section class="p-home--zadankai intro_06">
     <div class="l-wrapper4">
-      <h2 class="p-home--zadankai--title"><img src="<?php echo $path; ?>assets/img/people/zadankai_title.svg" alt="長野県信用保証協会職員 座談会"></h2>
+      <h2 class="p-home--zadankai--title"><img src="<?php echo $path; ?>assets/img/people/zadankai_title.svg" alt="長野県信用保証協会職員 座談会" width="312" height="150"></h2>
       <p class="p-home--zadankai--text">それぞれの色を持った職員が、年齢、性別、キャリアの垣根を超えて、<br>協会で働く日々について語り合いました！</p>
       <a class="c-arrow" href="./people/zadankai/"><span>もっと見る</span></a>
     </div>
@@ -157,7 +157,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="">
+                <img src="./assets/img/top/case_01.png" art="創業者支援" width="148" height="254">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -173,7 +173,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="">
+                <img src="./assets/img/top/case_02.png" art="事業継承支援" width="177" height="260">
                 <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
@@ -189,7 +189,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="">
+                <img src="./assets/img/top/case_01.png" art="創業者支援" width="148" height="254">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -205,7 +205,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="">
+                <img src="./assets/img/top/case_02.png" art="事業継承支援" width="177" height="260">
                 <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
@@ -221,7 +221,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="">
+                <img src="./assets/img/top/case_01.png" art="創業者支援" width="148" height="254">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -237,7 +237,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="">
+                <img src="./assets/img/top/case_02.png" art="事業継承支援" width="177" height="260">
                 <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
@@ -253,7 +253,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="">
+                <img src="./assets/img/top/case_01.png" art="創業者支援" width="148" height="254">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -269,7 +269,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="">
+                <img src="./assets/img/top/case_02.png" art="事業継承支援" width="177" height="260">
                 <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
@@ -285,7 +285,7 @@ if (strstr($url, 'test/')) {
   <section class="l-wrapper home">
     <div class="p-home--environment">
       <figure>
-        <img src="./assets/img/top/environment.png" art="ENVIRONMENT 働く環境">
+        <img src="./assets/img/top/environment.png" art="ENVIRONMENT 働く環境" width="1395" height="932">
       </figure>
       <div>
         <h2><span>ENVIRONMENT</span>働く環境</h2>

@@ -73,7 +73,7 @@
                 </div>
                 <ul class="p-footer__corporate">
                     <li><a href="/"><span class="c-icon--blank">コーポレートサイト</span></a></li>
-                    <li><a href="<?php echo $path; ?>"><span>個人情報保護方針</span></a></li>
+                    <li><a href="/privacy/"><span>個人情報保護方針</span></a></li>
                 </ul>
             </div>
         </div>

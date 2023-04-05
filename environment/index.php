@@ -30,7 +30,7 @@ if (strstr($url, 'test/')) {
 <main class="l-main">
   <div class="l-hero">
     <h1 class="c-text--h1"><span>ENVIRONMENT</span>働く環境</h1>
-    <img src="<?php echo $path; ?>assets/img/environment/main.png" alt="">
+    <img src="<?php echo $path; ?>assets/img/environment/main.png" alt="働く環境" width="2176" height="920">
   </div>
   <section class="l-wrapper__outer2 l-wrapper">
     <section class="l-wrapper--left">
@@ -101,7 +101,7 @@ if (strstr($url, 'test/')) {
         <div class="p-environment--state p-environment--stateA">
           <figure>
             <figcaption>雰囲気</figcaption>
-            <img src="<?php echo $path; ?>assets/img/environment/voice_01.png" alt="雰囲気">
+            <img src="<?php echo $path; ?>assets/img/environment/voice_01.png" alt="雰囲気" width="862" height="776">
           </figure>
           <ul>
             <li><span>年次関係なく、個人としての意見が尊重されます</span></li>
@@ -113,7 +113,7 @@ if (strstr($url, 'test/')) {
         <div class="p-environment--state p-environment--stateB">
           <figure>
             <figcaption>職員の印象</figcaption>
-            <img src="<?php echo $path; ?>assets/img/environment/voice_02.png" alt="職員の印象">
+            <img src="<?php echo $path; ?>assets/img/environment/voice_02.png" alt="職員の印象" width="862" height="776">
           </figure>
           <ul>
             <li><span>困ったことがあると、周りの先輩方がよく助けてくれます</span></li>
@@ -125,7 +125,7 @@ if (strstr($url, 'test/')) {
         <div class="p-environment--state p-environment--stateC">
           <figure>
             <figcaption>仕事のやりがい</figcaption>
-            <img src="<?php echo $path; ?>assets/img/environment/voice_03.png" alt="仕事のやりがい">
+            <img src="<?php echo $path; ?>assets/img/environment/voice_03.png" alt="仕事のやりがい" width="862" height="776">
           </figure>
           <ul>
             <li><span>経営支援の成果が出て、お客様から感謝されたとき</span></li>

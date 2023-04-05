@@ -350,3 +350,63 @@ p-people
   }
 }
 
+.people02 {
+  .p-people--schedule {
+    background: inc.$color-grn5;
+    dl {
+      div {
+        dt::after {
+          background: inc.$color-grn2;
+        }
+        dd::before {
+          background: inc.$color-grn2;
+        }
+      }
+    }
+  }
+}
+.people03 {
+  .p-people--schedule {
+    background: inc.$color-grn6;
+    dl {
+      div {
+        dt::after {
+          background: inc.$color-blu2;
+        }
+        dd::before {
+          background: inc.$color-blu2;
+        }
+      }
+    }
+  }
+}
+.people04 {
+  .p-people--schedule {
+    background: inc.$color-grn7;
+    dl {
+      div {
+        dt::after {
+          background: inc.$color-blu3;
+        }
+        dd::before {
+          background: inc.$color-blu3;
+        }
+      }
+    }
+  }
+}
+.people05 {
+  .p-people--schedule {
+    background: inc.$color-grn8;
+    dl {
+      div {
+        dt::after {
+          background: inc.$color-blu4;
+        }
+        dd::before {
+          background: inc.$color-blu4;
+        }
+      }
+    }
+  }
+}

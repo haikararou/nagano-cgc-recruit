@@ -38,7 +38,7 @@ if (strstr($url, 'test/')) {
 
   <div class="l-hero--people">
     <figure>
-      <img src="<?php echo $path; ?>assets/img/people/people03/main.png" alt="">
+      <img src="<?php echo $path; ?>assets/img/people/people03/main.png" alt="浦野 章博" width="993" height="1386">
       <figcaption>
         相手の話に<br>
         しっかり寄り添う<br>
@@ -57,14 +57,14 @@ if (strstr($url, 'test/')) {
         <h2 class="c-text--h2 --peopel2"><span>現在の仕事</span>お客様と協会の、接点をつくる</h2>
         <p>元々保証業務を行っており、現在は広報業務を行っています。協会をより身近に、頼れる存在と感じていただくために、提供できる保証制度や創業支援・経営支援サービスなどの取り組みを発信しています。最近だと、お客様との新たな接点としてノベルティグッズを制作しました。<br>
           広報は営業とまた違った楽しさと難しさがあるので、日々試行錯誤しています。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people03/pic_01.png" alt="">
+          <img src="<?php echo $path; ?>assets/img/people/people03/pic_01.png" alt="現在の仕事" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
         <h2 class="c-text--h2 --peopel2"><span>協会の魅力</span>事業だけでなく、生活も支えていると感じる</h2>
         <p>事業を拡大するための大規模な設備投資を保証したり、資金繰りのアドバイスをしたりしてお客様から直接感謝されると、支えになれたかな、とやりがいを感じます。<br>
           また、昨今は新型コロナウイルスの影響により売上が急激に減少し、事業を続けるためのお金を必要としているお客様が多くいらっしゃいました。そういったお客様に対し、迅速に保証をしていたときは、お客様や共に働く従業員の生活を支えていると感じました。今後、私たちがどう支援していくべきかを日々考えています。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people03/pic_02.png" alt="">
+          <img src="<?php echo $path; ?>assets/img/people/people03/pic_02.png" alt="協会の魅力" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
@@ -116,28 +116,28 @@ if (strstr($url, 'test/')) {
       <section class="p-people--intro p-people--intro--other">
         <a href="<?php echo $path; ?>/people/people01/" class="p-people--intro--div intro_01">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子">
+            <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子" width="659" height="765">
             <figcaption>明朗快活で<br>場を明るくする<br>期待の新人職員</figcaption>
           </figure>
           <h2>中島 菜々子<span>1年目 松本営業部業務第1課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people02/" class="p-people--intro--div intro_02 even">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹">
+            <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹" width="662" height="761">
             <figcaption>課題を<br>本質から解決する<br>気鋭の若手職員</figcaption>
           </figure>
           <h2>本田 朋樹<span>2年目 松本営業部業務第2課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people04/" class="p-people--intro--div intro_04">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波">
+            <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波" width="659" height="765">
             <figcaption>誠実に<br>お客様と向き合う<br>優しい<br>ワーキングママ</figcaption>
           </figure>
           <h2>一ノ瀬 美波<span>14年目 本店営業部業務第2課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people05/" class="p-people--intro--div intro_05 even">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥">
+            <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥" width="659" height="764">
             <figcaption>さりげない<br>気配りで<br>誰からも頼られる<br>ベテラン社員</figcaption>
           </figure>
           <h2>石坂 友弥<span>16年目 業務統括部業務課</span></h2>

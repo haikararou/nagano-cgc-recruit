@@ -202,8 +202,9 @@ p-about
           width: 96px;
           position: absolute;
           right: 0px;
-          bottom: 50%;
+          bottom: 30%;
           transform: translate(0, 50%);
+          z-index: -1;
           img {
             width: 100%;
           }
@@ -220,7 +221,7 @@ p-about
             width: 136px;
             position: absolute;
             right: 0px;
-            bottom: 0px;
+            bottom: 20%;
             img {
               width: 100%;
             }

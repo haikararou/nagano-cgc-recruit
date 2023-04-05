@@ -30,7 +30,7 @@ if (strstr($url, 'test/')) {
 <main class="l-main">
   <div class="l-hero">
     <h1 class="c-text--h1"><span>ABOUT US</span>長野県信用保証協会とは</h1>
-    <img src="<?php echo $path; ?>assets/img/about/main.png" alt="">
+    <img src="<?php echo $path; ?>assets/img/about/main.png" alt="長野県信用保証協会とは" width="2176" height="932">
   </div>
   <section class="l-wrapper__outer2 l-wrapper">
     <section class="l-wrapper--left">
@@ -53,7 +53,7 @@ if (strstr($url, 'test/')) {
         <div class="p-text-box--bluBox">
           <h2 class="p-text-box--bluBox--h2">信用保証制度のしくみ</h2>
           <div class="p-text-box--bluBox--inner">
-            <img src="<?php echo $path; ?>assets/img/about/fig.png" alt="">
+            <img src="<?php echo $path; ?>assets/img/about/fig.png" alt="信用保証制度のしくみ" width="1508" height="1299">
           </div>
         </div>
         <div class="p-about--merit">
@@ -77,9 +77,9 @@ if (strstr($url, 'test/')) {
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>長野県内の<br>中小企業者のご利用率</h2>
-                <div class="number">50.3<span class="unit">%</span><span class="as_of">※2022年3月時点</span></div>
+                <div class="number"><span class="count-up">50.3</span><span class="unit">%</span><span class="as_of">※2022年3月時点</span></div>
               </div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers01.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers01.png" alt="長野県内の中小企業者のご利用率" width="518" height="252"></figure>
             </div>
           </div>
           <div class="p-about--numbers numbers02">
@@ -87,63 +87,63 @@ if (strstr($url, 'test/')) {
               <div class="--numbers02">
                 <h2>保証債務残高</h2>
                 <div class="--left">
-                  <div class="number">78,941<span class="unit">件</span></div><br>
-                  <div class="number">7,481<span class="unit">億円</span><span class="as_of">※2022年3月時点</span></div>
+                  <div class="number"><span class="count-up price">78941</span><span class="unit">件</span></div><br>
+                  <div class="number"><span class="count-up2 price">7481</span><span class="unit">億円</span><span class="as_of">※2022年3月時点</span></div>
                 </div>
               </div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers02.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers02.png" alt="保証債務残高" width="273" height="271"></figure>
             </div>
           </div>
           <div class="p-about--numbers numbers03">
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>職員数</h2>
-                <div class="number">138<span class="unit">名</span><span class="as_of">※2022年3月時点</span></div>
+                <div class="number"><span class="count-up">138</span><span class="unit">名</span><span class="as_of">※2022年3月時点</span></div>
               </div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers03.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers03.png" alt="職員数" width="283" height="245"></figure>
             </div>
           </div>
           <div class="p-about--numbers numbers04">
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>年間休日</h2>
-                <div class="number">120<span class="unit">日</span><span class="as_of">※2022年3月時点</span></div>
+                <div class="number"><span class="count-up">120</span><span class="unit">日</span><span class="as_of">※2022年3月時点</span></div>
               </div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers04.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers04.png" alt="年間休日" width="217" height="171"></figure>
             </div>
           </div>
           <div class="p-about--numbers numbers05">
             <div class="p-about--numbers--flex">
               <h2>月平均残業時間</h2>
-              <div class="number">3.7<span class="unit">時間</span><span class="as_of">※2022年3月時点</span></div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers05.png" alt=""></figure>
+              <div class="number"><span class="count-up">3.7</span><span class="unit">時間</span><span class="as_of">※2022年3月時点</span></div>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers05.png" alt="月平均残業時間" width="195" height="195"></figure>
             </div>
           </div>
           <div class="p-about--numbers numbers06">
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>3年以内新卒離職率</h2>
-                <div class="number">0<span class="unit">%</span><span class="as_of">※2022年3月時点</span></div>
+                <div class="number"><span class="count-down">0</span><span class="unit">%</span><span class="as_of">※2022年3月時点</span></div>
               </div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers06.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers06.png" alt="3年以内新卒離職率" width="466" height="511"></figure>
             </div>
           </div>
           <div class="p-about--numbers numbers07">
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>有給取得率</h2>
-                <div class="number">14.3<span class="unit">日</span><span class="as_of">※2022年3月時点</span></div>
+                <div class="number"><span class="count-up">14.3</span><span class="unit">日</span><span class="as_of">※2022年3月時点</span></div>
               </div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers07.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers07.png" alt="有給取得率" width="228" height="252"></figure>
             </div>
           </div>
           <div class="p-about--numbers numbers08">
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>育児休業復職率</h2>
-                <div class="number">100<span class="unit">%</span><span class="as_of">※2022年3月時点</span></div>
+                <div class="number"><span class="count-up">100</span><span class="unit">%</span><span class="as_of">※2022年3月時点</span></div>
               </div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers08.png" alt=""></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers08.png" alt="育児休業復職率" width="285" height="303"></figure>
             </div>
           </div>
         </section>
@@ -160,5 +160,147 @@ if (strstr($url, 'test/')) {
   include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/footer.php");
 }
 ?>
+<script>
+$(function() {
+  $('.numbers01').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers01 .count-up").each(function(){
+        $(this).prop('Counter',30).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1500,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+  $('.numbers02').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers02 .count-up").each(function(){
+        $(this).prop('Counter',65000).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1000,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+  $('.numbers02').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers02 .count-up2").each(function(){
+        $(this).prop('Counter',6000).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1000,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+  $('.numbers03').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers03 .count-up").each(function(){
+        $(this).prop('Counter',80).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1500,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+  $('.numbers04').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers04 .count-up").each(function(){
+        $(this).prop('Counter',80).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1500,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+  $('.numbers05').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers05 .count-up").each(function(){
+        $(this).prop('Counter',0).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1500,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+  $('.numbers06').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers06 .count-down").each(function(){
+        $(this).prop('Counter',30).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1000,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+  $('.numbers07').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers07 .count-up").each(function(){
+        $(this).prop('Counter',8).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1500,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+  $('.numbers08').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(".numbers08 .count-up").each(function(){
+        $(this).prop('Counter',50).animate({
+              Counter: $(this).text()
+          }, {
+              duration: 1500,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now));
+              }
+          });
+      });
+    }
+  });
+});
+</script>
+
+
+
 </body>
 </html>

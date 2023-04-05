@@ -38,7 +38,7 @@ if (strstr($url, 'test/')) {
 
   <div class="l-hero--people">
     <figure>
-      <img src="<?php echo $path; ?>assets/img/people/people04/main.png" alt="">
+      <img src="<?php echo $path; ?>assets/img/people/people04/main.png" alt="一ノ瀬 美波" width="993" height="1386">
       <figcaption>
         誠実に<br>
         お客様と向き合う<br>
@@ -57,7 +57,7 @@ if (strstr($url, 'test/')) {
         <h2 class="c-text--h2 --peopel2"><span>現在の仕事</span>育児と並行して、企業の経営を支援する</h2>
         <p>現在は育休を経て子育てをしながら、時間短縮勤務（9:30-16:30）で働いています。<br>
           主な業務は、金融機関から来る事前相談の回答、稟議書の作成、経営支援業務など。業況が厳しいお客様と今後どのように経営改善を図り、資金繰りを維持していくかを一緒に考えています。外部からの視点でアドバイスを行い、喜んでいただけたときは、多少でも力になれたのかなと嬉しく思います。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people04/pic_01.png" alt="">
+          <img src="<?php echo $path; ?>assets/img/people/people04/pic_01.png" alt="現在の仕事" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
@@ -65,7 +65,7 @@ if (strstr($url, 'test/')) {
         <p>「仕事に替わりはいても、ママに替わりはいない」という言葉</p>
         <p>二人目を出産後復帰したあと、夫が単身赴任でした。そのため、平日子供のことは基本私が行っており、保育園の呼び出しなどで急遽帰ることも頻繁にありました。そんなとき、「仕事に替わりはいても、ママに替わりはいないよ」と、課の人があたたかくフォローしてくれました。その支えがなければ、挫けていたと思います。<br>
           子育てしながら働くことに理解のある人が多く、仕事と育児を両立させやすい環境だと感じます。土日祝もカレンダー通り休めるので、正社員でも子供の成長をしっかり楽しむことができます。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people04/pic_02.png" alt="">
+          <img src="<?php echo $path; ?>assets/img/people/people04/pic_02.png" alt="協会の魅力" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
@@ -120,28 +120,28 @@ if (strstr($url, 'test/')) {
       <section class="p-people--intro p-people--intro--other">
         <a href="<?php echo $path; ?>/people/people01/" class="p-people--intro--div intro_01">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子">
+            <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子" width="659" height="765">
             <figcaption>明朗快活で<br>場を明るくする<br>期待の新人職員</figcaption>
           </figure>
           <h2>中島 菜々子<span>1年目 松本営業部業務第1課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people02/" class="p-people--intro--div intro_02 even">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹">
+            <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹" width="662" height="761">
             <figcaption>課題を<br>本質から解決する<br>気鋭の若手職員</figcaption>
           </figure>
           <h2>本田 朋樹<span>2年目 松本営業部業務第2課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people03/" class="p-people--intro--div intro_03">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博">
+            <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博" width="659" height="764">
             <figcaption>相手の話に<br>しっかり寄り添う<br>気さくな<br>広報担当職員</figcaption>
           </figure>
           <h2>浦野 章博<span>8年目 総務部企画情報課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people05/" class="p-people--intro--div intro_05 even">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥">
+            <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥" width="659" height="764">
             <figcaption>さりげない<br>気配りで<br>誰からも頼られる<br>ベテラン社員</figcaption>
           </figure>
           <h2>石坂 友弥<span>16年目 業務統括部業務課</span></h2>

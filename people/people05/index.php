@@ -38,7 +38,7 @@ if (strstr($url, 'test/')) {
 
   <div class="l-hero--people">
     <figure>
-      <img src="<?php echo $path; ?>assets/img/people/people05/main.png" alt="">
+      <img src="<?php echo $path; ?>assets/img/people/people05/main.png" alt="石坂 友弥" width="993" height="1386">
       <figcaption>
         さりげない<br>
         気配りで<br>
@@ -57,13 +57,13 @@ if (strstr($url, 'test/')) {
         <h2 class="c-text--h2 --peopel2"><span>現在の仕事</span>協会職員の業務を支えることで、その先のお客様を支える</h2>
         <p>協会の営業店職員を「支える」業務を行っています。具体的には、お客様からコピーをいただいた決算書をシステムに入力したり、関係人が亡くなった場合の相続人調査等を行ったりといった業務です。<br>
           協会は140人程度の小さい組織なので、職員ほぼ全員の顔と名前がわかります。お客様との接点がある営業店職員一人ひとりを支えることで、お客様を支えていると実感します。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people05/pic_01.png" alt="">
+          <img src="<?php echo $path; ?>assets/img/people/people05/pic_01.png" alt="現在の仕事" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
         <h2 class="c-text--h2 --peopel2"><span>協会の魅力</span>一人ひとりのやさしさ、支え合う風潮</h2>
         <p>私は男性職員として初めて育休を取得しましたが、取得前にも復帰後にも、多くのサポートをしてもらいました。同僚と個別に面談し、育休中の業務の割り振りを行ったり、総務課の担当者に何度も相談にのってもらったり。復帰するときもたくさんの職員に支えていただき、スムーズに仕事に戻ることができました。長く協会にいて、色々な部署での業務を経験しましたが、協会の人たちはみんな穏やかで、いい人にしか出会ったことがありません。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people05/pic_02.png" alt="">
+          <img src="<?php echo $path; ?>assets/img/people/people05/pic_02.png" alt="協会の魅力" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
@@ -110,28 +110,28 @@ if (strstr($url, 'test/')) {
       <section class="p-people--intro p-people--intro--other">
         <a href="<?php echo $path; ?>/people/people01/" class="p-people--intro--div intro_01">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子">
+            <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子" width="659" height="765">
             <figcaption>明朗快活で<br>場を明るくする<br>期待の新人職員</figcaption>
           </figure>
           <h2>中島 菜々子<span>1年目 松本営業部業務第1課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people02/" class="p-people--intro--div intro_02 even">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹">
+            <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹" width="662" height="761">
             <figcaption>課題を<br>本質から解決する<br>気鋭の若手職員</figcaption>
           </figure>
           <h2>本田 朋樹<span>2年目 松本営業部業務第2課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people03/" class="p-people--intro--div intro_03">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博">
+            <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博" width="659" height="764">
             <figcaption>相手の話に<br>しっかり寄り添う<br>気さくな<br>広報担当職員</figcaption>
           </figure>
           <h2>浦野 章博<span>8年目 総務部企画情報課</span></h2>
         </a>
         <a href="<?php echo $path; ?>/people/people04/" class="p-people--intro--div intro_04 even">
           <figure>
-            <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波">
+            <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波" width="659" height="765">
             <figcaption>誠実に<br>お客様と向き合う<br>優しい<br>ワーキングママ</figcaption>
           </figure>
           <h2>一ノ瀬 美波<span>14年目 本店営業部業務第2課</span></h2>

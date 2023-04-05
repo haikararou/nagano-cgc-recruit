@@ -58,32 +58,48 @@ p-zadankai
     background: url(../img/people/zadankai/bg2.png) repeat 0 50%;
     background-size: 540px;
     position: relative;
-    // span {
-    //   position: relative;
+    &::before {
+      content: "Q1";
+      @include inc.sizingRem(font-size, wide, 28px, sp, 18px);
+      font-weight: 700;
+      color: inc.$color-blu;
+      position: absolute;
+      top: 0%;
+      left: 0;
+      @include inc.sizing(margin-top, wide, 35px, sp, 16px);
+      @include inc.sizing(margin-left, wide, 48px, sp, 20px);
+      font-family: 'Hind', sans-serif;
+    }
+    &.--q-title02 {
       &::before {
-        content: "Q1";
-        @include inc.sizingRem(font-size, wide, 28px, sp, 18px);
-        font-weight: 700;
-        color: inc.$color-blu;
-        position: absolute;
-        top: 0%;
-        left: 0;
-        //left: 5.5%;
-        @include inc.sizing(margin-top, wide, 35px, sp, 16px);
-        @include inc.sizing(margin-left, wide, 48px, sp, 20px);
-        font-family: 'Hind', sans-serif;
+        content: "Q2";
       }
-      &.--q-title02 {
-        &::before {
-          content: "Q2";
-        }
+    }
+    &.--q-title03 {
+      &::before {
+        content: "Q3";
       }
-      &.--q-title03 {
-        &::before {
-          content: "Q3";
-        }
+    }
+    &.--q-title04 {
+      &::before {
+        content: "Q4";
       }
-    // }
+    }
+    &.--q-title04 {
+      &::before {
+        content: "Q5";
+      }
+    }
+    &.--q-title06 {
+      &::before {
+        content: "Q6";
+      }
+    }
+    &.--q-title07 {
+      &::before {
+        content: "Q7";
+      }
+    }
   }
   &--dl {
     @include inc.sizing(margin-top, wide, 32px, sp, 24px);

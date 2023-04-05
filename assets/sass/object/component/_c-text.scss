@@ -20,6 +20,7 @@ c-text
       color: inc.$color-blu2;
       display: block;
       line-height: 1;
+      font-family: 'Hind', sans-serif;
     }
     &.--peopel {
       @include inc.sizing(margin-bottom, wide, 32px, sp, 16px);
@@ -78,101 +79,25 @@ c-text
     font-weight: 700;
   }
 
-  // &--border-h2 {
-  //   padding-bottom: 20px;
-  //   border-bottom: 1px solid inc.$color-light-blu;
-  // }
-  // @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
-  // @include inc.sizing(line-height, wide, 32px, sp, 24px);
-  // font-weight: 400;
-  // &--bold {
-  //   font-weight: 700;
-  //   margin-bottom: 1em;
-  // }
-  // &--category {
-  //   @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
-  //   font-weight: 400;
-  //   margin-bottom: 4px;
-  // }
-  // &--news-date {
-  //   @include inc.sizingRem(font-size, wide, 13px, sp, 10px);
-  //   @include inc.sizing(line-height, wide, 24px, sp, 21px);
-  //   font-weight: 400;
-  // }
-  // 
-  // &--h1-member {
-  //   @include inc.sizingRem(font-size, wide, 50px, sp, 22px);
-  //   font-weight: 400;
-  // }
-  // &--h1-left {
-  //   margin-left: -3%;
-  //   @include inc.mq(lap) {
-  //     margin-left: -12%;
-  //   }
-  // }
-  // &--h1-news {
-  //   @include inc.sizingRem(font-size, wide, 30px, sp, 20px);
-  //   @include inc.sizing(margin-bottom, wide, 41px, sp, 20px);
-  //   font-weight: 700;
-  // }
-  // &--h2 {
-  //   @include inc.sizingRem(font-size, wide, 30px, sp, 16px);
-  //   @include inc.sizing(line-height, wide, 44px, sp, 24px);
-  //   @include inc.sizing(margin-bottom, wide, 26px, sp, 15px);
-  //   font-weight: bold;
-  // }
-  // &--h2-member {
-  //   @include inc.sizingRem(font-size, wide, 35px, sp, 20px);
-  //   @include inc.sizing(line-height, wide, 57px, sp, 35px);
-  //   @include inc.sizing(margin-bottom, wide, 34px, sp, 20px);
-  //   font-weight: bold;
-  // }
-  // &--border-h2 {
-  //   @include inc.sizingRem(font-size, wide, 30px, sp, 16px);
-  //   @include inc.sizing(line-height, wide, 44px, sp, 24px);
-  //   padding-bottom: 20px;
-  //   border-bottom: 1px solid inc.$color-blu;
-  // }
-  // &--h3 {
-  //   @include inc.sizingRem(font-size, wide, 20px, sp, 14px);
-  //   @include inc.sizing(line-height, wide, 29px, sp, 20px);
-  //   @include inc.sizing(margin-bottom, wide, 22px, sp, 13px);
-  //   padding-bottom: 7px;
-  //   border-bottom: 1px solid inc.$color-blu;
-  // }
-  // &--normal-h3 {
-  //   @include inc.sizingRem(font-size, wide, 20px, sp, 14px);
-  //   @include inc.sizing(line-height, wide, 29px, sp, 20px);
-  // }
-  // &--philosophy {
-  //   margin-top: 30px;
-  //   font-family: "Shippori Mincho", serif;
-  //   @include inc.sizingRem(font-size, wide, 25px, sp, 15px);
-  //   @include inc.sizing(line-height, wide, 50px, sp, 30px);
-  //   margin-bottom: 0 !important;
-  // }
-  // &--margin-bottom {
-  //   margin-bottom: 3em !important;
-  // }
-  // &--support-lead {
-  //   @include inc.sizingRem(font-size, wide, 25px, sp, 15px);
-  //   @include inc.sizing(line-height, wide, 50px, sp, 30px);
-  //   margin-bottom: 0.8em;
-  //   font-weight: 400;
-  // }
-  // &--white {
-  //   color: inc.$color-wht;
-  // }
-  // &--dt {
-  //   @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
-  //   @include inc.sizing(line-height, wide, 32px, sp, 24px);
-  //   font-weight: 700;
-  //   margin-bottom: 0.4em;
-  // }
-  // &--dd {
-  //   @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
-  //   @include inc.sizing(line-height, wide, 32px, sp, 24px);
-  //   font-weight: 400;
-  //   margin-bottom: 1.6em;
-  // }
+}
+
+.people02 {
+  .c-text--h2.--peopel2 span {
+    color: inc.$color-grn2;
+  }
+}
+.people03 {
+  .c-text--h2.--peopel2 span {
+    color: inc.$color-blu2;
+  }
+}
+.people04 {
+  .c-text--h2.--peopel2 span {
+    color: inc.$color-blu3;
+  }
+}
+.people05 {
+  .c-text--h2.--peopel2 span {
+    color: inc.$color-blu4;
+  }
 }
