@@ -56,7 +56,7 @@ if (strstr($url, 'test/')) {
             </figure>
             <h2>中島 菜々子<span>1年目 松本営業部業務第1課</span></h2>
           </a>
-          <a href="./people02/" class="p-people--intro--div intro_02">
+          <a href="./people02/" class="p-people--intro--div intro_02 even">
             <figure>
               <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹">
               <figcaption>課題を<br>本質から解決する<br>気鋭の若手職員</figcaption>
@@ -70,7 +70,7 @@ if (strstr($url, 'test/')) {
             </figure>
             <h2>浦野 章博<span>8年目 総務部企画情報課</span></h2>
           </a>
-          <a href="./people04/" class="p-people--intro--div intro_04">
+          <a href="./people04/" class="p-people--intro--div intro_04 even">
             <figure>
               <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波">
               <figcaption>誠実に<br>お客様と向き合う<br>優しい<br>ワーキングママ</figcaption>
@@ -86,7 +86,7 @@ if (strstr($url, 'test/')) {
           </a>
         </section>
       </div>
-      <div class="p-text-box" id="anchor--02">
+      <div class="p-text-box intro_06" id="anchor--02">
         <div class="p-people--bnr">
           <h2 class="p-people--bnr--title"><img src="<?php echo $path; ?>assets/img/people/zadankai_title.svg" alt="長野県信用保証協会職員 座談会"></h2>
           <p class="p-people--bnr--text">それぞれの色を持った職員が、年齢、性別、キャリアの垣根を超えて、<br>
@@ -107,5 +107,46 @@ if (strstr($url, 'test/')) {
   include($_SERVER['DOCUMENT_ROOT'] . "/recruit/assets/inc/footer.php");
 }
 ?>
+
+<script>
+$(function() {
+  $('.intro_02').on('inview', function(event, isInView){
+    if (isInView) {
+      $('.intro_01 figure').addClass('on');
+    }else{
+      $('.intro_01 figure').removeClass('on');
+    }
+  });
+  $('.intro_03').on('inview', function(event, isInView){
+    if (isInView) {
+      $('.intro_02 figure').addClass('on');
+    }else{
+      $('.intro_02 figure').removeClass('on');
+    }
+  });
+  $('.intro_04').on('inview', function(event, isInView){
+    if (isInView) {
+      $('.intro_03 figure').addClass('on');
+    }else{
+      $('.intro_03 figure').removeClass('on');
+    }
+  });
+  $('.intro_05').on('inview', function(event, isInView){
+    if (isInView) {
+      $('.intro_04 figure').addClass('on');
+    }else{
+      $('.intro_04 figure').removeClass('on');
+    }
+  });
+  $('.intro_06').on('inview', function(event, isInView){
+    if (isInView) {
+      $('.intro_05 figure').addClass('on');
+    }else{
+      $('.intro_05 figure').removeClass('on');
+    }
+  });
+});
+</script>
+
 </body>
 </html>

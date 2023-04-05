@@ -103,7 +103,7 @@ p-header
       display:flex;
       flex-direction:column;
       justify-content:center;
-      color:inc.$color-blu2;
+      color:inc.$color-blu;
       @include inc.sizingRem(font-size, wide, 16px, sp, 16px);
       font-weight: 700;
       &::after {

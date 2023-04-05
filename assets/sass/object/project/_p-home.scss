@@ -399,13 +399,13 @@ p-home
   margin: 0 24px;
   @include inc.mq(tabs) {
     width: 307px;
-    height:343px;
+    height: 343px;
     margin: 0 32px;
   }
 }
 
 .sample-slider{
-  width:100%;
+  width: 100%;
   overflow: hidden;
   padding: 0 0 24px!important;
   @include inc.mq(tabs) {
@@ -421,10 +421,11 @@ p-home
   transform:rotate(-45deg);
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 100%;
+  left: 0%;
+  width: 200%;
   @include inc.mq(tabs) {
-    left: 20%;
+    width: 120%;
+    left: 15%;
   }
 }
 .slider-main .swiper-wrapper{

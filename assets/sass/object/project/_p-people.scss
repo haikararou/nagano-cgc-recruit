@@ -32,14 +32,12 @@ p-people
         width: 100%;
         padding-left: 0;
         padding-right: 30%;
+        img {
+          transition: .5s;
+        }
         @include inc.mq(tabs) {
           width: 100%;
           padding-right:0;
-          // background: url(../img/people/people01B.png) no-repeat 50% 50%;
-          // background-size: contain;
-          img {
-            transition: .5s;
-          }
         }
         figcaption {
           @include inc.sizing(width, wide, 160px, sp, 134px);
@@ -67,9 +65,19 @@ p-people
             right: -50px;
           }
         }
-        &:hover {
+        &.on {
           img {
             opacity: 0;
+            @include inc.mq(tabs) {
+              opacity: 1;
+            }
+          }
+        }
+        &:hover {
+          @include inc.mq(tabs) {
+            img {
+              opacity: 0;
+            }
           }
         }
       }
@@ -77,8 +85,6 @@ p-people
         width: 40%;
         text-align: center;
         position: absolute;
-        // bottom: 32px;
-        // right: 0;
         bottom: 6px;
         right: -10px;
         text-align: center;
@@ -95,7 +101,7 @@ p-people
           width: 100%;
         }
       }
-      &:nth-child(even){
+      &.even {
         figure {
           padding-right: 0;
           padding-left: 30%;
@@ -121,8 +127,6 @@ p-people
         }
         h2 {
           right: auto;
-          // bottom: 32px;
-          // left: 0;
           bottom: 6px;
           left: -10px;
           @include inc.mq(tabs) {
@@ -160,17 +164,19 @@ p-people
     }
     &--div.intro_01 {
       figure {
+        background: url(../img/people/people01B.png) no-repeat 0% 50%;
+        background-size: contain;
         @include inc.mq(tabs) {
-          background: url(../img/people/people01B.png) no-repeat 50% 50%;
-          background-size: contain;
+          background-position: 50% 50%;
         }
       }
     }
     &--div.intro_02 {
       figure {
+        background: url(../img/people/people02B.png) no-repeat 0% 50%;
+        background-size: contain;
         @include inc.mq(tabs) {
-          background: url(../img/people/people02B.png) no-repeat 50% 50%;
-          background-size: contain;
+          background-position: 50% 50%;
         }
         figcaption {
           background: inc.$color-grn2;
@@ -179,9 +185,10 @@ p-people
     }
     &--div.intro_03 {
       figure {
+        background: url(../img/people/people03B.png) no-repeat 0% 50%;
+        background-size: contain;
         @include inc.mq(tabs) {
-          background: url(../img/people/people03B.png) no-repeat 50% 50%;
-          background-size: contain;
+          background-position: 50% 50%;
         }
         figcaption {
           background: inc.$color-blu2;
@@ -190,9 +197,10 @@ p-people
     }
     &--div.intro_04 {
       figure {
+        background: url(../img/people/people04B.png) no-repeat 0% 50%;
+        background-size: contain;
         @include inc.mq(tabs) {
-          background: url(../img/people/people04B.png) no-repeat 50% 50%;
-          background-size: contain;
+          background-position: 50% 50%;
         }
         figcaption {
           background: inc.$color-blu3;
@@ -201,13 +209,22 @@ p-people
     }
     &--div.intro_05 {
       figure {
+        background: url(../img/people/people05B.png) no-repeat 0% 50%;
+        background-size: contain;
         @include inc.mq(tabs) {
-          background: url(../img/people/people05B.png) no-repeat 50% 50%;
-          background-size: contain;
+          background-position: 50% 50%;
         }
         figcaption {
           background: inc.$color-blu4;
         }
+      }
+    }
+    &--div.even {
+      figure {
+        background-position: 100% 50%;
+      @include inc.mq(tabs) {
+        background-position: 50% 50%;
+      }
       }
     }
 
@@ -217,15 +234,6 @@ p-people
         padding-right: 2rem;
       }
       .p-people--intro--div {
-        @include inc.mq(spl) {
-          //width: 80%;
-        }
-        @include inc.mq(tabs) {
-          // width: 20%;
-          // padding: 0;
-          // padding-right: 3rem;
-          // margin: 0;
-        }
         @include inc.mq(tab) {
           width: 20%;
           padding: 0;
@@ -280,7 +288,10 @@ p-people
   &--schedule {
     background: inc.$color-grn3;
     border-radius: 15px;
-    padding: 52px 72px;
+    padding: 32px 32px;
+    @include inc.mq(spl) {
+      padding: 52px 72px;
+    }
     dl {
       @include inc.mq(tab) {
         column-count: 2;
@@ -306,6 +317,10 @@ p-people
         dd {
           padding: 10px 0;
           position: relative;
+          width: calc(100% - 6rem);
+          @include inc.mq(spl) {
+            width: auto;
+          }
           &::before {
             content: "";
             width: 1px;

@@ -795,7 +795,7 @@ p-footer
   }
 }
 .p-footer__banner-list-item span {
-  color: #008BBA;
+  color: #1B6EC3;
   font-weight: 700;
   width: 100%;
   height: 100%;
@@ -1212,7 +1212,7 @@ p-header
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #008BBA;
+  color: #1B6EC3;
   font-size: clamp(1rem, 0vw + 1rem, 1rem);
   font-weight: 700;
 }
@@ -2821,12 +2821,13 @@ p-home
           transform: rotate(-45deg);
   position: absolute;
   top: 0;
-  left: 50%;
-  width: 100%;
+  left: 0%;
+  width: 200%;
 }
 @media screen and (min-width: 768px) {
   .slider-main {
-    left: 20%;
+    width: 120%;
+    left: 15%;
   }
 }
 
@@ -3776,14 +3777,14 @@ p-people
   padding-left: 0;
   padding-right: 30%;
 }
+.p-people--intro--div figure img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 @media screen and (min-width: 768px) {
   .p-people--intro--div figure {
     width: 100%;
     padding-right: 0;
-  }
-  .p-people--intro--div figure img {
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
   }
 }
 .p-people--intro--div figure figcaption {
@@ -3819,8 +3820,18 @@ p-people
     right: -50px;
   }
 }
-.p-people--intro--div figure:hover img {
+.p-people--intro--div figure.on img {
   opacity: 0;
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div figure.on img {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div figure:hover img {
+    opacity: 0;
+  }
 }
 .p-people--intro--div h2 {
   width: 40%;
@@ -3844,21 +3855,21 @@ p-people
     width: 100%;
   }
 }
-.p-people--intro--div:nth-child(even) figure {
+.p-people--intro--div.even figure {
   padding-right: 0;
   padding-left: 30%;
 }
 @media screen and (min-width: 768px) {
-  .p-people--intro--div:nth-child(even) figure {
+  .p-people--intro--div.even figure {
     padding-right: 0;
     padding-left: 0;
   }
 }
-.p-people--intro--div:nth-child(even) figure figcaption {
+.p-people--intro--div.even figure figcaption {
   left: calc(50% - 172px);
 }
 @media screen and (min-width: 540px) {
-  .p-people--intro--div:nth-child(even) figure figcaption {
+  .p-people--intro--div.even figure figcaption {
     top: 24px;
     bottom: auto;
     right: auto;
@@ -3866,20 +3877,20 @@ p-people
   }
 }
 @media screen and (min-width: 768px) {
-  .p-people--intro--div:nth-child(even) figure figcaption {
+  .p-people--intro--div.even figure figcaption {
     top: auto;
     bottom: -12px;
     right: -50px;
     left: auto;
   }
 }
-.p-people--intro--div:nth-child(even) h2 {
+.p-people--intro--div.even h2 {
   right: auto;
   bottom: 6px;
   left: -10px;
 }
 @media screen and (min-width: 768px) {
-  .p-people--intro--div:nth-child(even) h2 {
+  .p-people--intro--div.even h2 {
     bottom: 32px;
     right: 0;
     left: auto;
@@ -3914,47 +3925,70 @@ p-people
     font-size: clamp(0.625rem, 0.5vw + 0.3875rem, 0.875rem);
   }
 }
+.p-people--intro--div.intro_01 figure {
+  background: url(../img/people/people01B.png) no-repeat 0% 50%;
+  background-size: contain;
+}
 @media screen and (min-width: 768px) {
   .p-people--intro--div.intro_01 figure {
-    background: url(../img/people/people01B.png) no-repeat 50% 50%;
-    background-size: contain;
+    background-position: 50% 50%;
   }
+}
+.p-people--intro--div.intro_02 figure {
+  background: url(../img/people/people02B.png) no-repeat 0% 50%;
+  background-size: contain;
 }
 @media screen and (min-width: 768px) {
   .p-people--intro--div.intro_02 figure {
-    background: url(../img/people/people02B.png) no-repeat 50% 50%;
-    background-size: contain;
+    background-position: 50% 50%;
   }
 }
 .p-people--intro--div.intro_02 figure figcaption {
   background: #009AB5;
 }
+.p-people--intro--div.intro_03 figure {
+  background: url(../img/people/people03B.png) no-repeat 0% 50%;
+  background-size: contain;
+}
 @media screen and (min-width: 768px) {
   .p-people--intro--div.intro_03 figure {
-    background: url(../img/people/people03B.png) no-repeat 50% 50%;
-    background-size: contain;
+    background-position: 50% 50%;
   }
 }
 .p-people--intro--div.intro_03 figure figcaption {
   background: #008BBA;
 }
+.p-people--intro--div.intro_04 figure {
+  background: url(../img/people/people04B.png) no-repeat 0% 50%;
+  background-size: contain;
+}
 @media screen and (min-width: 768px) {
   .p-people--intro--div.intro_04 figure {
-    background: url(../img/people/people04B.png) no-repeat 50% 50%;
-    background-size: contain;
+    background-position: 50% 50%;
   }
 }
 .p-people--intro--div.intro_04 figure figcaption {
   background: #0075BC;
 }
+.p-people--intro--div.intro_05 figure {
+  background: url(../img/people/people05B.png) no-repeat 0% 50%;
+  background-size: contain;
+}
 @media screen and (min-width: 768px) {
   .p-people--intro--div.intro_05 figure {
-    background: url(../img/people/people05B.png) no-repeat 50% 50%;
-    background-size: contain;
+    background-position: 50% 50%;
   }
 }
 .p-people--intro--div.intro_05 figure figcaption {
   background: #0F68B2;
+}
+.p-people--intro--div.even figure {
+  background-position: 100% 50%;
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div.even figure {
+    background-position: 50% 50%;
+  }
 }
 .p-people--intro--other {
   gap: 2rem 1rem;
@@ -4020,7 +4054,12 @@ p-people
 .p-people--schedule {
   background: #ebf6f9;
   border-radius: 15px;
-  padding: 52px 72px;
+  padding: 32px 32px;
+}
+@media screen and (min-width: 540px) {
+  .p-people--schedule {
+    padding: 52px 72px;
+  }
 }
 @media screen and (min-width: 900px) {
   .p-people--schedule dl {
@@ -4053,6 +4092,12 @@ p-people
 .p-people--schedule dl div dd {
   padding: 10px 0;
   position: relative;
+  width: calc(100% - 6rem);
+}
+@media screen and (min-width: 540px) {
+  .p-people--schedule dl div dd {
+    width: auto;
+  }
 }
 .p-people--schedule dl div dd::before {
   content: "";
