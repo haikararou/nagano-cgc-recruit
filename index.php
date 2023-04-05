@@ -157,7 +157,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="創業者支援" width="148" height="254">
+                <img src="./assets/img/top/case_01.png" art="創業者支援">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -173,7 +173,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援" width="177" height="260">
+                <img src="./assets/img/top/case_02.png" art="事業継承支援">
                 <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
@@ -189,7 +189,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="創業者支援" width="148" height="254">
+                <img src="./assets/img/top/case_01.png" art="創業者支援">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -205,7 +205,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援" width="177" height="260">
+                <img src="./assets/img/top/case_02.png" art="事業継承支援">
                 <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
@@ -221,7 +221,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="創業者支援" width="148" height="254">
+                <img src="./assets/img/top/case_01.png" art="創業者支援">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -237,7 +237,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援" width="177" height="260">
+                <img src="./assets/img/top/case_02.png" art="事業継承支援">
                 <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
@@ -253,7 +253,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="創業者支援" width="148" height="254">
+                <img src="./assets/img/top/case_01.png" art="創業者支援">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -269,7 +269,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援" width="177" height="260">
+                <img src="./assets/img/top/case_02.png" art="事業継承支援">
                 <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
