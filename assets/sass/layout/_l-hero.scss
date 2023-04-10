@@ -56,7 +56,7 @@ l-hero
             transform: translateX(-160%);
             margin: auto;
             @include inc.mq(tab) {
-                left: 50%;
+                left: 53%;
                 transform: translateX(40%);
             }
         }
@@ -70,7 +70,7 @@ l-hero
             width: auto;
             @include inc.sizing(height, wide, 682px, sp, 248px);
             @include inc.mq(tab) {
-                left: 50%;
+                left: 53%;
                 transform: translateX(-80%);
             }
         }

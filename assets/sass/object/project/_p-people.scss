@@ -95,6 +95,15 @@ p-people
           @include inc.sizing(margin-top, wide, 12px, sp, 6px);
           font-weight: 500;
           @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
+          em {
+            font-weight: 500;
+            padding-right: 0px;
+            display: block;
+            @include inc.mq(tabs) {
+              padding-right: 6px;
+              display: inline-block;
+            }
+          }
         }
         @include inc.mq(tabs) {
           position: static;

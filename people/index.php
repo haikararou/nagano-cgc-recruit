@@ -38,8 +38,8 @@ if (strstr($url, 'test/')) {
         <h1 class="c-text--h1"><span>PEOPLE</span>人を知る</h1>
         <nav class="l-nav">
           <ul>
-            <li><a href="#anchor--01">職員紹介</a></li>
-            <li><a href="#anchor--02">座談会</a></li>
+            <li><a href="#anchor--01" class="a-effect">職員紹介</a></li>
+            <li><a href="#anchor--02" class="a-effect">座談会</a></li>
           </ul>
         </nav>
       </div>
@@ -54,35 +54,35 @@ if (strstr($url, 'test/')) {
               <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子" width="659" height="765">
               <figcaption>明朗快活で<br>場を明るくする<br>期待の新人職員</figcaption>
             </figure>
-            <h2>中島 菜々子<span>1年目 松本営業部業務第1課</span></h2>
+            <h2>中島 菜々子<span><em>1年目</em>松本営業部業務第1課</span></h2>
           </a>
           <a href="./people02/" class="p-people--intro--div intro_02 even">
             <figure>
               <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹" width="662" height="761">
               <figcaption>課題を<br>本質から解決する<br>気鋭の若手職員</figcaption>
             </figure>
-            <h2>本田 朋樹<span>2年目 松本営業部業務第2課</span></h2>
+            <h2>本田 朋樹<span><em>2年目</em>松本営業部業務第2課</span></h2>
           </a>
           <a href="./people03/" class="p-people--intro--div intro_03">
             <figure>
               <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博" width="659" height="764">
               <figcaption>相手の話に<br>しっかり寄り添う<br>気さくな<br>広報担当職員</figcaption>
             </figure>
-            <h2>浦野 章博<span>8年目 総務部企画情報課</span></h2>
+            <h2>浦野 章博<span><em>8年目</em>総務部企画情報課</span></h2>
           </a>
           <a href="./people04/" class="p-people--intro--div intro_04 even">
             <figure>
               <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波" width="659" height="765">
               <figcaption>誠実に<br>お客様と向き合う<br>優しい<br>ワーキングママ</figcaption>
             </figure>
-            <h2>一ノ瀬 美波<span>14年目 本店営業部業務第2課</span></h2>
+            <h2>一ノ瀬 美波<span><em>14年目</em>本店営業部業務第2課</span></h2>
           </a>
           <a href="./people05/" class="p-people--intro--div intro_05">
             <figure>
               <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥" width="659" height="764">
               <figcaption>さりげない<br>気配りで<br>誰からも頼られる<br>ベテラン社員</figcaption>
             </figure>
-            <h2>石坂 友弥<span>16年目 業務統括部業務課</span></h2>
+            <h2>石坂 友弥<span><em>16年目</em>業務統括部業務課</span></h2>
           </a>
         </section>
       </div>

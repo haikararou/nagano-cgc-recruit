@@ -60,7 +60,7 @@ if (strstr($url, 'test/')) {
   <section class="p-home--about--outer">
     <div class="l-wrapper3">
       <div class="p-home--about">
-        <h2><span>ABOUT US</span>「公的な保証人」として、<br>長野県の中小企業を<br>支えています</h2>
+        <h2><span>ABOUT US</span><em class="bracketsL">「</em>公的な保証人<em class="bracketsR">」</em>として、<br>長野県の中小企業を<br>支えています</h2>
         <p>信用保証協会は、法律に基づいて設立された公的機関です。協会の立ち位置やお客様にとっての存在意義について、ご説明します。</p>
       </div>
       <a class="c-arrow wht" href="./about"><span>もっと見る</span></a>
@@ -92,35 +92,35 @@ if (strstr($url, 'test/')) {
             <img src="<?php echo $path; ?>assets/img/people/people01A.png" alt="中島 菜々子" width="659" height="765">
             <figcaption>明朗快活で<br>場を明るくする<br>期待の新人職員</figcaption>
           </figure>
-          <h2>中島 菜々子<span>1年目 松本営業部業務第1課</span></h2>
+          <h2>中島 菜々子<span><em>1年目</em>松本営業部業務第1課</span></h2>
         </a>
         <a href="./people/people02/" class="p-people--intro--div home intro_02 even">
           <figure>
             <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹" width="662" height="761">
             <figcaption>課題を<br>本質から解決する<br>気鋭の若手職員</figcaption>
           </figure>
-          <h2>本田 朋樹<span>2年目 松本営業部業務第2課</span></h2>
+          <h2>本田 朋樹<span><em>2年目</em>松本営業部業務第2課</span></h2>
         </a>
         <a href="./people/people03/" class="p-people--intro--div home intro_03">
           <figure>
             <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博" width="659" height="764">
             <figcaption>相手の話に<br>しっかり寄り添う<br>気さくな<br>広報担当職員</figcaption>
           </figure>
-          <h2>浦野 章博<span>8年目 総務部企画情報課</span></h2>
+          <h2>浦野 章博<span><em>8年目</em>総務部企画情報課</span></h2>
         </a>
         <a href="./people/people04/" class="p-people--intro--div home intro_04 even">
           <figure>
             <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波" width="659" height="765">
             <figcaption>誠実に<br>お客様と向き合う<br>優しい<br>ワーキングママ</figcaption>
           </figure>
-          <h2>一ノ瀬 美波<span>14年目 本店営業部業務第2課</span></h2>
+          <h2>一ノ瀬 美波<span><em>14年目</em>本店営業部業務第2課</span></h2>
         </a>
         <a href="./people/people05/" class="p-people--intro--div home intro_05">
           <figure>
             <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥" width="659" height="764">
             <figcaption>さりげない<br>気配りで<br>誰からも頼られる<br>ベテラン社員</figcaption>
           </figure>
-          <h2>石坂 友弥<span>16年目 業務統括部業務課</span></h2>
+          <h2>石坂 友弥<span><em>16年目</em>業務統括部業務課</span></h2>
         </a>
       </section>
     </section>
@@ -149,7 +149,7 @@ if (strstr($url, 'test/')) {
       <div class="swiper-wrapper">
 
         <div class="swiper-slide">
-          <div class="card csize">
+          <a href="./case/#case01" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
               <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
@@ -161,119 +161,119 @@ if (strstr($url, 'test/')) {
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="swiper-slide">
-          <div class="card csize">
+          <a href="./case/#case02" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
-              <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
-            </div>
-            <div id="ura" class="fuda csize">
-              <h2>事業継承支援</h2>
-              <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援">
-                <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-
-        <div class="swiper-slide">
-          <div class="card csize">
-            <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
-              <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
+              <p>新規客が少なく、資金繰りが厳しかったお客様。金融機関と連携して経営改善計画を策定し、顧客獲得に向け新メニューを開発しました。</p>
             </div>
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="創業者支援">
-                <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
+                <img src="./assets/img/top/case_02.png" art="事業継承支援">
+                <figcaption>個性派メニューの<br>欧風料理店</figcaption>
               </figure>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="swiper-slide">
-          <div class="card csize">
+          <a href="./case/#case03" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
-              <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
+              <p>近年の売上は減少傾向。事業継承を控えつつ、時期や方法も不明確だったお客様。現状の課題を洗い出し、事業継承の筋道を立てました。</p>
             </div>
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援">
-                <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
+                <img src="./assets/img/top/case_03.png" art="創業者支援">
+                <figcaption>地域密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="swiper-slide">
-          <div class="card csize">
+          <a href="./case/#case04" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
-              <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
+              <p>人気店でありながら、低価格な設定のため収益は厳しい状況。店舗移転のタイミングで、事業継続に向け経営改善を図りました。</p>
             </div>
             <div id="ura" class="fuda csize">
-              <h2>創業者支援</h2>
+              <h2>経営改善支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="創業者支援">
-                <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
+                <img src="./assets/img/top/case_04.png" art="事業継承支援">
+                <figcaption>個人経営の<br>ステーキ店</figcaption>
               </figure>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="swiper-slide">
-          <div class="card csize">
+          <a  href="./case/#case05" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
-              <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
+              <p>資金繰りに窮していたお客様。経営戦略を練り直し、環境を整えるための資金を保証協力。徐々に、社長の表情が明るくなっていきました。</p>
             </div>
             <div id="ura" class="fuda csize">
-              <h2>事業継承支援</h2>
+              <h2>経営改善支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援">
-                <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
+                <img src="./assets/img/top/case_05.png" art="創業者支援">
+                <figcaption>木製建具・家具<br>製造業者</figcaption>
               </figure>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="swiper-slide">
-          <div class="card csize">
+          <a  href="./case/#case06" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
-              <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
+              <p>債務が過大で、将来に向けた設備投資が困難だったお客様。原価管理の基本的な考え方や今後の方向性について、専門家の指導を受けました。</p>
             </div>
             <div id="ura" class="fuda csize">
-              <h2>創業者支援</h2>
+              <h2>課題解決支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="創業者支援">
-                <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
+                <img src="./assets/img/top/case_06.png" art="事業継承支援">
+                <figcaption>自動車部品中心の<br>塗装業者</figcaption>
               </figure>
             </div>
-          </div>
+          </a>
         </div>
 
         <div class="swiper-slide">
-          <div class="card csize">
+          <a href="./case/#case07" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
-              <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
+              <p>社内でハラスメント行為が発生。再発防止のために就業規則の見直しを行い、優秀な従業員を確保するために必要な労働環境を整備しました。</p>
             </div>
             <div id="ura" class="fuda csize">
-              <h2>事業継承支援</h2>
+              <h2>課題解決支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援">
-                <figcaption>地元密着型の<br>眼鏡・補聴器店</figcaption>
+                <img src="./assets/img/top/case_07.png" art="創業者支援">
+                <figcaption>業歴50年の<br>プリント基板製造業者</figcaption>
               </figure>
             </div>
-          </div>
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="./case/#case08" class="card csize">
+            <div id="omote" class="fuda csize">
+              <h2>支援事例</h2>
+              <p>先代の借入金が多額のため更新投資ができず、集客力が大きく低下。過剰な債務の解消、販売チャネルの見直しにより、事業存続を支援しました。</p>
+            </div>
+            <div id="ura" class="fuda csize">
+              <h2>事業再生支援</h2>
+              <figure>
+                <img src="./assets/img/top/case_08.png" art="事業継承支援">
+                <figcaption>地域を代表する<br>老舗温泉旅館</figcaption>
+              </figure>
+            </div>
+          </a>
         </div>
 
       </div>
@@ -289,7 +289,7 @@ if (strstr($url, 'test/')) {
       </figure>
       <div>
         <h2><span>ENVIRONMENT</span>働く環境</h2>
-        <p>充実した福利厚生や、職員同士助け合う空気。<br>協会には、安心して働ける「支え合い」の地盤があります。</p>
+        <p>充実した福利厚生や、職員同士助け合う空気。協会には、安心して働ける「支え合い」の地盤があります。</p>
         <a class="c-arrow left" href="./environment"><span>もっと見る</span></a>
       </div>
     </div>
@@ -315,7 +315,7 @@ const swiper = new Swiper('.sample-slider', {
   },
   breakpoints: {//ブレークポイント
     340: {
-      slidesPerView: 1.4,
+      slidesPerView: 1.6,
     },
     460: {
       slidesPerView: 1.6,

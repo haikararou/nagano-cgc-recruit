@@ -8,7 +8,7 @@ p-guideline
     & > div {
         display: flex;
         flex-wrap: wrap;
-        border-top: 1px solid inc.$color-light-blu;
+        border-top: 1px solid inc.$color-light-blu2;
         @include inc.sizing(padding-top, wide, 16px, sp, 16px);
         @include inc.sizing(padding-bottom, wide, 16px, sp, 16px);
       & > dt {

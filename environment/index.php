@@ -38,9 +38,9 @@ if (strstr($url, 'test/')) {
         <h1 class="c-text--h1"><span>ENVIRONMENT</span>働く環境</h1>
         <nav class="l-nav">
           <ul>
-            <li><a href="#anchor--01">福利厚生</a></li>
-            <li><a href="#anchor--02">研修制度</a></li>
-            <li><a href="#anchor--03">協会の様子</a></li>
+            <li><a href="#anchor--01" class="a-effect">福利厚生</a></li>
+            <li><a href="#anchor--02" class="a-effect">研修制度</a></li>
+            <li><a href="#anchor--03" class="a-effect">協会の様子</a></li>
           </ul>
         </nav>
       </div>
@@ -70,26 +70,26 @@ if (strstr($url, 'test/')) {
           </thead>
           <tbody class="p-table__body">
             <tr>
-              <th>1年目</th>
+              <th>１年目</th>
               <td>一般教養コース、<br>業務入門コース</td>
-              <td>新人職員研修、<br>ビジネスマナー、<br>電話対応、<br>決算書の見方</td>
-              <td>決算書の分析的、<br>見方・読み方コース、<br>はじめて学ぶ簿記コース</td>
+              <td>新人職員研修、<br>ビジネスマナー<br>電話対応、<br>決算書の見方</td>
+              <td>決算書の分析的<br>見方・読み方コース、<br>はじめて学ぶ簿記コース</td>
             </tr>
             <tr>
-              <th>2年目</th>
+              <th>２年目</th>
               <td>基本業務コース</td>
-              <td>初級職員研修、<br>若手社員、<br>ブラッシュアップ</td>
+              <td>初級職員研修、<br>若手社員<br>ブラッシュアップ</td>
               <td>融資実務基礎コース、<br>登記簿の<br>見方・調べ方コース</td>
             </tr>
             <tr>
-              <th>3年目</th>
+              <th>４年目</th>
               <td rowspan="2">能力開発コース、<br>企業審査入門コース 他</td>
               <td>基本法令コース、<br>信用調査コース 等</td>
               <td>民法・社法基礎講座</td>
             </tr>
             <tr>
-              <th>4年目<br>以降</th>
-              <td>OJTトレーナー研修、<br>CS研修（百貨店研修）、<br>外部団体等、<br>派遣研修・階層別研修</td>
+              <th>４年目以降</th>
+              <td>OJTトレーナー研修、<br>CS研修（百貨店研修）、<br>外部団体等<br>派遣研修・階層別研修</td>
               <td>指定の講座から<br>選択して受講 等</td>
             </tr>
           </tbody>

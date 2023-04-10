@@ -15,13 +15,6 @@ p-home
       bottom: 0;
       overflow: hidden;
       z-index: -1;
-      // img {
-      //   position: absolute;
-      //   top: 50%;
-      //   transform: translate(0%, -50%);
-      //   right: -120px;
-      //   width: 90%;
-      // }
     }
     &--outer {
       position: relative;
@@ -71,13 +64,70 @@ p-home
           @include inc.sizingRem(font-size, wide, 17px, sp, 16px);
         }
         &.-white {
-          background: url(../img/arw/blue_right.svg) no-repeat calc(100% - 2rem) 50% inc.$color-wht;
-          background-size: 15px;
+          // background: url(../img/arw/blue_right.svg) no-repeat calc(100% - 2rem) 50% inc.$color-wht;
+          // background-size: 15px;
+          background-color: inc.$color-wht;
           border: 1px solid inc.$color-blu;
+          position: relative;
+          -webkit-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out;
+          transition: background-color 0.3s linear;
+          &::after {
+            -webkit-transition: all 0.1s ease-out;
+            transition: all 0.1s ease-out;
+            content: "";
+            width: 15px;
+            height: 15px;
+            background: url(../img/arw/blue_right.svg) no-repeat 50% 50%;
+            background-size: contain;
+            display: block;
+            position: absolute;
+            right: 12%;
+            top: 50%;
+            transform: translate(0, -50%);
+          }
+          @media (hover: hover) {
+            &:hover {
+              background-color: inc.$color-blu;
+              span {
+                color: inc.$color-wht;
+              }
+              &::after {
+                right: 11.5%;
+              }
+            }
+          }
         }
         &.-yellow {
           margin-top: 12px;
-          background: url(../img/icon/blue_blank.svg) no-repeat calc(100% - 2rem) 53% inc.$color-yel;
+          //background: url(../img/icon/blue_blank.svg) no-repeat calc(100% - 2rem) 53% inc.$color-yel;
+          background-color: inc.$color-yel;
+          position: relative;
+          -webkit-transition: all 0.1s ease-out;
+          transition: all 0.1s ease-out;
+          transition: background-color 0.3s linear;
+          &::after {
+            -webkit-transition: all 0.1s ease-out;
+            transition: all 0.1s ease-out;
+            content: "";
+            width: 15px;
+            height: 15px;
+            background: url(../img/icon/blue_blank.svg) no-repeat 50% 50%;
+            background-size: contain;
+            display: block;
+            position: absolute;
+            right: 12%;
+            top: 50%;
+            transform: translate(0, -50%);
+          }
+          @media (hover: hover) {
+            &:hover {
+              background-color: inc.$color-light-yel;
+              &::after {
+                right: 11.5%;
+              }
+            }
+          }
         }
       }
       &.list01 {
@@ -92,9 +142,9 @@ p-home
   &--about {
     &--outer {
       @include inc.sizing(margin-bottom, wide, 112px, sp, 74px);
-      background: url(../img/top/hand_sp.png) no-repeat 105% 100% inc.$color-blu;
+      background: url(../img/top/hand_sp.png) no-repeat 90% 100% inc.$color-blu;
       background-size: contain;
-      background-size: 40%;
+      background-size: 320px;
       @include inc.sizing(padding-top, wide, 96px, sp, 64px);
       @include inc.sizing(padding-bottom, wide, 96px, sp, 64px);
       @include inc.mq(tab) {
@@ -128,6 +178,12 @@ p-home
         list-style: 1;
         display: block;
         font-family: 'Hind', sans-serif;
+      }
+      em.bracketsL {
+        margin-left: -20px;
+      }
+      em.bracketsR {
+        margin-right: -12px;
       }
     }
     p {
@@ -209,6 +265,7 @@ p-home
     background-size: cover;
     @include inc.mq(tabs) {
       background: url(../img/top/zadankai.png) no-repeat 50% 50%;
+      background-size: cover;
     }
     &--title {
       text-align: center;
@@ -253,6 +310,12 @@ p-home
         margin: 0 0 0rem;
         @include inc.mq(tabs) {
           margin: 0 0 .5rem;
+        }
+        br {
+          display: none;
+          @include inc.mq(tabs) {
+            display: block;
+          }
         }
       }
     }
@@ -333,7 +396,7 @@ p-home
       line-height: 1;
     }
     figure {
-      height: 80px;
+      height: 100px;
       @include inc.mq(tabs) {
         height: 126px;
       }
@@ -341,7 +404,7 @@ p-home
         height: 100%;
         display: block;
         margin: 0 auto;
-        @include inc.sizing(margin-bottom, wide, 32px, sp, 16px);
+        @include inc.sizing(margin-bottom, wide, 24px, sp, 10px);
       }
       figcaption {
         @include inc.sizingRem(font-size, wide, 22px, sp, 12px);
@@ -354,40 +417,25 @@ p-home
 }
 .fuda {
   display: inline-block;
-  transition: 1s;
+  //transition: .8s;
+  transition: all 0.5s ease-out;
   backface-visibility: hidden;
-  //border-radius: 15px;
   @include inc.mq(tabs) {
     position: absolute;
   }
 }
-// .csize {
-//   width: 260px;
-//   height: 400px;
-//   @include inc.mq(tabs) {
-//     width: 307px;
-//     height:343px;
-//   }
-// }
+
 @include inc.mq(tabs) {
   .card {
     display: block;
     position: relative;
     perspective: 500px;
-    // width: 307px;
-    // height:343px;
   }
   #omote {
     transform: rotateY(180deg);
-    // width: 307px;
-    // height:343px;
-    // border-radius: 15px;
   }
   #ura {
     transform: rotateY(0deg);
-    // width: 307px;
-    // height:343px;
-    // border-radius: 15px;
   }
   .card:hover #omote {
     transform: rotateY(0deg);

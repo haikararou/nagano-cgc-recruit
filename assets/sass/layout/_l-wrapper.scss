@@ -19,6 +19,14 @@ l-wrapper
     padding: 0 2rem;
   }
 }
+
+.l-footer .l-wrapper {
+  padding: 0 10%;
+  @include inc.mq(vr) {
+    padding: 0 2rem;
+  }
+}
+
 .l-wrapper2 {
   max-width: calc(69rem + 4rem); //1104
   width: 100%;

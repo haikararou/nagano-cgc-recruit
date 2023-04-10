@@ -12,17 +12,22 @@ p-table
       color: inc.$color-wht;
       font-weight: 500;
       border-bottom: 1px solid inc.$color-wht;
-      width: 10%;
+      width: 7%;
       text-align: center;
       vertical-align: middle;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
     }
     td {
-      width: 30%;
+      width: 31%;
       font-weight: 300;
       text-align: center;
       vertical-align: middle;
-      @include inc.sizing(padding, wide, 24px, sp, 16px);
+      @include inc.sizing(padding, wide, 20px, sp, 12px);
       border: 1px solid inc.$color-light-blu;
+      @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
+      line-height: 1.8;
     }
     tr:last-child th {
       border-bottom: none;
@@ -37,6 +42,7 @@ p-table
       vertical-align: middle;
       @include inc.sizing(padding-top, wide, 16px, sp, 12px);
       @include inc.sizing(padding-bottom, wide, 16px, sp, 12px);
+      @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
       &.p-table--bg_non {
         background: none;
       }
@@ -44,45 +50,5 @@ p-table
         border-left: 1px solid inc.$color-wht;
       }
     }
-    // @include inc.mq(tab) {
-    //   @include inc.sizing(line-height, wide, 20px, sp, 30px);
-    // }
-    // line-height: 1.6em;
-    // width: 18.9%;
-    // @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
   }
-  // &__date {
-  //   @include inc.mq(tab) {
-  //     width: 37%;
-  //   }
-  //   width: 50%;
-  // }
-  // &__data {
-  //   @include inc.mq(tab) {
-  //     @include inc.sizing(line-height, wide, 20px, sp, 30px);
-  //   }
-  //   @include inc.sizingRem(font-size, wide, 16px, sp, 13px);
-  //   line-height: 1.6em;
-  //   font-weight: 400;
-  //   width: 75%;
-  //   word-break: break-all;
-  //   & > img {
-  //     width: 100%;
-  //   }
-  //   & > .iframe-wrap {
-  //     width: 100%;
-  //     & > iframe {
-  //       width: 100%;
-  //       height: auto;
-  //       aspect-ratio: 16/9;
-  //     }
-  //   }
-  //   & > figure {
-  //     width: 100%;
-  //     & > img {
-  //       width: 100%;
-  //       height: auto;
-  //     }
-  //   }
-  // }
 }

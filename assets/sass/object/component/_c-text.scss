@@ -21,6 +21,7 @@ c-text
       display: block;
       line-height: 1;
       font-family: 'Hind', sans-serif;
+      font-weight: 500;
     }
     &.--peopel {
       @include inc.sizing(margin-bottom, wide, 32px, sp, 16px);
@@ -32,7 +33,7 @@ c-text
   }
   &--h2 {
     @include inc.sizingRem(font-size, wide, 24px, sp, 20px);
-    @include inc.sizing(line-height, wide, 24px, sp, 20px);
+    @include inc.sizing(line-height, wide, 48px, sp, 32px);
     @include inc.sizing(margin-bottom, wide, 24px, sp, 16px);
     font-weight: 700;
     &.--peopel {
@@ -64,10 +65,18 @@ c-text
     @include inc.sizing(padding-left, wide, 16px, sp, 12px);
     border-left: 1px solid inc.$color-blu;
     font-weight: 500;
+    padding-bottom: 3px;
+    line-height: 1;
     &.--peopel {
       border: none;
       padding-left: 0;
       font-weight: 700;
+    }
+  }
+  &--h2 + &--h3 {
+    margin-top: 40px;
+    @include inc.mq(tabs) {
+      margin-top: 54px;
     }
   }
   &--h4 {

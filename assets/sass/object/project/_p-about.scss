@@ -114,12 +114,13 @@ p-about
       flex-wrap: wrap;
       gap: 1rem 2%;
     }
-    border: 2px solid inc.$color-blu;
+    border: 1px solid inc.$color-blu;
     border-radius: 16px;
     @include inc.sizing(padding, lap, 32px, sp, 16px);
     @include inc.sizing(padding-bottom, lap, 48px, sp, 24px);
     @include inc.mq(lap) {
-      padding: 2rem;
+      border: 2px solid inc.$color-blu;
+      padding: 2rem 2rem 2.5rem;
     }
     text-align: center;
     h2 {
@@ -127,6 +128,7 @@ p-about
       font-weight: 500;
       line-height: 1.6;
       text-align: center;
+      margin-bottom: 6px;
     }
     .--left {
       text-align: left;
@@ -170,6 +172,7 @@ p-about
           display:flex; flex-direction:column; justify-content:center; align-items:center;
           img {
             @include inc.sizing(width, lap, 200px, sp, 150px);
+            margin-top: 12px;
           }
         }
       }
@@ -184,13 +187,14 @@ p-about
             img {
               width: 80%;
               display: block;
-              margin: 24px auto 0;
+              margin: 40px auto 0;
             }
           }
         }
       }
     }
     &.numbers02 {
+      text-align: center;
       width: 100%;
       .p-about--numbers--flex {
         margin: 0 auto;
@@ -198,6 +202,10 @@ p-about
         max-width: 326px;
         padding-bottom: 2rem;
         position: relative;
+        h2 {
+          text-align: center;
+          margin-left: 0;
+        }
         figure {
           width: 96px;
           position: absolute;
@@ -211,12 +219,17 @@ p-about
         }
       }
       @include inc.mq(lap) {
+        text-align: left;
         width: 53%;
         .p-about--numbers--flex {
           margin: 0 auto;
           width: 100%;
           max-width: 406px;
           padding-bottom: 5.5rem;
+          h2 {
+            text-align: left;
+            margin-left: 72px;
+          }
           figure {
             width: 136px;
             position: absolute;
@@ -243,6 +256,10 @@ p-about
           display:flex; flex-direction:column; justify-content:center; align-items:center;
           img {
             @include inc.sizing(width, lap, 200px, sp, 150px);
+            margin-top: 12px;
+            @include inc.mq(lap) {
+              margin-top: 0;
+            }
           }
         }
       }
@@ -289,7 +306,7 @@ p-about
           figure {
             display:flex; flex-direction:column; justify-content:center; align-items:center;
             img {
-              width: 140px;
+              width: 100px;
             }
           }
         }
@@ -311,7 +328,7 @@ p-about
           img {
             width: 96px;
             display: block;
-            margin: 24px auto 0;
+            margin: 32px auto 0;
           }
         }
       }
@@ -333,6 +350,10 @@ p-about
           display:flex; flex-direction:column; justify-content:center; align-items:center;
           img {
             @include inc.sizing(width, lap, 200px, sp, 150px);
+            margin-top: 12px;
+            @include inc.mq(lap) {
+              margin-top: 0;
+            }
           }
         }
       }
@@ -348,6 +369,7 @@ p-about
             .number {
               display: block;
               text-align: center;
+              margin: 0 auto;
             }
           }
           figure {
@@ -374,7 +396,7 @@ p-about
       @include inc.mq(lap) {
         width: 44%;
         .p-about--numbers--flex {
-          gap: 1.5rem;
+          gap: 1.5rem .1rem;
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
@@ -384,7 +406,7 @@ p-about
           figure {
             display:flex; flex-direction:column; justify-content:center; align-items:center;
             img {
-              width: 88px;
+              width: 116px;
             }
           }
         }
@@ -415,7 +437,7 @@ p-about
           figure {
             display:flex; flex-direction:column; justify-content:center; align-items:center;
             img {
-              width: 142px;
+              width: 132px;
             }
           }
         }

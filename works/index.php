@@ -38,11 +38,11 @@ if (strstr($url, 'test/')) {
         <h1 class="c-text--h1"><span>WORKS</span>仕事を知る</h1>
         <nav class="l-nav">
           <ul>
-            <li><a href="#anchor--01">営業部</a></li>
-            <li><a href="#anchor--02">企業支援部</a></li>
-            <li><a href="#anchor--03">業務統括部</a></li>
-            <li><a href="#anchor--04">総務部</a></li>
-            <li><a href="#anchor--05">コンプライアンス統括部</a></li>
+            <li><a href="#anchor--01" class="a-effect">営業部</a></li>
+            <li><a href="#anchor--02" class="a-effect">企業支援部</a></li>
+            <li><a href="#anchor--03" class="a-effect">業務統括部</a></li>
+            <li><a href="#anchor--04" class="a-effect">総務部</a></li>
+            <li><a href="#anchor--05" class="a-effect">コンプライアンス統括部</a></li>
           </ul>
         </nav>
       </div>
