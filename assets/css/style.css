@@ -3319,6 +3319,30 @@ p-home
           transition-timing-function: linear;
 }
 
+.main-slide01 .swiper-wrapper {
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.main-slide01 .swiper-wrapper .swiper-slide {
+  margin: 0;
+}
+
+.main-slide02 .swiper-wrapper {
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.main-slide02 .swiper-wrapper .swiper-slide {
+  margin: 0;
+}
+
+.main-slide03 .swiper-wrapper {
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.main-slide03 .swiper-wrapper .swiper-slide {
+  margin: 0;
+}
+
 /*
 p-faq
 -----------------------------------------------------*/
@@ -4826,7 +4850,7 @@ p-zadankai
 .p-zadankai--q-title.--q-title04::before {
   content: "Q4";
 }
-.p-zadankai--q-title.--q-title04::before {
+.p-zadankai--q-title.--q-title05::before {
   content: "Q5";
 }
 .p-zadankai--q-title.--q-title06::before {
