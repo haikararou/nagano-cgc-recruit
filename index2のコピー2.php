@@ -27,10 +27,42 @@ if (strstr($url, 'test/')) {
 }
 ?>
 
-<main class="l-main">
+<main class="l-main" data-scroll-container>
+
+
+<div class="area-scroll" data-horizontal="true">
+  <section data-scroll-section>
+    <div data-scroll data-scroll-speed="-2" data-delay="0" data-scroll-position="center" data-scroll-direction="vertical">
+      <section>
+        <div class="main-slide01">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p01.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b01.png"></div>
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p02.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b02.png"></div>
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p03.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b03.png"></div>
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p01.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b01.png"></div>
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p02.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b02.png"></div>
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p03.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b03.png"></div>
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p01.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b01.png"></div>
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p02.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b02.png"></div>
+            <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p03.png"></div>
+            <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b03.png"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+</div>
 
   <section class="p-home--main--outer">
-    <section class="l-wrapper home">
+    <!--<section class="l-wrapper home">
       <div class="p-home--main">
         <h1>誰かの一歩を、<br>支える人になる</h1>
         <p>明日を拓く、長野の中小企業を<br>支える人になりませんか。</p>
@@ -39,23 +71,26 @@ if (strstr($url, 'test/')) {
           <li class="p-home--main-list-item -yellow"><a href="<?php echo $path; ?>entry/" target="_blank"><span>エントリーはこちら</span></a></li>
         </ul>
       </div>
-    </section>
-    <div class="p-home--main--move">
-      <div class="swiper slider-main">
-          <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-          </div>
-      </div>
-    </div>
+    </section> -->
+
+<!-- --------------------------------------------- -->
+
+
+
+
+<link rel="stylesheet" href="style.css0000">
+<script src="locomotive-scroll.min.js"></script>
+<script src="base.js"></script>
+
+<!-- --------------------------------------------- -->
+
     <ul class="pp-home--main-list list02">
       <li class="p-home--main-list-item -white"><a href="<?php echo $path; ?>guideline/"><span>募集要項を確認する</span></a></li>
       <li class="p-home--main-list-item -yellow"><a href="<?php echo $path; ?>entry/" target="_blank"><span>エントリーはこちら</span></a></li>
     </ul>
   </section>
+
+
 
   <section class="p-home--about--outer">
     <div class="l-wrapper3">
@@ -343,19 +378,66 @@ const swiper = new Swiper('.card-slider', {
 </script>
 
 <script>
-const swiper2 = new Swiper('.slider-main', {
+const swiper2 = new Swiper('.main-slide01', {
   loop: true,
-  speed: 60000,
-  spaceBetween: -72,
+  speed: 2000,
+  direction: 'vertical',
+  mousewheel: true,
+  slidesPerView: 6,
+  spaceBetween: 64,
+  allowTouchMove: true,
+  parallax: true,
   autoplay: {
     delay: 0,
+    disableOnInteraction: false,
   },
   breakpoints: {//ブレークポイント
     340: {
-      spaceBetween: -32,
+      //spaceBetween: -32,
     },
     768: {
-      spaceBetween: -72,
+      //spaceBetween: -72,
+    },
+  },
+})
+const swiper3 = new Swiper('.main-slide02', {
+  loop: true,
+  speed: 1500,
+  direction: 'vertical',
+  slidesPerView: 6,
+  spaceBetween: 64,
+  allowTouchMove: true,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+    reverseDirection: true,
+  },
+  breakpoints: {//ブレークポイント
+    340: {
+      //spaceBetween: -32,
+    },
+    768: {
+      //spaceBetween: -72,
+    },
+  },
+})
+const swiper4 = new Swiper('.main-slide03', {
+  loop: true,
+  speed: 2000,
+  direction: 'vertical',
+  slidesPerView: 6,
+  spaceBetween: 64,
+  allowTouchMove: true,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+  },
+  breakpoints: {//ブレークポイント
+    340: {
+      //spaceBetween: -32,
+    },
+    768: {
+      //spaceBetween: -72,
     },
   },
 })

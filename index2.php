@@ -29,7 +29,8 @@ if (strstr($url, 'test/')) {
 
 <main class="l-main" data-scroll-container>
 
-  <!-- <section class="p-home--main--outer">
+
+  <section class="p-home--main--outer area-scroll">
     <section class="l-wrapper home">
       <div class="p-home--main">
         <h1>誰かの一歩を、<br>支える人になる</h1>
@@ -39,76 +40,63 @@ if (strstr($url, 'test/')) {
           <li class="p-home--main-list-item -yellow"><a href="<?php echo $path; ?>entry/" target="_blank"><span>エントリーはこちら</span></a></li>
         </ul>
       </div>
-    </section> -->
-
-<!-- --------------------------------------------- -->
-
-<div class="area-scroll" data-horizontal="true">
-  <section class="section000 scroll-section000" data-scroll-section id="section1">
-    <div data-scroll data-scroll-speed="-4" data-delay="0.5" data-scroll-position="left">
+    </section>
+    <div class="main-slide00">
       <div class="main-slide01">
         <div class="swiper-wrapper">
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_01.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_02.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_03.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_04.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_05.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_06.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_07.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_08.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p01.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b01.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p02.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b02.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p03.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b03.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p01.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b01.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p02.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b02.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p03.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b03.png"></div>
         </div>
       </div>
-    </div>
-  </section>
-</div>
-<div class="area-scroll" data-horizontal="true">
-  <section class="section000 scroll-section000" data-scroll-section id="section2">
-    <div data-scroll data-scroll-speed="-4" data-delay="0.5" data-scroll-position="left">
       <div class="main-slide02">
         <div class="swiper-wrapper">
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_01.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_02.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_03.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_04.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_05.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_06.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_07.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_08.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b04.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p04.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b05.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p05.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b06.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p06.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b04.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p04.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b05.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p05.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b06.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p06.png"></div>
         </div>
       </div>
-    </div>
-  </section>
-</div>
-<div class="area-scroll" data-horizontal="true">
-  <section class="section000 scroll-section000" data-scroll-section id="section3">
-    <div data-scroll data-scroll-speed="-4" data-delay="0.5" data-scroll-position="left">
-      <div class="main-slide01">
+      <div class="main-slide03">
         <div class="swiper-wrapper">
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_01.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_02.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_03.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_04.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_05.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_06.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_07.png"></div>
-          <div class="p-top-mv__tile swiper-slide"><img src="./assets/img/top/case_08.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p07.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b07.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p08.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b08.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p09.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b09.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p07.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b07.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p08.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b08.png"></div>
+          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p09.png"></div>
+          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b09.png"></div>
         </div>
       </div>
     </div>
   </section>
-</div>
 
-<link rel="stylesheet" href="style.css0000">
-<script src="locomotive-scroll.min.js"></script>
-<script src="base.js"></script>
-
-<!-- --------------------------------------------- -->
-
-    <ul class="pp-home--main-list list02">
-      <li class="p-home--main-list-item -white"><a href="<?php echo $path; ?>guideline/"><span>募集要項を確認する</span></a></li>
-      <li class="p-home--main-list-item -yellow"><a href="<?php echo $path; ?>entry/" target="_blank"><span>エントリーはこちら</span></a></li>
-    </ul>
-  </section>
+  <ul class="p-home--main-list list02">
+    <li class="p-home--main-list-item -white"><a href="<?php echo $path; ?>guideline/"><span>募集要項を確認する</span></a></li>
+    <li class="p-home--main-list-item -yellow"><a href="<?php echo $path; ?>entry/" target="_blank"><span>エントリーはこちら</span></a></li>
+  </ul>
 
   <section class="p-home--about--outer">
     <div class="l-wrapper3">
@@ -198,10 +186,10 @@ if (strstr($url, 'test/')) {
   </section>
   <section class="p-home--slide">
 
-    <div class="swiper sample-slider">
+    <div class="swiper card-slider">
       <div class="swiper-wrapper">
 
-        <div class="swiper-slide">
+        <div class="swiper-slide card-slide">
           <a href="./case/#case01" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
@@ -217,7 +205,7 @@ if (strstr($url, 'test/')) {
           </a>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide card-slide">
           <a href="./case/#case02" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
@@ -233,7 +221,7 @@ if (strstr($url, 'test/')) {
           </a>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide card-slide">
           <a href="./case/#case03" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
@@ -249,7 +237,7 @@ if (strstr($url, 'test/')) {
           </a>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide card-slide">
           <a href="./case/#case04" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
@@ -265,7 +253,7 @@ if (strstr($url, 'test/')) {
           </a>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide card-slide">
           <a  href="./case/#case05" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
@@ -281,7 +269,7 @@ if (strstr($url, 'test/')) {
           </a>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide card-slide">
           <a  href="./case/#case06" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
@@ -297,7 +285,7 @@ if (strstr($url, 'test/')) {
           </a>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide card-slide">
           <a href="./case/#case07" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
@@ -313,7 +301,7 @@ if (strstr($url, 'test/')) {
           </a>
         </div>
 
-        <div class="swiper-slide">
+        <div class="swiper-slide card-slide">
           <a href="./case/#case08" class="card csize">
             <div id="omote" class="fuda csize">
               <h2>支援事例</h2>
@@ -359,7 +347,7 @@ if (strstr($url, 'test/')) {
 ?>
 
 <script>
-const swiper = new Swiper('.sample-slider', {
+const swiper = new Swiper('.card-slider', {
   loop: true,
   speed: 6000,
   autoplay: {
@@ -398,27 +386,63 @@ const swiper = new Swiper('.sample-slider', {
 <script>
 const swiper2 = new Swiper('.main-slide01', {
   loop: true,
-  speed: 3000,
-  slidesPerView: 7,
+  speed: 5000,
+  //direction: 'vertical',
+  mousewheel: true,
+  slidesPerView: 5,
   spaceBetween: 64,
+  allowTouchMove: true,
+  parallax: true,
   autoplay: {
     delay: 0,
     disableOnInteraction: false,
   },
   breakpoints: {//ブレークポイント
     340: {
-      //spaceBetween: -32,
+      slidesPerView: 3.4,
+      spaceBetween: 32,
+    },
+    540: {
+      slidesPerView: 4,
+      spaceBetween: 36,
     },
     768: {
-      //spaceBetween: -72,
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 44,
+    },
+    1025: {
+      slidesPerView: 5,
+      spaceBetween: 48,
+    },
+    1201: {
+      slidesPerView: 5,
+      spaceBetween: 52,
+    },
+    1280: {
+      slidesPerView: 5,
+      spaceBetween: 56,
+    },
+    1568: {
+      slidesPerView: 5,
+      spaceBetween: 60,
+    },
+    1700: {
+      slidesPerView: 5,
+      spaceBetween: 64,
     },
   },
 })
 const swiper3 = new Swiper('.main-slide02', {
   loop: true,
-  speed: 3000,
-  slidesPerView: 7,
+  speed: 5000,
+  //direction: 'vertical',
+  slidesPerView: 5,
   spaceBetween: 64,
+  allowTouchMove: true,
   autoplay: {
     delay: 0,
     disableOnInteraction: false,
@@ -426,10 +450,90 @@ const swiper3 = new Swiper('.main-slide02', {
   },
   breakpoints: {//ブレークポイント
     340: {
-      //spaceBetween: -32,
+      slidesPerView: 3.4,
+      spaceBetween: 32,
+    },
+    540: {
+      slidesPerView: 4,
+      spaceBetween: 36,
     },
     768: {
-      //spaceBetween: -72,
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 44,
+    },
+    1025: {
+      slidesPerView: 5,
+      spaceBetween: 48,
+    },
+    1201: {
+      slidesPerView: 5,
+      spaceBetween: 52,
+    },
+    1280: {
+      slidesPerView: 5,
+      spaceBetween: 56,
+    },
+    1568: {
+      slidesPerView: 5,
+      spaceBetween: 60,
+    },
+    1700: {
+      slidesPerView: 5,
+      spaceBetween: 64,
+    },
+  },
+})
+const swiper4 = new Swiper('.main-slide03', {
+  loop: true,
+  speed: 5000,
+  //direction: 'vertical',
+  slidesPerView: 5,
+  spaceBetween: 64,
+  allowTouchMove: true,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+  },
+  breakpoints: {//ブレークポイント
+    340: {
+      slidesPerView: 3.4,
+      spaceBetween: 32,
+    },
+    540: {
+      slidesPerView: 4,
+      spaceBetween: 36,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    900: {
+      slidesPerView: 4,
+      spaceBetween: 44,
+    },
+    1025: {
+      slidesPerView: 5,
+      spaceBetween: 48,
+    },
+    1201: {
+      slidesPerView: 5,
+      spaceBetween: 52,
+    },
+    1280: {
+      slidesPerView: 5,
+      spaceBetween: 56,
+    },
+    1568: {
+      slidesPerView: 5,
+      spaceBetween: 60,
+    },
+    1700: {
+      slidesPerView: 5,
+      spaceBetween: 64,
     },
   },
 })

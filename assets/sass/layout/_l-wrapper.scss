@@ -12,7 +12,7 @@ l-wrapper
   &.home {
     padding: 0 8%;
     @include inc.mq(tab) {
-      padding: 0 2rem;
+      padding: 0 6%;
     }
   }
   @include inc.mq(vr) {
