@@ -44,50 +44,50 @@ if (strstr($url, 'test/')) {
     <div class="main-slide00">
       <div class="main-slide01">
         <div class="swiper-wrapper">
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p01.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b01.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p02.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b02.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p03.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b03.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p01.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b01.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p02.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b02.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p03.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b03.png"></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p01.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b01.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p02.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b02.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p03.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b03.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p01.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b01.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p02.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b02.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p03.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b03.png"></div></div>
         </div>
       </div>
       <div class="main-slide02">
         <div class="swiper-wrapper">
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b04.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p04.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b05.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p05.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b06.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p06.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b04.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p04.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b05.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p05.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b06.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p06.png"></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b04.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p04.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b05.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p05.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b06.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p06.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b04.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p04.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b05.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p05.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b06.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p06.png"></div></div>
         </div>
       </div>
       <div class="main-slide03">
         <div class="swiper-wrapper">
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p07.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b07.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p08.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b08.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p09.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b09.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p07.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b07.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p08.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b08.png"></div>
-          <div class="swiper-slide main-slide-p"><img src="./assets/img/top/main_p09.png"></div>
-          <div class="swiper-slide main-slide-b"><img src="./assets/img/top/main_b09.png"></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p07.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b07.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p08.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b08.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p09.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b09.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p07.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b07.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p08.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b08.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p09.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b09.png"></div></div>
         </div>
       </div>
     </div>
@@ -578,6 +578,50 @@ $(function() {
   });
 });
 </script>
+
+<script>
+jQuery(function () {
+  $(document).ready(function () {
+    $(".main-slide-b.no01 div img").delay(500).animate({width: '100%', height: '100%'}, 1200, "easeInOutBack");
+  });
+  $(document).ready(function () {
+    $(".main-slide-b.no02 div img").delay(700).animate({width: '100%', height: '100%'}, 1200, "easeInOutBack");
+  });
+  $(document).ready(function () {
+    $(".main-slide-b.no03 div img").delay(900).animate({width: '100%', height: '100%'}, 1200, "easeInOutBack");
+  });
+});
+
+jQuery(function () {
+  $(document).ready(function () {
+    $(".main-slide-p.no01 div img").delay(2000).animate({width: '100%', height: '100%'}, 800, "easeOutBack");
+  });
+  $(document).ready(function () {
+    $(".main-slide-p.no02 div img").delay(1600).animate({width: '100%', height: '100%'}, 800, "easeOutBack");
+  });
+  $(document).ready(function () {
+    $(".main-slide-p.no03 div img").delay(1800).animate({width: '100%', height: '100%'}, 800, "easeOutBack");
+  });
+});
+
+jQuery(function () {
+  $(document).ready(function () {
+    setTimeout(function(){
+      $(".p-home--main h1").css({'opacity':'1','padding-top':'0'});
+    }, 600);
+    setTimeout(function(){
+      $(".p-home--main p").css({'opacity':'1','padding-top':'0'});
+    }, 650);
+    setTimeout(function(){
+      $(".p-home--main-list.list01 .p-home--main-list-item.-white").css({'opacity':'1','margin-top':'0'});
+    }, 2200);
+    setTimeout(function(){
+      $(".p-home--main-list.list01 .p-home--main-list-item.-yellow").css({'opacity':'1'});
+    }, 2250);
+  });
+});
+</script>
+
 
 </body>
 </html>

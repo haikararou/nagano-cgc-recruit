@@ -524,6 +524,8 @@ p-home
 .main-slide00 {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  display: inline-block;
+  border: 1px solid red;
   position: relative;
   top: auto;
   //right: -30vw;
@@ -554,30 +556,45 @@ p-home
   width: 100vw;
   height: 20vw;
   position: absolute;
-  top: -52vw;
-  @include inc.mq(spl) {
-    top: -47vw;
+  top: -20vw;
+  @media screen and (max-width:460px) {
+  //@include inc.mq(sp) {//sp: 460px
+    top: -20vw;
   }
-  @include inc.mq(tabs) {
-    top: -40vw;
+  @media screen and (min-width:460px) and ( max-width:540px) {
+  //@include inc.mq(spl) {//spl: 540px
+    top: -20vw;
   }
-  @include inc.mq(tab) {
-    top: -49vw;
+  @media screen and (min-width:540px) and ( max-width:768px) {
+  //@include inc.mq(tabs) {//tabs: 768px
+    top: 0vw;
   }
-  @include inc.mq(lap) {
-    top: -42vw;
+  @media screen and (min-width:768px) and ( max-width:900px) {
+  //@include inc.mq(tab) {//tab: 900px
+    top: -10vw;
   }
-  @include inc.mq(desk) {
-    top: -42vw;
+  @media screen and (min-width:900px) and ( max-width:1025px) {
+  //@include inc.mq(lap) {//lap: 1025px
+    top: -10vw;
   }
-  @include inc.mq(vr) {
-    top: -49vw;
+  @media screen and (min-width:1025px) and ( max-width:1201px) {
+  //@include inc.mq(desk) {//desk: 1201px
+    top: -10vw;
   }
-  @include inc.mq(wide) {
-    top: -62vw;
+  @media screen and (min-width:1201px) and ( max-width:1280px) {
+  //@include inc.mq(vr) {//vr: 1280px
+    top: -10vw;
   }
-  @include inc.mq(full) {
-    top: -60vw;
+  @media screen and (min-width:1280px) and ( max-width:1568px) {
+  //@include inc.mq(wide) {//wide: 1568px
+    top: -20vw;
+  }
+  @media screen and (min-width:1568px) and ( max-width:1700px) {
+  //@include inc.mq(full) {//full: 1700px
+    top: -30vw;
+  }
+  @media screen and (min-width:1700px) {
+    top: -30vw;
   }
   left: 0;
   .swiper-wrapper {
@@ -591,30 +608,36 @@ p-home
   width: 100vw;
   height: 20vw;
   position: absolute;
-  top: -22vw;
-  @include inc.mq(spl) {
-    top: -18vw;
+  top: 10vw;
+  @media screen and (max-width:460px) {
+    top: 10vw;
   }
-  @include inc.mq(tabs) {
-    top: -16vw;
+  @media screen and (min-width:460px) and ( max-width:540px) {
+    top: 10vw;
   }
-  @include inc.mq(tab) {
+  @media screen and (min-width:540px) and ( max-width:768px) {
     top: -25vw;
   }
-  @include inc.mq(lap) {
-    top: -22vw;
+  @media screen and (min-width:768px) and ( max-width:900px) {
+    top: 15vw;
   }
-  @include inc.mq(desk) {
-    top: -22vw;
+  @media screen and (min-width:900px) and ( max-width:1025px) {
+    top: 15vw;
   }
-  @include inc.mq(vr) {
-    top: -28vw;
+  @media screen and (min-width:1025px) and ( max-width:1201px) {
+    top: 10vw;
   }
-  @include inc.mq(wide) {
-    top: -42vw;
+  @media screen and (min-width:1201px) and ( max-width:1280px) {
+    top: 10vw;
   }
-  @include inc.mq(full) {
-    top: -40vw;
+  @media screen and (min-width:1280px) and ( max-width:1568px) {
+    top: 0vw;
+  }
+  @media screen and (min-width:1568px) and ( max-width:1700px) {
+    top: -10vw;
+  }
+  @media screen and (min-width:1700px) {
+    top: -10vw;
   }
   left: 0;
   .swiper-wrapper {
@@ -628,30 +651,36 @@ p-home
   width: 100vw;
   height: 20vw;
   position: absolute;
-  top: 8vw;
-  @include inc.mq(spl) {
-    top: 12vw;
+  top: 40vw;
+  @media screen and (max-width:460px) {
+    top: 40vw;
   }
-  @include inc.mq(tabs) {
-    top: 8vw;
+  @media screen and (min-width:460px) and ( max-width:540px) {
+    top: 40vw;
   }
-  @include inc.mq(tab) {
-    top: 0vw;
+  @media screen and (min-width:540px) and ( max-width:768px) {
+    top: 50vw;
   }
-  @include inc.mq(lap) {
-    top: -2vw;
+  @media screen and (min-width:768px) and ( max-width:900px) {
+    top: 40vw;
   }
-  @include inc.mq(desk) {
-    top: -1vw;
+  @media screen and (min-width:900px) and ( max-width:1025px) {
+    top: 40vw;
   }
-  @include inc.mq(vr) {
-    top: -6vw;
+  @media screen and (min-width:1025px) and ( max-width:1201px) {
+    top: 30vw;
   }
-  @include inc.mq(wide) {
-    top: -22vw;
+  @media screen and (min-width:1201px) and ( max-width:1280px) {
+    top: 30vw;
   }
-  @include inc.mq(full) {
-    top: -20vw;
+  @media screen and (min-width:1280px) and ( max-width:1568px) {
+    top: 20vw;
+  }
+  @media screen and (min-width:1568px) and ( max-width:1700px) {
+    top: 10vw;
+  }
+  @media screen and (min-width:1700px) {
+    top: 10vw;
   }
   left: 0;
   .swiper-wrapper {
@@ -660,4 +689,69 @@ p-home
       margin: 0;
     }
   }
+}
+
+
+.main-slide-b {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  position: relative;
+  //width: 100%;
+  div {
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 30%;
+      height: 30%;
+    }
+  }
+}
+
+.main-slide-p {
+  position: relative;
+  div {
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0;
+      height: 0;
+    }
+  }
+}
+
+.p-home--main h1 {
+  transition: 1s;
+  opacity: 0;
+  padding-top: 30px;
+}
+.p-home--main p {
+  transition: 1s;
+  opacity: 0;
+  padding-top: 30px;
+}
+.p-home--main-list.list01 .p-home--main-list-item.-white {
+  transition: .8s;
+  opacity: 0;
+  margin-top: 30px;
+}
+.p-home--main-list.list01 .p-home--main-list-item.-yellow {
+  transition: .8s;
+  opacity: 0;
+  //margin-top: 30px;
 }
