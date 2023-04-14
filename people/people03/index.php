@@ -175,13 +175,6 @@ $(function() {
       $('.intro_02 figure').removeClass('on');
     }
   });
-  // $('.intro_04').on('inview', function(event, isInView){
-  //   if (isInView) {
-  //     $('.intro_03 figure').addClass('on');
-  //   }else{
-  //     $('.intro_03 figure').removeClass('on');
-  //   }
-  // });
   $('.intro_05').on('inview', function(event, isInView){
     if (isInView) {
       $('.intro_04 figure').addClass('on');

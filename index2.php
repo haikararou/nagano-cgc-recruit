@@ -198,7 +198,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_01.png" art="創業者支援">
+                <img src="./assets/img/case/case_01.png" art="創業者支援">
                 <figcaption>個人経営の<br>ケーキ屋さん</figcaption>
               </figure>
             </div>
@@ -214,7 +214,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>創業者支援</h2>
               <figure>
-                <img src="./assets/img/top/case_02.png" art="事業継承支援">
+                <img src="./assets/img/case/case_02.png" art="事業継承支援">
                 <figcaption>個性派メニューの<br>欧風料理店</figcaption>
               </figure>
             </div>
@@ -230,7 +230,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業継承支援</h2>
               <figure>
-                <img src="./assets/img/top/case_03.png" art="創業者支援">
+                <img src="./assets/img/case/case_03.png" art="創業者支援">
                 <figcaption>地域密着型の<br>眼鏡・補聴器店</figcaption>
               </figure>
             </div>
@@ -246,7 +246,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>経営改善支援</h2>
               <figure>
-                <img src="./assets/img/top/case_04.png" art="事業継承支援">
+                <img src="./assets/img/case/case_04.png" art="事業継承支援">
                 <figcaption>個人経営の<br>ステーキ店</figcaption>
               </figure>
             </div>
@@ -262,7 +262,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>経営改善支援</h2>
               <figure>
-                <img src="./assets/img/top/case_05.png" art="創業者支援">
+                <img src="./assets/img/case/case_05.png" art="創業者支援">
                 <figcaption>木製建具・家具<br>製造業者</figcaption>
               </figure>
             </div>
@@ -278,7 +278,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>課題解決支援</h2>
               <figure>
-                <img src="./assets/img/top/case_06.png" art="事業継承支援">
+                <img src="./assets/img/case/case_06.png" art="事業継承支援">
                 <figcaption>自動車部品中心の<br>塗装業者</figcaption>
               </figure>
             </div>
@@ -294,7 +294,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>課題解決支援</h2>
               <figure>
-                <img src="./assets/img/top/case_07.png" art="創業者支援">
+                <img src="./assets/img/case/case_07.png" art="創業者支援">
                 <figcaption>業歴50年の<br>プリント基板製造業者</figcaption>
               </figure>
             </div>
@@ -310,7 +310,7 @@ if (strstr($url, 'test/')) {
             <div id="ura" class="fuda csize">
               <h2>事業再生支援</h2>
               <figure>
-                <img src="./assets/img/top/case_08.png" art="事業継承支援">
+                <img src="./assets/img/case/case_08.png" art="事業継承支援">
                 <figcaption>地域を代表する<br>老舗温泉旅館</figcaption>
               </figure>
             </div>
@@ -346,282 +346,7 @@ if (strstr($url, 'test/')) {
 }
 ?>
 
-<script>
-const swiper = new Swiper('.card-slider', {
-  loop: true,
-  speed: 6000,
-  autoplay: {
-    delay: 0,
-    disableOnInteraction: false,
-  },
-  breakpoints: {//ブレークポイント
-    340: {
-      slidesPerView: 1.6,
-    },
-    460: {
-      slidesPerView: 1.6,
-    },
-    540: {
-      slidesPerView: 2,
-    },
-    640: {
-      slidesPerView: 2.4,
-    },
-    800: {
-      slidesPerView: 3,
-    },
-    1080: {
-      slidesPerView: 4,
-    },
-    1340: {
-      slidesPerView: 5,
-    },
-    1600: {
-      slidesPerView: 6,
-    }
-  },
-})
-</script>
-
-<script>
-const swiper2 = new Swiper('.main-slide01', {
-  loop: true,
-  speed: 5000,
-  //direction: 'vertical',
-  mousewheel: true,
-  slidesPerView: 5,
-  spaceBetween: 64,
-  allowTouchMove: true,
-  parallax: true,
-  autoplay: {
-    delay: 0,
-    disableOnInteraction: false,
-  },
-  breakpoints: {//ブレークポイント
-    340: {
-      slidesPerView: 3.4,
-      spaceBetween: 32,
-    },
-    540: {
-      slidesPerView: 4,
-      spaceBetween: 36,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    900: {
-      slidesPerView: 4,
-      spaceBetween: 44,
-    },
-    1025: {
-      slidesPerView: 5,
-      spaceBetween: 48,
-    },
-    1201: {
-      slidesPerView: 5,
-      spaceBetween: 52,
-    },
-    1280: {
-      slidesPerView: 5,
-      spaceBetween: 56,
-    },
-    1568: {
-      slidesPerView: 5,
-      spaceBetween: 60,
-    },
-    1700: {
-      slidesPerView: 5,
-      spaceBetween: 64,
-    },
-  },
-})
-const swiper3 = new Swiper('.main-slide02', {
-  loop: true,
-  speed: 5000,
-  //direction: 'vertical',
-  slidesPerView: 5,
-  spaceBetween: 64,
-  allowTouchMove: true,
-  autoplay: {
-    delay: 0,
-    disableOnInteraction: false,
-    reverseDirection: true,
-  },
-  breakpoints: {//ブレークポイント
-    340: {
-      slidesPerView: 3.4,
-      spaceBetween: 32,
-    },
-    540: {
-      slidesPerView: 4,
-      spaceBetween: 36,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    900: {
-      slidesPerView: 4,
-      spaceBetween: 44,
-    },
-    1025: {
-      slidesPerView: 5,
-      spaceBetween: 48,
-    },
-    1201: {
-      slidesPerView: 5,
-      spaceBetween: 52,
-    },
-    1280: {
-      slidesPerView: 5,
-      spaceBetween: 56,
-    },
-    1568: {
-      slidesPerView: 5,
-      spaceBetween: 60,
-    },
-    1700: {
-      slidesPerView: 5,
-      spaceBetween: 64,
-    },
-  },
-})
-const swiper4 = new Swiper('.main-slide03', {
-  loop: true,
-  speed: 5000,
-  //direction: 'vertical',
-  slidesPerView: 5,
-  spaceBetween: 64,
-  allowTouchMove: true,
-  autoplay: {
-    delay: 0,
-    disableOnInteraction: false,
-  },
-  breakpoints: {//ブレークポイント
-    340: {
-      slidesPerView: 3.4,
-      spaceBetween: 32,
-    },
-    540: {
-      slidesPerView: 4,
-      spaceBetween: 36,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    900: {
-      slidesPerView: 4,
-      spaceBetween: 44,
-    },
-    1025: {
-      slidesPerView: 5,
-      spaceBetween: 48,
-    },
-    1201: {
-      slidesPerView: 5,
-      spaceBetween: 52,
-    },
-    1280: {
-      slidesPerView: 5,
-      spaceBetween: 56,
-    },
-    1568: {
-      slidesPerView: 5,
-      spaceBetween: 60,
-    },
-    1700: {
-      slidesPerView: 5,
-      spaceBetween: 64,
-    },
-  },
-})
-</script>
-
-<script>
-$(function() {
-  $('.intro_02').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_01 figure').addClass('on');
-    }else{
-      $('.intro_01 figure').removeClass('on');
-    }
-  });
-  $('.intro_03').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_02 figure').addClass('on');
-    }else{
-      $('.intro_02 figure').removeClass('on');
-    }
-  });
-  $('.intro_04').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_03 figure').addClass('on');
-    }else{
-      $('.intro_03 figure').removeClass('on');
-    }
-  });
-  $('.intro_05').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_04 figure').addClass('on');
-    }else{
-      $('.intro_04 figure').removeClass('on');
-    }
-  });
-  $('.intro_06').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_05 figure').addClass('on');
-    }else{
-      $('.intro_05 figure').removeClass('on');
-    }
-  });
-});
-</script>
-
-<script>
-jQuery(function () {
-  $(document).ready(function () {
-    $(".main-slide-b.no01 div img").delay(500).animate({width: '100%', height: '100%'}, 1200, "easeInOutBack");
-  });
-  $(document).ready(function () {
-    $(".main-slide-b.no02 div img").delay(700).animate({width: '100%', height: '100%'}, 1200, "easeInOutBack");
-  });
-  $(document).ready(function () {
-    $(".main-slide-b.no03 div img").delay(900).animate({width: '100%', height: '100%'}, 1200, "easeInOutBack");
-  });
-});
-
-jQuery(function () {
-  $(document).ready(function () {
-    $(".main-slide-p.no01 div img").delay(2000).animate({width: '100%', height: '100%'}, 800, "easeOutBack");
-  });
-  $(document).ready(function () {
-    $(".main-slide-p.no02 div img").delay(1600).animate({width: '100%', height: '100%'}, 800, "easeOutBack");
-  });
-  $(document).ready(function () {
-    $(".main-slide-p.no03 div img").delay(1800).animate({width: '100%', height: '100%'}, 800, "easeOutBack");
-  });
-});
-
-jQuery(function () {
-  $(document).ready(function () {
-    setTimeout(function(){
-      $(".p-home--main h1").css({'opacity':'1','padding-top':'0'});
-    }, 600);
-    setTimeout(function(){
-      $(".p-home--main p").css({'opacity':'1','padding-top':'0'});
-    }, 650);
-    setTimeout(function(){
-      $(".p-home--main-list.list01 .p-home--main-list-item.-white").css({'opacity':'1','margin-top':'0'});
-    }, 2200);
-    setTimeout(function(){
-      $(".p-home--main-list.list01 .p-home--main-list-item.-yellow").css({'opacity':'1'});
-    }, 2250);
-  });
-});
-</script>
-
+<script src="<?php echo $path; ?>assets/js/top.js"></script>
 
 </body>
 </html>

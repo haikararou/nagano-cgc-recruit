@@ -2797,7 +2797,7 @@ p-home
 }
 .p-home--main h1 {
   font-size: clamp(2.125rem, 2.08vw + 1.525rem, 3.5625rem);
-  margin-bottom: clamp(20px, 1.81vw + 11.6px, 40px);
+  margin-bottom: clamp(12px, 1.08vw + 7.1px, 24px);
   line-height: 1.4;
   font-weight: 700;
 }
@@ -3608,6 +3608,9 @@ p-home
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 100%;
+  opacity: 0;
+  -webkit-transition: 1.4s;
+  transition: 1.4s;
 }
 .main-slide-b div img {
   position: absolute;

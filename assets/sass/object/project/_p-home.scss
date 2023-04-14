@@ -44,7 +44,7 @@ p-home
     @include inc.sizing(padding-top, wide, 112px, sp, 24px);
     h1 {
       @include inc.sizingRem(font-size, wide, 57px, sp, 34px);
-      @include inc.sizing(margin-bottom, wide, 40px, sp, 20px);
+      @include inc.sizing(margin-bottom, wide, 24px, sp, 12px);
       line-height: 1.4;
       font-weight: 700;
     }
@@ -420,7 +420,6 @@ p-home
 }
 .fuda {
   display: inline-block;
-  //transition: .8s;
   transition: all 0.5s ease-out;
   backface-visibility: hidden;
   @include inc.mq(tabs) {
@@ -475,7 +474,6 @@ p-home
 
 .area-scroll {
   @include inc.sizing(height, wide, 800px, sp, 520px);
-  //height: 800px;
   width: 100%;
   overflow: hidden;
 }
@@ -528,7 +526,6 @@ p-home
   border: 1px solid red;
   position: relative;
   top: auto;
-  //right: -30vw;
   z-index: -1;
   @include inc.mq(spl) {
     right: 10vw;
@@ -558,39 +555,30 @@ p-home
   position: absolute;
   top: -20vw;
   @media screen and (max-width:460px) {
-  //@include inc.mq(sp) {//sp: 460px
     top: -20vw;
   }
   @media screen and (min-width:460px) and ( max-width:540px) {
-  //@include inc.mq(spl) {//spl: 540px
     top: -20vw;
   }
   @media screen and (min-width:540px) and ( max-width:768px) {
-  //@include inc.mq(tabs) {//tabs: 768px
     top: 0vw;
   }
   @media screen and (min-width:768px) and ( max-width:900px) {
-  //@include inc.mq(tab) {//tab: 900px
     top: -10vw;
   }
   @media screen and (min-width:900px) and ( max-width:1025px) {
-  //@include inc.mq(lap) {//lap: 1025px
     top: -10vw;
   }
   @media screen and (min-width:1025px) and ( max-width:1201px) {
-  //@include inc.mq(desk) {//desk: 1201px
     top: -10vw;
   }
   @media screen and (min-width:1201px) and ( max-width:1280px) {
-  //@include inc.mq(vr) {//vr: 1280px
     top: -10vw;
   }
   @media screen and (min-width:1280px) and ( max-width:1568px) {
-  //@include inc.mq(wide) {//wide: 1568px
     top: -20vw;
   }
   @media screen and (min-width:1568px) and ( max-width:1700px) {
-  //@include inc.mq(full) {//full: 1700px
     top: -30vw;
   }
   @media screen and (min-width:1700px) {
@@ -696,7 +684,6 @@ p-home
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   position: relative;
-  //width: 100%;
   div {
     aspect-ratio: 1 / 1;
     position: absolute;
@@ -704,6 +691,8 @@ p-home
     top: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    opacity: 0;
+    transition: 1.4s;
     img {
       position: absolute;
       top: 50%;
@@ -753,5 +742,4 @@ p-home
 .p-home--main-list.list01 .p-home--main-list-item.-yellow {
   transition: .8s;
   opacity: 0;
-  //margin-top: 30px;
 }

@@ -163,13 +163,6 @@ if (strstr($url, 'test/')) {
 
 <script>
 $(function() {
-  // $('.intro_02').on('inview', function(event, isInView){
-  //   if (isInView) {
-  //     $('.intro_01 figure').addClass('on');
-  //   }else{
-  //     $('.intro_01 figure').removeClass('on');
-  //   }
-  // });
   $('.intro_03').on('inview', function(event, isInView){
     if (isInView) {
       $('.intro_02 figure').addClass('on');
