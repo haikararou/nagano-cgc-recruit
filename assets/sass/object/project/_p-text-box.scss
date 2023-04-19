@@ -94,9 +94,6 @@ p-text-box
       @include inc.sizingRem(font-size, wide, 16px, sp, 14px);
       line-height: 2;
     }
-    // &--flow--outer {
-    //   margin-top: -48px;
-    // }
     &--flow {
       position: relative;
     }

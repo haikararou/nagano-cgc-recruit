@@ -3,6 +3,7 @@ $title_2nd = '長野県信用保証協会とは';
 // $title_3rd = '';
 $directory_2nd = 'about';
 // $directory_3rd = '';
+$description = '';
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#"  class="no-js">

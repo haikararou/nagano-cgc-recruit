@@ -3,6 +3,7 @@ $title_2nd = 'よくある質問';
 // $title_3rd = '';
 $directory_2nd = 'faq';
 // $directory_3rd = '';
+$description = '';
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#"  class="no-js">

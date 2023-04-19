@@ -44,9 +44,6 @@ p-about
          display: none;
         }
       }
-      // @include inc.mq(tab) {
-      //   padding: 0;
-      // }
       &::after {
         content: "";
         display: block;
@@ -58,20 +55,6 @@ p-about
           height: 32px;
         }
       }
-      // &::before {
-      //   content: "";
-      //   display: block;
-      //   background: url(../img/about/mimipo.png) no-repeat 3% 100%;
-      //   background-size: 80px;
-      //   width: 15%;
-      //   height: 180%;
-      //   position: absolute;
-      //   left: 0;
-      //   bottom: 0;
-      //   @include inc.mq(spl) {
-      //     display: none;
-      //   }
-      // }
     }
   }
   ul {

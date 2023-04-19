@@ -9,7 +9,6 @@ c-text
     @include inc.sizing(line-height, wide, 80px, sp, 42px);
     @include inc.sizing(margin-bottom, wide, 112px, sp, 48px);
     font-weight: 700;
-    //line-height: 1.6rem;
     padding-left: 4%;
     @include inc.mq(vr) {
       padding-left: 0;
@@ -87,9 +86,7 @@ c-text
     border-bottom: 2px solid inc.$color-light-blu;
     font-weight: 700;
   }
-
 }
-
 .people02 {
   .c-text--h2.--peopel2 span {
     color: inc.$color-grn2;

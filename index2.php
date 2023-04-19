@@ -3,6 +3,7 @@
 // $title_3rd = '';
 // $directory_2nd = '';
 // $directory_3rd = '';
+$description = '中小企業のグッドパートナー＆ベストサポーター';
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#"  class="no-js">
@@ -28,7 +29,6 @@ if (strstr($url, 'test/')) {
 ?>
 
 <main class="l-main" data-scroll-container>
-
 
   <section class="p-home--main--outer area-scroll">
     <section class="l-wrapper home">
@@ -347,6 +347,7 @@ if (strstr($url, 'test/')) {
 ?>
 
 <script src="<?php echo $path; ?>assets/js/top.js"></script>
+<script src="<?php echo $path; ?>assets/js/people.js"></script>
 
 </body>
 </html>

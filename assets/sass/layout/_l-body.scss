@@ -3,12 +3,7 @@
 /*
 l-body
 -----------------------------------------------------*/
-// .l-body.active {
-//   height: 100%;
-//   overflow: hidden;
-// }
 .l-body {
-  //padding-top: var(--header-height);
   padding-top: 60px;
   @include inc.mq(vr) {
     padding-top: 100px;

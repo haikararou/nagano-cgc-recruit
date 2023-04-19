@@ -3,6 +3,7 @@ $title_2nd = '人を知る';
 $title_3rd = '中島 菜々子';
 $directory_2nd = 'people';
 $directory_3rd = 'people01';
+$description = '';
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#"  class="no-js">
@@ -161,38 +162,7 @@ if (strstr($url, 'test/')) {
 }
 ?>
 
-<script>
-$(function() {
-  $('.intro_03').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_02 figure').addClass('on');
-    }else{
-      $('.intro_02 figure').removeClass('on');
-    }
-  });
-  $('.intro_04').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_03 figure').addClass('on');
-    }else{
-      $('.intro_03 figure').removeClass('on');
-    }
-  });
-  $('.intro_05').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_04 figure').addClass('on');
-    }else{
-      $('.intro_04 figure').removeClass('on');
-    }
-  });
-  $('.intro_06').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_05 figure').addClass('on');
-    }else{
-      $('.intro_05 figure').removeClass('on');
-    }
-  });
-});
-</script>
+<script src="<?php echo $path; ?>assets/js/people01.js"></script>
 
 </body>
 </html>

@@ -3,6 +3,7 @@
 // $title_3rd = '';
 // $directory_2nd = '';
 // $directory_3rd = '';
+$description = '中小企業のグッドパートナー＆ベストサポーター';
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#"  class="no-js">
@@ -27,9 +28,10 @@ if (strstr($url, 'test/')) {
 }
 ?>
 
-<main class="l-main">
+<main class="l-main" data-scroll-container>
 
-  <section class="p-home--main--outer">
+
+  <section class="p-home--main--outer area-scroll">
     <section class="l-wrapper home">
       <div class="p-home--main">
         <h1>誰かの一歩を、<br>支える人になる</h1>
@@ -40,22 +42,62 @@ if (strstr($url, 'test/')) {
         </ul>
       </div>
     </section>
-    <div class="p-home--main--move">
-      <div class="swiper slider-main">
-          <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-              <div class="swiper-slide"><img src="./assets/img/top/main.png"></div>
-          </div>
+    <div class="main-slide00">
+      <div class="main-slide01">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p01.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b01.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p02.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b02.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p03.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b03.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p01.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b01.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p02.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b02.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p03.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b03.png"></div></div>
+        </div>
+      </div>
+      <div class="main-slide02">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b04.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p04.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b05.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p05.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b06.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p06.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b04.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p04.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b05.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p05.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b06.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p06.png"></div></div>
+        </div>
+      </div>
+      <div class="main-slide03">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p07.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b07.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p08.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b08.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p09.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b09.png"></div></div>
+          <div class="swiper-slide main-slide-p no03"><div><img src="./assets/img/top/main_p07.png"></div></div>
+          <div class="swiper-slide main-slide-b no03"><div><img src="./assets/img/top/main_b07.png"></div></div>
+          <div class="swiper-slide main-slide-p no01"><div><img src="./assets/img/top/main_p08.png"></div></div>
+          <div class="swiper-slide main-slide-b no01"><div><img src="./assets/img/top/main_b08.png"></div></div>
+          <div class="swiper-slide main-slide-p no02"><div><img src="./assets/img/top/main_p09.png"></div></div>
+          <div class="swiper-slide main-slide-b no02"><div><img src="./assets/img/top/main_b09.png"></div></div>
+        </div>
       </div>
     </div>
-    <ul class="pp-home--main-list list02">
-      <li class="p-home--main-list-item -white"><a href="<?php echo $path; ?>guideline/"><span>募集要項を確認する</span></a></li>
-      <li class="p-home--main-list-item -yellow"><a href="<?php echo $path; ?>entry/" target="_blank"><span>エントリーはこちら</span></a></li>
-    </ul>
   </section>
+
+  <ul class="p-home--main-list list02">
+    <li class="p-home--main-list-item -white"><a href="<?php echo $path; ?>guideline/"><span>募集要項を確認する</span></a></li>
+    <li class="p-home--main-list-item -yellow"><a href="<?php echo $path; ?>entry/" target="_blank"><span>エントリーはこちら</span></a></li>
+  </ul>
 
   <section class="p-home--about--outer">
     <div class="l-wrapper3">
@@ -305,101 +347,8 @@ if (strstr($url, 'test/')) {
 }
 ?>
 
-<script>
-const swiper = new Swiper('.card-slider', {
-  loop: true,
-  speed: 6000,
-  autoplay: {
-    delay: 0,
-    disableOnInteraction: false,
-  },
-  breakpoints: {//ブレークポイント
-    340: {
-      slidesPerView: 1.6,
-    },
-    460: {
-      slidesPerView: 1.6,
-    },
-    540: {
-      slidesPerView: 2,
-    },
-    640: {
-      slidesPerView: 2.4,
-    },
-    800: {
-      slidesPerView: 3,
-    },
-    1080: {
-      slidesPerView: 4,
-    },
-    1340: {
-      slidesPerView: 5,
-    },
-    1600: {
-      slidesPerView: 6,
-    }
-  },
-})
-</script>
-
-<script>
-const swiper2 = new Swiper('.slider-main', {
-  loop: true,
-  speed: 60000,
-  spaceBetween: -72,
-  autoplay: {
-    delay: 0,
-  },
-  breakpoints: {//ブレークポイント
-    340: {
-      spaceBetween: -32,
-    },
-    768: {
-      spaceBetween: -72,
-    },
-  },
-})
-</script>
-
-<script>
-$(function() {
-  $('.intro_02').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_01 figure').addClass('on');
-    }else{
-      $('.intro_01 figure').removeClass('on');
-    }
-  });
-  $('.intro_03').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_02 figure').addClass('on');
-    }else{
-      $('.intro_02 figure').removeClass('on');
-    }
-  });
-  $('.intro_04').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_03 figure').addClass('on');
-    }else{
-      $('.intro_03 figure').removeClass('on');
-    }
-  });
-  $('.intro_05').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_04 figure').addClass('on');
-    }else{
-      $('.intro_04 figure').removeClass('on');
-    }
-  });
-  $('.intro_06').on('inview', function(event, isInView){
-    if (isInView) {
-      $('.intro_05 figure').addClass('on');
-    }else{
-      $('.intro_05 figure').removeClass('on');
-    }
-  });
-});
-</script>
+<script src="<?php echo $path; ?>assets/js/top.js"></script>
+<script src="<?php echo $path; ?>assets/js/people.js"></script>
 
 </body>
 </html>

@@ -27,7 +27,6 @@ l-hero
 }
 
 .l-hero--people {
-    //padding: 0 0 0 8%;
     padding: 0;
     figure {
         border-radius: 0;
@@ -37,7 +36,6 @@ l-hero
         margin-top: 0rem;
         background: inc.$color-grn;
         position: relative;
-        //padding-top: 572px;
         @include inc.sizing(padding-top, wide, 572px, sp, 224px);
         figcaption {
             @include inc.sizing(width, wide, 180px, sp, 108px);
@@ -124,7 +122,6 @@ l-hero
 }
 
 .l-hero--zadankai {
-    //@include inc.sizing(padding-top, wide, 48px, tab, 640px);
     position: relative;
     padding-top: 48px;
     text-align: center;
@@ -166,7 +163,6 @@ l-hero
     &--balloon {
         display: none;
         position: absolute;
-        //display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         left: 50%;

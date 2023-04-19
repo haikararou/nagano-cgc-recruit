@@ -7,8 +7,6 @@ p-home
   padding: 24px 0!important;
   margin: 0 auto!important;
   display: block;
-  // @include inc.sizing(padding-top, tab, 32px, sp, 24px);
-  // @include inc.sizing(padding-bottom, tab, 32px, sp, 24px);
   max-width: 305px;
   width: 100%;
   @include inc.mq(tab) {
@@ -38,7 +36,6 @@ p-home
     }
     &--outer {
       position: relative;
-      
     }
     @include inc.sizing(height, wide, 864px, sp, 528px);
     @include inc.sizing(padding-top, wide, 112px, sp, 24px);
@@ -67,8 +64,6 @@ p-home
           @include inc.sizingRem(font-size, wide, 17px, sp, 16px);
         }
         &.-white {
-          // background: url(../img/arw/blue_right.svg) no-repeat calc(100% - 2rem) 50% inc.$color-wht;
-          // background-size: 15px;
           background-color: inc.$color-wht;
           border: 1px solid inc.$color-blu;
           position: relative;
@@ -103,7 +98,6 @@ p-home
         }
         &.-yellow {
           margin-top: 12px;
-          //background: url(../img/icon/blue_blank.svg) no-repeat calc(100% - 2rem) 53% inc.$color-yel;
           background-color: inc.$color-yel;
           position: relative;
           -webkit-transition: all 0.1s ease-out;

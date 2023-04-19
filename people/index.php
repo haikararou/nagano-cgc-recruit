@@ -3,6 +3,7 @@ $title_2nd = '人を知る';
 // $title_3rd = '';
 $directory_2nd = 'people';
 // $directory_3rd = '';
+$description = '';
 ?>
 <!DOCTYPE html>
 <html dir="ltr" lang="ja" prefix="og: https://ogp.me/ns#"  class="no-js">
