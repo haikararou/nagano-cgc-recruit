@@ -4681,6 +4681,14 @@ p-people
   width: 100%;
   margin: 0 auto;
 }
+.p-people--intro--div.on figure img {
+  opacity: 0;
+}
+@media screen and (min-width: 768px) {
+  .p-people--intro--div.on figure img {
+    opacity: 1;
+  }
+}
 @media screen and (min-width: 540px) {
   .p-people--intro--div {
     width: 80%;
@@ -4741,14 +4749,6 @@ p-people
     top: auto;
     bottom: -12px;
     right: -50px;
-  }
-}
-.p-people--intro--div figure.on img {
-  opacity: 0;
-}
-@media screen and (min-width: 768px) {
-  .p-people--intro--div figure.on img {
-    opacity: 1;
   }
 }
 @media screen and (min-width: 768px) {

@@ -200,11 +200,11 @@ if (strstr($url, 'test/')) {
         <dl class="p-zadankai--dl">
           <div>
             <dt><figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_ishizaka.png" alt="石坂" width="168" height="173"><figcaption>石坂</figcaption></figure></dt>
-            <dd>本人の希望や適正を考慮して、配属が決まります。最初から営業の人もいますし、総務に行く人もいますよ。職員数がそれほど多くないので、それぞれの得意なことや、向いていそうな仕事はわかりやすいと思います。適材適所の配置になっているんじゃないかな。</dd>
+            <dd>本人の希望や適正を考慮して、配属が決まります。職員数がそれほど多くないので、それぞれの得意なことや、向いていそうな仕事はわかりやすいと思います。適材適所の配置になっているんじゃないかな。</dd>
           </div>
           <div>
             <dt><figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_urano.png" alt="浦野" width="168" height="173"><figcaption>浦野</figcaption></figure></dt>
-            <dd>自分は営業を経て、今は広報の仕事をしています。刊行物をつくったり、ノベルティグッズをつくったり。お客様に、協会との接点を持ってもらうために日々試行錯誤しています。最近は、イメージキャラクターうさぽくんのイラストがついたアメをつくりました。実際、お客さんの反応はどうでしょうか？</dd>
+            <dd>自分は営業店で保証審査・経営支援業務の経験をし、今は広報の仕事をしています。刊行物をつくったり、ノベルティグッズをつくったり。お客様に、協会との接点を持ってもらうために日々試行錯誤しています。最近は、イメージキャラクターうさぽくんのイラストがついたアメをつくりました。実際、お客さんの反応はどうでしょうか？</dd>
           </div>
           <div>
             <dt><figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_ichinose.png" alt="一ノ瀬" width="168" height="173"><figcaption>一ノ瀬</figcaption></figure></dt>

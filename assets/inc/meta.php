@@ -31,4 +31,5 @@ $path = 'https://nagano-cgc.or.jp/recruit/';
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="<?php echo $path; ?>assets/js/intersection-observer.js"></script>
 <link rel="icon" href="<?php echo $path; ?>favicon.inc" />

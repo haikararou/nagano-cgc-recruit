@@ -117,28 +117,28 @@ if (strstr($url, 'test/')) {
     <div class="p-text-box">
       <h2 class="c-text--h2">他の職員はこちら</h2>
       <section class="p-people--intro p-people--intro--other">
-        <a href="<?php echo $path; ?>people/people02/" class="p-people--intro--div intro_02">
+        <a href="<?php echo $path; ?>people/people02/" class="p-people--intro--div intro_02 intro">
           <figure>
             <img src="<?php echo $path; ?>assets/img/people/people02A.png" alt="本田 朋樹" width="662" height="761">
             <figcaption>課題を<br>本質から解決する<br>気鋭の若手職員</figcaption>
           </figure>
           <h2>本田 朋樹<span><em>2年目</em>松本営業部業務第2課</span></h2>
         </a>
-        <a href="<?php echo $path; ?>people/people03/" class="p-people--intro--div intro_03 even">
+        <a href="<?php echo $path; ?>people/people03/" class="p-people--intro--div intro_03 intro even">
           <figure>
             <img src="<?php echo $path; ?>assets/img/people/people03A.png" alt="浦野 章博" width="659" height="764">
             <figcaption>相手の話に<br>しっかり寄り添う<br>気さくな<br>広報担当職員</figcaption>
           </figure>
           <h2>浦野 章博<span><em>8年目</em>総務部企画情報課</span></h2>
         </a>
-        <a href="<?php echo $path; ?>people/people04/" class="p-people--intro--div intro_04">
+        <a href="<?php echo $path; ?>people/people04/" class="p-people--intro--div intro_04 intro">
           <figure>
             <img src="<?php echo $path; ?>assets/img/people/people04A.png" alt="一ノ瀬 美波" width="659" height="765">
             <figcaption>誠実に<br>お客様と向き合う<br>優しい<br>ワーキングママ</figcaption>
           </figure>
           <h2>一ノ瀬 美波<span><em>14年目</em>本店営業部業務第2課</span></h2>
         </a>
-        <a href="<?php echo $path; ?>people/people05/" class="p-people--intro--div intro_05 even">
+        <a href="<?php echo $path; ?>people/people05/" class="p-people--intro--div intro_05 intro even">
           <figure>
             <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="石坂 友弥" width="659" height="764">
             <figcaption>さりげない<br>気配りで<br>誰からも頼られる<br>ベテラン社員</figcaption>
@@ -146,7 +146,6 @@ if (strstr($url, 'test/')) {
           <h2>石坂 友弥<span><em>16年目</em>業務統括部業務課</span></h2>
         </a>
       </section>
-      <div class="intro_06"></div>
     </div>
 
   </section>
@@ -162,7 +161,7 @@ if (strstr($url, 'test/')) {
 }
 ?>
 
-<script src="<?php echo $path; ?>assets/js/people01.js"></script>
+<script src="<?php echo $path; ?>assets/js/people.js"></script>
 
 </body>
 </html>
