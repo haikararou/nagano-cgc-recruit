@@ -131,7 +131,7 @@ if (strstr($url, 'test/')) {
                 <!-- <div class="number"><span class="count-up">120</span><span class="unit">日</span><span class="as_of">※2022年3月時点</span></div> -->
                 <div class="item" data-from="60" data-to="120" data-duration="1500">
                   <div class="number counter">
-                    <span class="count">60</span><span class="unit">日</span><span class="as_of">※2022年3月時点</span>
+                    <span class="count">60</span><span class="unit">日</span><span class="as_of">※有給休暇等を除く<br>※2022年3月時点</span>
                   </div>
                 </div>
               </div>
@@ -167,7 +167,7 @@ if (strstr($url, 'test/')) {
           <div class="p-about--numbers numbers07">
             <div class="p-about--numbers--flex">
               <div class="--center">
-                <h2>有給取得率</h2>
+                <h2>有給平均取得日数</h2>
                 <!-- <div class="number"><span class="count-up">14.3</span><span class="unit">日</span><span class="as_of">※2022年3月時点</span></div> -->
                 <div class="item" data-from="4.3" data-to="14.3" data-duration="1500">
                   <div class="number counter">
@@ -175,7 +175,7 @@ if (strstr($url, 'test/')) {
                   </div>
                 </div>
               </div>
-              <figure><img src="<?php echo $path; ?>assets/img/about/numbers07.png" alt="有給取得率" width="228" height="252"></figure>
+              <figure><img src="<?php echo $path; ?>assets/img/about/numbers07.png" alt="有給平均取得日数" width="228" height="252"></figure>
             </div>
           </div>
           <div class="p-about--numbers numbers08">

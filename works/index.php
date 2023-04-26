@@ -39,22 +39,21 @@ if (strstr($url, 'test/')) {
         <h1 class="c-text--h1"><span>WORKS</span>仕事を知る</h1>
         <nav class="l-nav">
           <ul>
-            <li><a href="#anchor--01" class="a-effect">営業部</a></li>
+            <li><a href="#anchor--01" class="a-effect">営業店</a></li>
             <li><a href="#anchor--02" class="a-effect">企業支援部</a></li>
             <li><a href="#anchor--03" class="a-effect">業務統括部</a></li>
             <li><a href="#anchor--04" class="a-effect">総務部</a></li>
-            <li><a href="#anchor--05" class="a-effect">コンプライアンス統括部</a></li>
+            <li><a href="#anchor--05" class="a-effect">コンプライアンス統括室</a></li>
           </ul>
         </nav>
       </div>
     </section>
     <section class="l-wrapper__container l-wrapper--right p-works">
       <div class="p-text-box">
-        <p>協会には5つの部署があり、それぞれが連携し合ってお客様を支えています。
-          各部署がどんな仕事をしているのかを、詳しくご紹介します。</p>
+        <p>協会には８つの営業店、３つの部、１室があり、各部署がどんな仕事をしているのかを、詳しくご紹介します。</p>
       </div>
       <div class="p-text-box" id="anchor--01">
-        <h2 class="c-text--h2">営業部</h2>
+        <h2 class="c-text--h2">営業店</h2>
         <p>実際にお客様と対話し、課題の解決策を一緒に考える機会が多い部署です。保証相談を受け、現状分析やヒアリングから審査を行う「保証審査業務」、保証をご利用いただいている中小企業の経営・再生支援、創業者のフォローアップを行う「経営支援」、代位弁済（※）後の債務に係る管理や回収といった、お客様の債務解決に関わる「管理回収業務」等を行います。<br>
           ※信用保証協会が中小企業に代わって金融機関へ借入金を返済すること</p>
       </div>
@@ -69,7 +68,7 @@ if (strstr($url, 'test/')) {
       <div class="p-text-box" id="anchor--03">
         <h2 class="c-text--h2">業務統括部</h2>
         <h3 class="c-text--h3">信用保険課</h3>
-        <p>代位弁済の手続きを統括する部署です。また、中小企業者からの弁済金の回収金処理等も行っています。制度の根幹を支える部署であり、協会が在る意義を実感しやすい部署です。</p>
+        <p>代位弁済の手続きを統括する部署です。制度の根幹を支える部署であり、協会が在る意義を実感しやすい部署です。</p>
         <h3 class="c-text--h3">業務課</h3>
         <p>財務データの入力、保証稟議書の管理、全国信用保証協会連合会等への定期報告といった「保証事務」と、法的措置、債権管理等に関わる「管理事務」を行います。営業店の職員を事務的な側面から支えることで、業務を円滑化する役割を担っています。</p>
       </div>
@@ -82,7 +81,7 @@ if (strstr($url, 'test/')) {
         <p>経営企画に関する業務全般を行います。具体的な業務には、経営計画の策定、Webサイト管理等のシステム運用、お客様に協会の存在を知ってもらうための広報活動などがあります。</p>
       </div>
       <div class="p-text-box" id="anchor--05">
-        <h2 class="c-text--h2">コンプライアンス統括部</h2>
+        <h2 class="c-text--h2">コンプライアンス統括室</h2>
         <p>内部監査やコンプライアンス管理、個人情報保護など、コンプライアンスに関わる業務を統括します。</p>
       </div>
     </section>

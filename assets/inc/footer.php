@@ -35,11 +35,11 @@
                         </div>
                         <div class="p-footer__list-item">
                             <dt><a href="<?php echo $path; ?>people" class="a-effect">人を知る</a></dt>
-                            <dd><a href="<?php echo $path; ?>people/people01" class="a-effect">職員紹介 中島 菜々子</a></dd>
-                            <dd><a href="<?php echo $path; ?>people/people02" class="a-effect">職員紹介 本田 朋樹</a></dd>
-                            <dd><a href="<?php echo $path; ?>people/people03" class="a-effect">職員紹介 浦野 章博</a></dd>
-                            <dd><a href="<?php echo $path; ?>people/people04" class="a-effect">職員紹介 一ノ瀬 美波</a></dd>
-                            <dd><a href="<?php echo $path; ?>people/people05" class="a-effect">職員紹介 石坂 友弥</a></dd>
+                            <dd><a href="<?php echo $path; ?>people/people01" class="a-effect">職員紹介 N.N.</a></dd>
+                            <dd><a href="<?php echo $path; ?>people/people02" class="a-effect">職員紹介 T.H.</a></dd>
+                            <dd><a href="<?php echo $path; ?>people/people03" class="a-effect">職員紹介 A.U.</a></dd>
+                            <dd><a href="<?php echo $path; ?>people/people04" class="a-effect">職員紹介 M.I.</a></dd>
+                            <dd><a href="<?php echo $path; ?>people/people05" class="a-effect">職員紹介 T.I.</a></dd>
                             <dd><a href="<?php echo $path; ?>people/zadankai" class="a-effect">座談会</a></dd>
                         </div>
                     </dl>

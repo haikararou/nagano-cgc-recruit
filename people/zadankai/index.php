@@ -33,11 +33,11 @@ if (strstr($url, 'test/')) {
     <p class="l-hero--zadankai--text">それぞれの色を持った職員が、年齢、性別、キャリアの垣根を超えて、<br>協会で働く日々について語り合いました！</p>
     <figure class="l-hero--zadankai--people"><img src="<?php echo $path; ?>assets/img/people/zadankai/main.png" alt="座談会" width="3942" height="1676"></figure>
     <div class="l-hero--zadankai--balloon">
-      <div class="l-hero--zadankai--balloon03">浦野 章博<span>8年目<br>総務部<br>企画情報課</span></div>
-      <div class="l-hero--zadankai--balloon01">中島 菜々子<span>1年目<br>松本営業部<br>業務第1課</span></div>
-      <div class="l-hero--zadankai--balloon02">本田 朋樹<span>2年目<br>松本営業部<br>業務第2課</span></div>
-      <div class="l-hero--zadankai--balloon04">一ノ瀬 美波<span>14年目<br>本店営業部<br>業務第2課</span></div>
-      <div class="l-hero--zadankai--balloon05">石坂 友弥<span>16年目<br>業務統括部<br>業務課</span></div>
+      <div class="l-hero--zadankai--balloon03">A.U.<span>8年目<br>総務部<br>企画情報課</span></div>
+      <div class="l-hero--zadankai--balloon01">N.N.<span>1年目<br>松本営業部<br>業務第1課</span></div>
+      <div class="l-hero--zadankai--balloon02">T.H.<span>2年目<br>松本営業部<br>業務第2課</span></div>
+      <div class="l-hero--zadankai--balloon04">M.I.<span>14年目<br>本店営業部<br>業務第2課</span></div>
+      <div class="l-hero--zadankai--balloon05">T.I.<span>16年目<br>業務統括部<br>業務課</span></div>
     </div>
   </div>
   <section class="l-wrapper__outer l-wrapper2">
@@ -45,11 +45,11 @@ if (strstr($url, 'test/')) {
       <div class="p-text-box p-zadankai--member">
         <h2>MEMBER</h2>
         <div class="p-zadankai--member--list">
-          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_nakajima.png" alt="中島 菜々子" width="168" height="173"><figcaption>中島 菜々子<span>1年目<br>松本営業部業務第1課</span></figcaption></figure>
-          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_honda.png" alt="本田 朋樹" width="168" height="173"><figcaption>本田 朋樹<span>2年目<br>松本営業部業務第2課</span></figcaption></figure>
-          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_urano.png" alt="浦野 章博" width="168" height="173"><figcaption>浦野 章博<span>8年目<br>総務部企画情報課</span></figcaption></figure>
-          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_ichinose.png" alt="一ノ瀬 美波" width="168" height="173"><figcaption>一ノ瀬 美波<span>14年目<br>本店営業部業務第2課</span></figcaption></figure>
-          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_ishizaka.png" alt="石坂 友弥" width="168" height="173"><figcaption>石坂 友弥<span>16年目<br>業務統括部業務課</span></figcaption></figure>
+          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_nakajima.png" alt="N.N." width="168" height="173"><figcaption>N.N.<span>1年目<br>松本営業部業務第1課</span></figcaption></figure>
+          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_honda.png" alt="T.H." width="168" height="173"><figcaption>T.H.<span>2年目<br>松本営業部業務第2課</span></figcaption></figure>
+          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_urano.png" alt="A.U." width="168" height="173"><figcaption>A.U.<span>8年目<br>総務部企画情報課</span></figcaption></figure>
+          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_ichinose.png" alt="M.I." width="168" height="173"><figcaption>M.I.<span>14年目<br>本店営業部業務第2課</span></figcaption></figure>
+          <figure><img src="<?php echo $path; ?>assets/img/people/zadankai/icon_ishizaka.png" alt="T.I." width="168" height="173"><figcaption>T.I.<span>16年目<br>業務統括部業務課</span></figcaption></figure>
         </div>
       </div>
       <div class="p-text-box">
