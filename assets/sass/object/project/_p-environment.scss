@@ -190,3 +190,18 @@ p-environment
     }
   }
 }
+
+
+.p-flex--l {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: -1.2rem 0 3rem;
+  div {
+    width: 120px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

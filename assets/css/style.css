@@ -4012,6 +4012,23 @@ p-environment
   background: url(../img/environment/voice_03D.svg) no-repeat 50% 50%/60px;
 }
 
+.p-flex--l {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: -1.2rem 0 3rem;
+}
+.p-flex--l div {
+  width: 120px;
+}
+.p-flex--l div img {
+  width: 100%;
+  height: auto;
+}
+
 /*
 p-about
 -----------------------------------------------------*/

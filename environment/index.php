@@ -54,6 +54,7 @@ if (strstr($url, 'test/')) {
         <p>完全週休2日制、祝祭日、年末年始（12月30日～1月3日）<br>年次有給休暇、特別有給休暇（慶弔休暇など）、リフレッシュ休暇、 看護休暇、介護休暇、ボランティア休暇 等</p>
         <h3 class="c-text--h3">子育てサポート</h3>
         <p>出産休暇（産前産後休暇）、育児休業、育児短時間勤務制度</p>
+        <div class="p-flex--l"><div><img src="<?php echo $path; ?>assets/img/environment/wlb.png" alt="職場いきいきアドバンスカンパニー" width="120" height="auto"></div><div><img src="<?php echo $path; ?>assets/img/environment/kurumin.jpg" alt="くるみん" width="120" height="auto"></div></div>
         <h3 class="c-text--h3">福利厚生・社内制度</h3>
         <p>各種社会保険（厚生年金、厚生年金基金、組合健康保険、雇用保険、労災保険）<br>住宅資金・厚生資金貸付制度、医療費補助、各種サークル活動 等<br>職員宿舎（家賃補助）</p>
       </div>
