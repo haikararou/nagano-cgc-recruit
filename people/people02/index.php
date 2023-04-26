@@ -90,10 +90,6 @@ if (strstr($url, 'test/')) {
             </div>
             <div>
               <dt>12:00</dt>
-              <dd>保証業務</dd>
-            </div>
-            <div>
-              <dt>12:00</dt>
               <dd>昼食</dd>
             </div>
             <div>

@@ -80,10 +80,10 @@ if (strstr($url, 'test/')) {
           </a>
           <a href="./people05/" class="p-people--intro--div intro_05 intro">
             <figure>
-              <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="T.I" width="659" height="764">
+              <img src="<?php echo $path; ?>assets/img/people/people05A.png" alt="T.I." width="659" height="764">
               <figcaption>さりげない<br>気配りで<br>誰からも頼られる<br>ベテラン職員</figcaption>
             </figure>
-            <h2>T.I<span><em>16年目</em>業務統括部業務課</span></h2>
+            <h2>T.I.<span><em>16年目</em>業務統括部業務課</span></h2>
           </a>
         </section>
       </div>
