@@ -36,10 +36,9 @@ if (strstr($url, 'test/')) {
         <nav class="l-nav">
           <ul>
             <li><a href="#anchor--01" class="a-effect">創業者支援</a></li>
-            <li><a href="#anchor--02" class="a-effect">事業継承支援</a></li>
-            <li><a href="#anchor--03" class="a-effect">経営改善支援</a></li>
+            <li><a href="#anchor--02" class="a-effect">経営改善支援</a></li>
+            <li><a href="#anchor--03" class="a-effect">事業継承支援</a></li>
             <li><a href="#anchor--04" class="a-effect">課題解決支援</a></li>
-            <li><a href="#anchor--05" class="a-effect">事業再生支援</a></li>
           </ul>
         </nav>
       </div>
@@ -59,7 +58,7 @@ if (strstr($url, 'test/')) {
                 </div>
                 <div>
                   <dt class="p-text-box--bluBox--dt"><span>課題</span></dt>
-                  <dd class="p-text-box--bluBox--dd">個創業して日が浅い個人経営のケーキ屋さん。優れた腕前を持っていましたが、コロナ渦で集客がうまくいかなくなり、新たな顧客の開拓方法や広告宣伝方法に悩んでいました。</dd>
+                  <dd class="p-text-box--bluBox--dd">創業して日が浅い個人経営のケーキ屋さん。優れた腕前を持っていましたが、コロナ渦で集客がうまくいかなくなり、新たな顧客の開拓方法や広告宣伝方法に悩んでいました。</dd>
                 </div>
               </dl>
             </div>
@@ -75,6 +74,9 @@ if (strstr($url, 'test/')) {
             </div>
           </div>
         </div>
+      </div>
+      <div class="p-text-box" id="anchor--02">
+        <h2 class="c-text--h2">経営改善支援</h2>
         <div class="p-text-box--bluBox" id="case02">
           <h2 class="p-text-box--bluBox--h2"><span>CASE 02</span>日々の資金繰りに苦しむ飲食店を<br>関係機関と連携してサポート</h2>
           <div class="p-text-box--bluBox--inner">
@@ -104,7 +106,7 @@ if (strstr($url, 'test/')) {
           </div>
         </div>
       </div>
-      <div class="p-text-box" id="anchor--02">
+      <div class="p-text-box" id="anchor--03">
         <h2 class="c-text--h2">事業継承支援</h2>
         <div class="p-text-box--bluBox" id="case03">
           <h2 class="p-text-box--bluBox--h2"><span>CASE 03</span>高齢となった社長さんの<br>事業承継をサポート</h2>
@@ -135,97 +137,10 @@ if (strstr($url, 'test/')) {
           </div>
         </div>
       </div>
-      <div class="p-text-box" id="anchor--03">
-        <h2 class="c-text--h2">経営改善支援</h2>
-        <div class="p-text-box--bluBox" id="case04">
-          <h2 class="p-text-box--bluBox--h2"><span>CASE 04</span>資金繰りを見直し、<br>新店舗で新たなスタート</h2>
-          <div class="p-text-box--bluBox--inner">
-            <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/case_04.png" alt="" width="330" height="528"></figure>
-              <dl class="p-text-box--bluBox--dl">
-                <div>
-                  <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
-                  <dd class="p-text-box--bluBox--dd">個人経営のステーキ店</dd>
-                </div>
-                <div>
-                  <dt class="p-text-box--bluBox--dt"><span>課題</span></dt>
-                  <dd class="p-text-box--bluBox--dd">人気店でありながら、リーズナブルな価格設定であったため、収益は厳しい状況。そんな中、賃借し店舗から移転することになり資金が必要になりましたが、既存借入の返済負担もあって資金繰りが厳しい状態でした。</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="p-text-box--bluBox--flow--outer">
-              <div class="p-text-box--bluBox--flow">
-                <h2 class="c-text--h4 case_img">支援内容</h2>
-                <p>そこで、事業継続に向けて経営改善支援を行うことに。課題を整理し、解決に向けてスケジュールを策定。既存借入金を調整するための弁護士を紹介し、今後の収支見通しと返済計画の検討を行っていきました。新店舗のコンセプト、メニュー、販売価格も再検討しました。</p>
-              </div>
-              <div class="p-text-box--bluBox--flow">
-                <h2  class="c-text--h4">結果</h2>
-                <p>新店舗への移転は無事完了。メニューのリニューアルと価格改定も実施しました。その結果、客数・客単価いずれも大きく上昇し、収益が改善。現在はマスコミにもたびたび取り上げられる人気店となっています。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-text-box--bluBox" id="case05">
-          <h2 class="p-text-box--bluBox--h2"><span>CASE 05</span>経営診断から必要資金の保証まで、<br>一貫体制で支援</h2>
-          <div class="p-text-box--bluBox--inner">
-            <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/case_05.png" alt="" width="453" height="487"></figure>
-              <dl class="p-text-box--bluBox--dl">
-                <div>
-                  <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
-                  <dd class="p-text-box--bluBox--dd">木製建具・家具製造業者</dd>
-                </div>
-                <div>
-                  <dt class="p-text-box--bluBox--dt"><span>課題</span></dt>
-                  <dd class="p-text-box--bluBox--dd">高い技術力で取引先からの信頼は厚く、受注はコンスタントに確保している一方で、滞留在庫の多さや収益性の低さから資金繰りに窮していました。</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="p-text-box--bluBox--flow--outer">
-              <div class="p-text-box--bluBox--flow">
-                <h2 class="c-text--h4 case_img">支援内容</h2>
-                <p>そこで、当協会の「中小企業診断士活用事業」と「経営サポート専門家派遣事業」を利用し、課題をの洗い出しと経営戦略の練り直しを行いました。また、滞留在庫の整理整頓ができる環境を整備するために、倉庫建設資金を保証協力しました。</p>
-              </div>
-              <div class="p-text-box--bluBox--flow">
-                <h2  class="c-text--h4">結果</h2>
-                <p>関係者と現状認識を共有したことで、信頼関係が構築され、労働環境の改善を見据えた新商品の開発、人材育成を推進する組織体制の整備など、長期的な経営方針の目線合わせができました。また、倉庫の建設により滞留在庫の見える化が進み、削減に向けた道筋を立てられるようになりました。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       <div class="p-text-box" id="anchor--04">
         <h2 class="c-text--h2">課題解決支援</h2>
-        <div class="p-text-box--bluBox" id="case06">
-          <h2 class="p-text-box--bluBox--h2"><span>CASE 06</span>製造原価管理方法を見直し、<br>課題を一つひとつ解決</h2>
-          <div class="p-text-box--bluBox--inner">
-            <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/case_06.png" alt="" width="365" height="465"></figure>
-              <dl class="p-text-box--bluBox--dl">
-                <div>
-                  <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
-                  <dd class="p-text-box--bluBox--dd">自動車部品中心の塗装業者</dd>
-                </div>
-                <div>
-                  <dt class="p-text-box--bluBox--dt"><span>課題</span></dt>
-                  <dd class="p-text-box--bluBox--dd">現在、思うような利益を確保できていない状態。また、リーマンショックの際に調達した債務が過大で、返済緩和の条件変更から脱却できず、将来に向けての前向きな設備投資が困難でした。</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="p-text-box--bluBox--flow--outer">
-              <div class="p-text-box--bluBox--flow">
-                <h2 class="c-text--h4 case_img">支援内容</h2>
-                <p>現在利用している製品等の原価管理シートを確認し、原価管理の基本的な考え方について、専門家の指導を受けました。また、過去の決算書の数値をもとに、資金繰り正常化について議論し、今度の方向性を決めていきました。</p>
-              </div>
-              <div class="p-text-box--bluBox--flow">
-                <h2  class="c-text--h4">結果</h2>
-                <p>専門家の視点が入ったことで、製造原価の中で割高となっている箇所が明確になったことで、各課題を解決に導くきっかけとなりました。また、社内の管理会計の仕組みをブラッシュアップしたことで、全体経費を加味した個別製品毎の採算計算が可能になりました。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-text-box--bluBox" id="case07">
-          <h2 class="p-text-box--bluBox--h2"><span>CASE 07</span>就業規則の見直しをサポート</h2>
+        <div class="p-text-box--bluBox" id="case04">
+          <h2 class="p-text-box--bluBox--h2"><span>CASE 04</span>就業規則の見直しをサポート</h2>
           <div class="p-text-box--bluBox--inner">
             <div class="p-text-box--bluBox--fig">
               <figure><img src="<?php echo $path; ?>assets/img/case/case_07.png" alt="" width="302" height="451"></figure>
@@ -248,37 +163,6 @@ if (strstr($url, 'test/')) {
               <div class="p-text-box--bluBox--flow">
                 <h2  class="c-text--h4">結果</h2>
                 <p>就業規則は会社・従業員それぞれを守るために必要であり、整備していくことの重要性を社長さんが再認識されました。優秀な従業員を確保するために必要な労働環境整備について理解が深まったことで、採用方法の見直しにもつながりました。</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="p-text-box" id="anchor--05">
-        <h2 class="c-text--h2">事業再生支援</h2>
-        <div class="p-text-box--bluBox" id="case08">
-          <h2 class="p-text-box--bluBox--h2"><span>CASE 08</span>再生ファンドの活用で、<br>旅館の名前を存続</h2>
-          <div class="p-text-box--bluBox--inner">
-            <div class="p-text-box--bluBox--fig">
-              <figure><img src="<?php echo $path; ?>assets/img/case/case_08.png" alt="" width="410" height="466"></figure>
-              <dl class="p-text-box--bluBox--dl">
-                <div>
-                  <dt class="p-text-box--bluBox--dt"><span>事業者</span></dt>
-                  <dd class="p-text-box--bluBox--dd">地域を代表する老舗温泉旅館</dd>
-                </div>
-                <div>
-                  <dt class="p-text-box--bluBox--dt"><span>課題</span></dt>
-                  <dd class="p-text-box--bluBox--dd">先代の借入金が多額に残っており、新たな資金調達は困難。そのため、必要な更新投資ができずに施設の老朽化が進行し、集客力も大きく低下していました。</dd>
-                </div>
-              </dl>
-            </div>
-            <div class="p-text-box--bluBox--flow--outer">
-              <div class="p-text-box--bluBox--flow">
-                <h2 class="c-text--h4 case_img">支援内容</h2>
-                <p>中小企業再生ファンドを活用した再生スキームの立案により、金融債権者が債権の一部を放棄。当ファンドが設備資金を貸付しました。さらに、宿泊業を得意とする専門家から、販売チャネル、広告宣伝方法の見直し等のアドバイスを受けました。</p>
-              </div>
-              <div class="p-text-box--bluBox--flow">
-                <h2  class="c-text--h4">結果</h2>
-                <p>過剰な債務が解消され、財務の健全化と経営の安定化が図られました。数十年ぶりの設備投資を実行したことで、施設の魅力が向上し、同業他社との競争力もUP。さらに、HPのリニューアルとオンラインエージェントとの関係強化により、Web経由の宿泊予約が大幅に増加しました。</p>
               </div>
             </div>
           </div>

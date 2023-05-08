@@ -2376,27 +2376,7 @@ p-text-box
 }
 
 #case04 .case_img::after {
-  background: url(../img/case/case_04.png) no-repeat 50% 50%;
-  background-size: contain;
-}
-
-#case05 .case_img::after {
-  background: url(../img/case/case_05.png) no-repeat 50% 50%;
-  background-size: contain;
-}
-
-#case06 .case_img::after {
-  background: url(../img/case/case_06.png) no-repeat 50% 50%;
-  background-size: contain;
-}
-
-#case07 .case_img::after {
   background: url(../img/case/case_07.png) no-repeat 50% 50%;
-  background-size: contain;
-}
-
-#case08 .case_img::after {
-  background: url(../img/case/case_08.png) no-repeat 50% 50%;
   background-size: contain;
 }
 
