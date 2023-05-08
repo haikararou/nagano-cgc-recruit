@@ -112,6 +112,11 @@ p-about
       line-height: 1.6;
       text-align: center;
       margin-bottom: 6px;
+      span {
+        @include inc.sizingRem(font-size, wide, 12px, sp, 9px);
+        display: block;
+        font-weight: normal;
+      }
     }
     .--left {
       text-align: left;

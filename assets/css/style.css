@@ -2207,11 +2207,6 @@ p-text-box
 .p-text-box--bluBox--h2 br {
   display: block;
 }
-@media screen and (min-width: 900px) {
-  .p-text-box--bluBox--h2 br {
-    display: none;
-  }
-}
 .p-text-box--bluBox--inner {
   padding: clamp(24px, 2.17vw + 14px, 48px);
 }
@@ -4159,6 +4154,11 @@ p-about
   line-height: 1.6;
   text-align: center;
   margin-bottom: 6px;
+}
+.p-about--numbers h2 span {
+  font-size: clamp(0.5625rem, 0.27vw + 0.4875rem, 0.75rem);
+  display: block;
+  font-weight: normal;
 }
 .p-about--numbers .--left {
   text-align: left;

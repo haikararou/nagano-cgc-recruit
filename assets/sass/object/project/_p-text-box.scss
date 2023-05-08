@@ -29,9 +29,9 @@ p-text-box
       }
       br {
         display: block;
-        @include inc.mq(tab) {
-          display: none;
-        }
+        // @include inc.mq(tab) {
+        //   display: none;
+        // }
       }
     }
     &--inner {
