@@ -104,4 +104,9 @@ l-wrapper
   &.--peopel {
     @include inc.sizing(padding-top, wide, 112px, vr, 48px);
   }
+  &.p-case {
+    @include inc.mq(vr) {
+      @include inc.sizing(padding-top, wide, 360px, vr, 338px);
+    }
+  }
 }

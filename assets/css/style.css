@@ -175,6 +175,11 @@ l-wrapper
 .l-wrapper--right.--peopel {
   padding-top: clamp(48px, 22.22vw - 236.4px, 112px);
 }
+@media screen and (min-width: 1280px) {
+  .l-wrapper--right.p-case {
+    padding-top: clamp(338px, 7.64vw + 240.2px, 360px);
+  }
+}
 
 /*
 l-section

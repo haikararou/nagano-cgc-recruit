@@ -1,5 +1,5 @@
 <?php
-$title_2nd = '支援事例';
+$title_2nd = '支援ストーリー';
 // $title_3rd = '';
 $directory_2nd = 'case';
 // $directory_3rd = '';
@@ -29,10 +29,13 @@ if (strstr($url, 'test/')) {
 ?>
 
 <main class="l-main">
+  <div class="l-hero">
+    <h1 class="c-text--h1"><span>CASE</span>支援ストーリー</h1>
+  </div>
   <section class="l-wrapper__outer2 l-wrapper">
     <section class="l-wrapper--left">
       <div class="l-wrapper--left--fixed">
-        <h1 class="c-text--h1"><span>CASE</span>支援事例</h1>
+        <h1 class="c-text--h1"><span>CASE</span>支援ストーリー</h1>
         <nav class="l-nav">
           <ul>
             <li><a href="#anchor--01" class="a-effect">創業者支援</a></li>

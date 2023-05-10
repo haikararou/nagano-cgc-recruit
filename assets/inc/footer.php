@@ -45,12 +45,11 @@
                     </dl>
                     <dl class="p-footer__list">
                         <div class="p-footer__list-item">
-                            <dt><a href="<?php echo $path; ?>case" class="a-effect">支援事例</a></dt>
-                            <dd><a href="<?php echo $path; ?>case#anchor--01" class="a-effect">創業者支援
-                            <dd><a href="<?php echo $path; ?>case#anchor--02" class="a-effect">事業承継支援</a></dd>
-                            <dd><a href="<?php echo $path; ?>case#anchor--03" class="a-effect">経営改善支援</a></dd>
+                            <dt><a href="<?php echo $path; ?>case" class="a-effect">支援ストーリー</a></dt>
+                            <dd><a href="<?php echo $path; ?>case#anchor--01" class="a-effect">創業者支援</a></dd>
+                            <dd><a href="<?php echo $path; ?>case#anchor--02" class="a-effect">経営改善支援</a></dd>
+                            <dd><a href="<?php echo $path; ?>case#anchor--03" class="a-effect">事業継承支援</a></dd>
                             <dd><a href="<?php echo $path; ?>case#anchor--04" class="a-effect">課題解決支援</a></dd>
-                            <dd><a href="<?php echo $path; ?>case#anchor--05" class="a-effect">事業再生支援</a></dd>
                         </div>
                         <div class="p-footer__list-item">
                             <dt><a href="<?php echo $path; ?>environment" class="a-effect">働く環境</a></dt>

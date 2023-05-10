@@ -179,7 +179,7 @@ if (strstr($url, 'test/')) {
   <section class="l-wrapper2 home">
     <div class="p-home--case">
       <div>
-        <h2><span>CASE</span>支援事例</h2>
+        <h2><span>CASE</span>支援ストーリー</h2>
         <p>長野県の約半数の中小企業を支援しています。<br>創業、経営改善、事業再生など、事業の様々な場面で最適なサポートをいたします。</p>
       </div>
       <div class="btn01"><a class="c-arrow left" href="./case"><span>もっと見る</span></a></div>
@@ -193,7 +193,7 @@ if (strstr($url, 'test/')) {
         <div class="swiper-slide card-slide">
           <a href="./case/#case01" class="card csize">
             <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
+              <h2>支援ストーリー</h2>
               <p>コロナ渦で、集客が難しくなってしまったお客様。新たな宣伝手法・販売経路をつくることで、安定した売上を生むことに成功しました。</p>
             </div>
             <div id="ura" class="fuda csize">
@@ -209,7 +209,7 @@ if (strstr($url, 'test/')) {
         <div class="swiper-slide card-slide">
           <a href="./case/#case02" class="card csize">
             <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
+              <h2>支援ストーリー</h2>
               <p>新規客が少なく、資金繰りが厳しかったお客様。金融機関と連携して経営改善計画を策定し、顧客獲得に向け新メニューを開発しました。</p>
             </div>
             <div id="ura" class="fuda csize">
@@ -225,7 +225,7 @@ if (strstr($url, 'test/')) {
         <div class="swiper-slide card-slide">
           <a href="./case/#case03" class="card csize">
             <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
+              <h2>支援ストーリー</h2>
               <p>近年の売上は減少傾向。事業継承を控えつつ、時期や方法も不明確だったお客様。現状の課題を洗い出し、事業継承の筋道を立てました。</p>
             </div>
             <div id="ura" class="fuda csize">
@@ -241,7 +241,7 @@ if (strstr($url, 'test/')) {
         <div class="swiper-slide card-slide">
           <a href="./case/#case04" class="card csize">
             <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
+              <h2>支援ストーリー</h2>
               <p>人気店でありながら、低価格な設定のため収益は厳しい状況。店舗移転のタイミングで、事業継続に向け経営改善を図りました。</p>
             </div>
             <div id="ura" class="fuda csize">
@@ -257,7 +257,7 @@ if (strstr($url, 'test/')) {
         <div class="swiper-slide card-slide">
           <a  href="./case/#case05" class="card csize">
             <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
+              <h2>支援ストーリー</h2>
               <p>資金繰りに窮していたお客様。経営戦略を練り直し、環境を整えるための資金を保証協力。徐々に、社長の表情が明るくなっていきました。</p>
             </div>
             <div id="ura" class="fuda csize">
@@ -273,7 +273,7 @@ if (strstr($url, 'test/')) {
         <div class="swiper-slide card-slide">
           <a  href="./case/#case06" class="card csize">
             <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
+              <h2>支援ストーリー</h2>
               <p>債務が過大で、将来に向けた設備投資が困難だったお客様。原価管理の基本的な考え方や今後の方向性について、専門家の指導を受けました。</p>
             </div>
             <div id="ura" class="fuda csize">
@@ -289,7 +289,7 @@ if (strstr($url, 'test/')) {
         <div class="swiper-slide card-slide">
           <a href="./case/#case07" class="card csize">
             <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
+              <h2>支援ストーリー</h2>
               <p>社内でハラスメント行為が発生。再発防止のために就業規則の見直しを行い、優秀な従業員を確保するために必要な労働環境を整備しました。</p>
             </div>
             <div id="ura" class="fuda csize">
@@ -305,7 +305,7 @@ if (strstr($url, 'test/')) {
         <div class="swiper-slide card-slide">
           <a href="./case/#case08" class="card csize">
             <div id="omote" class="fuda csize">
-              <h2>支援事例</h2>
+              <h2>支援ストーリー</h2>
               <p>先代の借入金が多額のため更新投資ができず、集客力が大きく低下。過剰な債務の解消、販売チャネルの見直しにより、事業存続を支援しました。</p>
             </div>
             <div id="ura" class="fuda csize">
