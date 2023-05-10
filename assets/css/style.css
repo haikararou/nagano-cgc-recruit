@@ -27,6 +27,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+p a {
+  text-decoration: underline;
+  text-decoration-color: #1B6EC3;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
 /*
 i-mixin
 -----------------------------------------------------*/

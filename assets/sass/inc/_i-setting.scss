@@ -77,6 +77,14 @@ body {
   width: 100%;
   -webkit-font-smoothing: antialiased;
 }
+p {
+  a {
+    text-decoration: underline;
+    text-decoration-color: $color-blu;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+}
 //Zen Kaku Gothic New
 //Regular 400
 //Medium 500
