@@ -232,9 +232,21 @@ p-header
   }
   .p-header__nav-item {
     border-bottom: 1px solid inc.$color-blu;
-    padding: .8rem 1.2rem .8rem 0;
+    //padding: .8rem 1.2rem .8rem 0;
+    //padding: .8rem 0 .8rem 0;
     background: url(../img/arw/blue_right.svg) no-repeat 99% 50%;
     background-size: 15px;
+    a {
+      display: block;
+      padding: .8rem 0 .8rem 0;
+      &:hover::after {
+        display: none;
+      }
+      @include inc.mq(vr) {
+        display: inline-block;
+        padding: 0;
+      }
+    }
   }
   .p-header__nav-entry {
     width: 100%;

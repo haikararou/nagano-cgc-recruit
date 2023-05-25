@@ -80,7 +80,7 @@ if (strstr($url, 'test/')) {
                 <h2>長野県内の<br>中小企業者のご利用率</h2>
                 <div class="item" data-from="00.0" data-to="50.7" data-duration="1500">
                   <div class="number counter">
-                    <span class="count">00.0</span><span class="unit">%</span><span class="as_of">※2023年3月時点</span>
+                    <span class="count">50.7</span><span class="unit">%</span><span class="as_of">※2023年3月時点</span>
                   </div>
                 </div>
               </div>
@@ -92,14 +92,14 @@ if (strstr($url, 'test/')) {
               <div class="--numbers02">
                 <h2>保証債務残高</h2>
                 <div class="--left">
-                  <div class="item" data-from="68941" data-to="80727" data-duration="1500">
+                  <div class="item" data-from="70727" data-to="80727" data-duration="1500">
                     <div class="number counter">
-                      <span class="count">60941</span><span class="unit">件</span>
+                      <span class="count">80727</span><span class="unit">件</span>
                     </div>
                   </div>
                   <div class="item" data-from="6481" data-to="7167" data-duration="1500">
                     <div class="number counter">
-                      <span class="count">6481</span><span class="unit">億円</span><span class="as_of">※2023年3月時点</span>
+                      <span class="count">7167</span><span class="unit">億円</span><span class="as_of">※2023年3月時点</span>
                     </div>
                   </div>
                 </div>
@@ -111,9 +111,9 @@ if (strstr($url, 'test/')) {
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>職員数</h2>
-                <div class="item" data-from="38" data-to="138" data-duration="1500">
-                  <div class="number counter">
-                    <span class="count">38</span><span class="unit">名</span><span class="as_of">※2023年3月時点</span>
+                <div class="item" data-from="80" data-to="138" data-duration="1500">
+                  <div class="number counter count-w">
+                    <span class="count">138</span><span class="unit">名</span><span class="as_of">※2023年3月時点</span>
                   </div>
                 </div>
               </div>
@@ -124,9 +124,9 @@ if (strstr($url, 'test/')) {
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>年間休日<span>※有給休暇等を除く</span></h2>
-                <div class="item" data-from="60" data-to="120" data-duration="1500">
+                <div class="item" data-from="80" data-to="120" data-duration="1500">
                   <div class="number counter">
-                    <span class="count">60</span><span class="unit">日</span><span class="as_of">※2023年3月時点</span>
+                    <span class="count">120</span><span class="unit">日</span><span class="as_of">※2023年3月時点</span>
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@ if (strstr($url, 'test/')) {
               <h2>月平均残業時間</h2>
               <div class="item" data-from="0" data-to="5" data-duration="350">
                 <div class="number counter">
-                  <span class="count">0</span>.0<span class="unit">時間</span><span class="as_of">※2023年3月時点</span>
+                  <span class="count">5</span>.0<span class="unit">時間</span><span class="as_of">※2023年3月時点</span>
                 </div>
               </div>
               <figure><img src="<?php echo $path; ?>assets/img/about/numbers05.png" alt="月平均残業時間" width="195" height="195"></figure>
@@ -159,7 +159,7 @@ if (strstr($url, 'test/')) {
                 <h2>有給平均取得日数</h2>
                 <div class="item" data-from="3" data-to="13" data-duration="350">
                   <div class="number counter">
-                    <span class="count">3</span>.0<span class="unit">%</span><span class="as_of">※2023年3月時点</span>
+                    <span class="count">13</span>.0<span class="unit">日</span><span class="as_of">※2023年3月時点</span>
                   </div>
                 </div>
               </div>
@@ -170,9 +170,9 @@ if (strstr($url, 'test/')) {
             <div class="p-about--numbers--flex">
               <div class="--center">
                 <h2>育児休業復職率</h2>
-                <div class="item" data-from="50" data-to="100" data-duration="1500">
+                <div class="item" data-from="50" data-to="100" data-duration="350">
                   <div class="number counter">
-                    <span class="count">50</span><span class="unit">%</span><span class="as_of">※2023年3月時点</span>
+                    <span class="count">100</span><span class="unit">%</span><span class="as_of">※2023年3月時点</span>
                   </div>
                 </div>
               </div>

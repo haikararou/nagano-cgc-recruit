@@ -132,6 +132,11 @@ p-about
       font-family: 'Hind', sans-serif;
       position: relative;
       display: inline-block;
+      @include inc.mq(lap) {
+        &.count-w {
+          width: 190px;
+        }
+      }
       span.unit {
         @include inc.sizingRem(font-size, wide, 31px, sp, 17px);
         font-weight: 500;
@@ -289,7 +294,8 @@ p-about
           flex-wrap: wrap;
           justify-content: center;
           .--center {
-            width: 184px;
+            // width: 184px;
+            width: 200px;
           }
           figure {
             display:flex; flex-direction:column; justify-content:center; align-items:center;

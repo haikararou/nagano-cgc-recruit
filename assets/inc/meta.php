@@ -6,18 +6,28 @@ $path = 'https://nagano-cgc.or.jp/recruit_test/';
 $path = 'https://nagano-cgc.or.jp/recruit/';
 }
 ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30228181-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-30228181-1');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <title><?php if(!empty($title_3rd) ){ echo $title_3rd.' | '; } ?><?php if(!empty($title_2nd) ){ echo $title_2nd.' | '; } ?>採用サイト | 長野県信用保証協会</title>
 <meta name="description" content="<?php if(!empty($description) ){ echo $description; } ?>" />
 <meta name="robots" content="max-image-preview:large" />
-<link rel="canonical" href="<?php echo $path; ?>recruit" />
+<link rel="canonical" href="<?php echo $path; ?>" />
 <meta property="og:locale" content="ja_JP" />
 <meta property="og:site_name" content="<?php if(!empty($title_3rd) ){ echo $title_3rd.' | '; } ?><?php if(!empty($title_2nd) ){ echo $title_2nd.' | '; } ?>採用サイト | 長野県信用保証協会" />
 <meta property="og:type" content="company" />
 <meta property="og:title" content="<?php if(!empty($title_3rd) ){ echo $title_3rd.' | '; } ?><?php if(!empty($title_2nd) ){ echo $title_2nd.' | '; } ?>採用サイト | 長野県信用保証協会" />
 <meta property="og:description" content="<?php if(!empty($description) ){ echo $description; } ?>" />
-<meta property="og:url" content="<?php echo $path; ?>recruit<?php if(!empty($directory_2nd) ){ echo '/'.$directory_2nd; } ?><?php if(!empty($directory_3rd) ){ echo '/'.$directory_3rd; } ?>" />
+<meta property="og:url" content="<?php echo $path; ?><?php if(!empty($directory_2nd) ){ echo '/'.$directory_2nd; } ?><?php if(!empty($directory_3rd) ){ echo '/'.$directory_3rd; } ?>" />
 <meta property="og:image" content="<?php echo $path; ?>assets/img/ogp.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="<?php if(!empty($title_3rd) ){ echo $title_3rd.' | '; } ?><?php if(!empty($title_2nd) ){ echo $title_2nd.' | '; } ?>採用サイト | 長野県信用保証協会" />
@@ -32,4 +42,3 @@ $path = 'https://nagano-cgc.or.jp/recruit/';
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
 <script src="<?php echo $path; ?>assets/js/intersection-observer.js"></script>
-<link rel="icon" href="<?php echo $path; ?>favicon.inc" />
