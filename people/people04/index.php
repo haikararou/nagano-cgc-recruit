@@ -58,14 +58,14 @@ if (strstr($url, 'test/')) {
         <h2 class="c-text--h2 --peopel2"><span>現在の仕事</span>育児と並行して、企業の経営を支援する</h2>
         <p>現在は育休を経て子育てをしながら、時間短縮勤務（9:30-16:30）で働いています。<br>
           主な業務は、金融機関から来る事前相談の回答、稟議書の作成、経営支援業務など。業況が厳しいお客様と今後どのように経営改善を図り、資金繰りを維持していくかを一緒に考えています。外部からの視点でアドバイスを行い、喜んでいただけたときは、多少でも力になれたのかなと嬉しく思います。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people04/pic_01.png" alt="現在の仕事" width="1663" height="1114">
+          <img src="<?php echo $path; ?>assets/img/people/people04/pic_01.jpg" alt="現在の仕事" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
         <h2 class="c-text--h2 --peopel2"><span>協会の魅力</span>「仕事に替わりはいても、ママに替わりはいない」という言葉</h2>
         <p>二人目を出産後復帰したあと、夫が単身赴任でした。そのため、平日子供のことは基本私が行っており、保育園の呼び出しなどで急遽帰ることも頻繁にありました。そんなとき、「仕事に替わりはいても、ママに替わりはいないよ」と、課の人があたたかくフォローしてくれました。その支えがなければ、挫けていたと思います。<br>
           子育てしながら働くことに理解のある人が多く、仕事と育児を両立させやすい環境だと感じます。土日祝もカレンダー通り休めるので、正社員でも子供の成長をしっかり楽しむことができます。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people04/pic_02.png" alt="協会の魅力" width="1663" height="1114">
+          <img src="<?php echo $path; ?>assets/img/people/people04/pic_02.jpg" alt="協会の魅力" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">

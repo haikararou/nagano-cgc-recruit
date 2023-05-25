@@ -30,7 +30,7 @@ if (strstr($url, 'test/')) {
 <main class="l-main">
   <div class="l-hero--zadankai">
     <h1 class="l-hero--zadankai--title"><img src="<?php echo $path; ?>assets/img/people/zadankai_title.svg" alt="長野県信用保証協会職員 座談会" width="312" height="150"></h1>
-    <p class="l-hero--zadankai--text">それぞれの色を持った職員が、年齢、性別、キャリアの垣根を超えて、<br>協会で働く日々について語り合いました！</p>
+    <p class="l-hero--zadankai--text">それぞれの色を持った職員が、年齢、性別、<br class="sp">キャリアの垣根を超えて、<br>協会で働く日々について語り合いました！</p>
     <figure class="l-hero--zadankai--people"><img src="<?php echo $path; ?>assets/img/people/zadankai/main.png" alt="座談会" width="3942" height="1676"></figure>
     <div class="l-hero--zadankai--balloon">
       <div class="l-hero--zadankai--balloon03">A.U.<span>8年目<br>総務部<br>企画情報課</span></div>

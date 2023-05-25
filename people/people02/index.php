@@ -57,14 +57,14 @@ if (strstr($url, 'test/')) {
         <h2 class="c-text--h2 --peopel2"><span>現在の仕事</span>若手の「やってみたい」を尊重してくれる上司</h2>
         <p>協会は、「困ったときはお互い様」の気持ちが強い組織だと感じます。ミスをしてしまったときも、嫌な顔一つせず優しくサポートしてくれる方ばかりです。課内で不在のメンバーがいるときは、できるだけ仕事を溜めないよう積極的に助け合う風潮があります。<br>
           私は、どんなことも「まずやってみないとわからない」と考える性格なのですが、協会の人たちは、若手職員の考えや行動を尊重してくれます。上司からのフォローも手厚いので、様々なことを恐れず、チャレンジしやすい環境だと思いますね。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people02/pic_01.png" alt="現在の仕事" width="1663" height="1114">
+          <img src="<?php echo $path; ?>assets/img/people/people02/pic_01.jpg" alt="現在の仕事" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
         <h2 class="c-text--h2 --peopel2"><span>協会の魅力</span>お客様にとってのメリットを、一番に考えて仕事ができる</h2>
         <p>協会の魅力は、お客様にとってのメリットを一番に考えられることです。経営支援などで関わった企業が実際に活躍されているのを見ると、やりがいを感じます。経営支援に赴くことは、今の楽しみのひとつです。<br>
           でも、自分がお客様を支えているというよりは、お客様に支えられていると感じることが多いですね。お話するなかで、自分が勉強させていただくこともたくさんあります。「一方的に支えている」というより、「支え合っている」という感覚に近いです。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people02/pic_02.png" alt="協会の魅力" width="1663" height="1114">
+          <img src="<?php echo $path; ?>assets/img/people/people02/pic_02.jpg" alt="協会の魅力" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">

@@ -58,14 +58,14 @@ if (strstr($url, 'test/')) {
         <h2 class="c-text--h2 --peopel2"><span>現在の仕事</span>お客様と協会の、接点をつくる</h2>
         <p>元々保証業務を行っており、現在は広報業務を行っています。協会をより身近に、頼れる存在と感じていただくために、提供できる保証制度や創業支援・経営支援サービスなどの取り組みを発信しています。最近だと、お客様との新たな接点としてノベルティグッズを制作しました。<br>
           広報は営業とまた違った楽しさと難しさがあるので、日々試行錯誤しています。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people03/pic_01.png" alt="現在の仕事" width="1663" height="1114">
+          <img src="<?php echo $path; ?>assets/img/people/people03/pic_01.jpg" alt="現在の仕事" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
         <h2 class="c-text--h2 --peopel2"><span>協会の魅力</span>事業だけでなく、生活も支えていると感じる</h2>
         <p>事業を拡大するための大規模な設備投資を保証したり、資金繰りのアドバイスをしたりしてお客様から直接感謝されると、支えになれたかな、とやりがいを感じます。<br>
           また、昨今は新型コロナウイルスの影響により売上が急激に減少し、事業を続けるためのお金を必要としているお客様が多くいらっしゃいました。そういったお客様に対し、迅速に保証をしていたときは、お客様や共に働く従業員の生活を支えていると感じました。今後、私たちがどう支援していくべきかを日々考えています。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people03/pic_02.png" alt="協会の魅力" width="1663" height="1114">
+          <img src="<?php echo $path; ?>assets/img/people/people03/pic_02.jpg" alt="協会の魅力" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">

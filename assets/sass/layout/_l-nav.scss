@@ -8,7 +8,7 @@ l-nav
         border-left: 1px solid inc.$color-blu;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 1px 0;
         display: flex;
         flex-wrap: wrap;
         @include inc.sizing(gap, wide, 16px, sp, 14px);
@@ -29,7 +29,7 @@ l-nav
                 background: url(../img/arw/blue_down.svg) no-repeat 0 0;
                 background-size: contain;
                 position: absolute;
-                top: 0;
+                top: -1px;
                 @include inc.sizing(left, wide, 16px, sp, 14px);
             }
         }

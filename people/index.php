@@ -90,7 +90,7 @@ if (strstr($url, 'test/')) {
       <div class="p-text-box intro_06" id="anchor--02">
         <div class="p-people--bnr">
           <h2 class="p-people--bnr--title"><img src="<?php echo $path; ?>assets/img/people/zadankai_title.svg" alt="長野県信用保証協会職員 座談会" width="312" height="150"></h2>
-          <p class="p-people--bnr--text">それぞれの色を持った職員が、年齢、性別、キャリアの垣根を超えて、<br>
+          <p class="p-people--bnr--text">それぞれの色を持った職員が、年齢、性別、<br class="sp">キャリアの垣根を超えて、<br>
             協会で働く日々について語り合いました！</p>
             <a class="c-arrow" href="./zadankai/"><span>もっと見る</span></a>
           <figure class="p-people--bnr--people"><img src="<?php echo $path; ?>assets/img/people/zadankai_people.png" alt="メンバー" width="1712" height="736"></figure>

@@ -57,14 +57,14 @@ if (strstr($url, 'test/')) {
         <h2 class="c-text--h2 --peopel2"><span>現在の仕事</span>中小企業を、後方から支える</h2>
         <p>現在は、保証稟議書の作成などを行う保証業務や、郵便物開封、公用車管理といった庶務を中心に行っています。先輩方と一緒に、お客様の経営支援に赴くこともあります。一年目なので、業務の基礎的なことを教わっている最中です。<br>
           協会の仕事は、中小企業のお客様を後方から支えることだと思っています。「公的な保証人」という、金融機関とは別の立場から企業支援ができることに、魅力を感じています。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people01/pic_01.png" alt="現在の仕事" width="1663" height="1114">
+          <img src="<?php echo $path; ?>assets/img/people/people01/pic_01.jpg" alt="現在の仕事" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">
         <h2 class="c-text--h2 --peopel2"><span>協会の魅力</span>お客様にとってのメリットを、一番に考えて仕事ができる</h2>
         <p>協会の魅力は、お客様にとってのメリットを一番に考えられることです。経営支援などで関わった企業が実際に活躍されているのを見ると、やりがいを感じます。経営支援に赴くことは、今の楽しみのひとつです。<br>
           でも、自分がお客様を支えているというよりは、お客様に支えられていると感じることが多いですね。お話するなかで、自分が勉強させていただくこともたくさんあります。「一方的に支えている」というより、「支え合っている」という感覚に近いです。</p>
-          <img src="<?php echo $path; ?>assets/img/people/people01/pic_02.png" alt="協会の魅力" width="1663" height="1114">
+          <img src="<?php echo $path; ?>assets/img/people/people01/pic_02.jpg" alt="協会の魅力" width="1663" height="1114">
       </div>
 
       <div class="p-text-box">

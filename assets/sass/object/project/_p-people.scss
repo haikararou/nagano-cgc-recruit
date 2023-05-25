@@ -295,6 +295,12 @@ p-people
       @include inc.mq(tab) {
         margin: 0 0 2rem;
       }
+      br.sp {
+        display: block;
+        @include inc.mq(spl) {
+          display: none;
+        }
+      }
     }
     &--people {
       position: relative;

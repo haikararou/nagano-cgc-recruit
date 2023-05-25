@@ -171,7 +171,7 @@ if (strstr($url, 'test/')) {
   <section class="p-home--zadankai intro_06">
     <div class="l-wrapper4">
       <h2 class="p-home--zadankai--title"><img src="<?php echo $path; ?>assets/img/people/zadankai_title.svg" alt="長野県信用保証協会職員 座談会" width="312" height="150"></h2>
-      <p class="p-home--zadankai--text">それぞれの色を持った職員が、年齢、性別、キャリアの垣根を超えて、<br>協会で働く日々について語り合いました！</p>
+      <p class="p-home--zadankai--text">それぞれの色を持った職員が、年齢、性別、<br class="sp">キャリアの垣根を超えて、<br>協会で働く日々について語り合いました！</p>
       <a class="c-arrow" href="./people/zadankai/"><span>もっと見る</span></a>
     </div>
   </section>
