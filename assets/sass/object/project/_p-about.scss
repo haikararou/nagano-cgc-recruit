@@ -129,7 +129,8 @@ p-about
       color: inc.$color-blu;
       font-weight: 500;
       line-height: 1;
-      font-family: 'Hind', sans-serif;
+      //font-family: 'Hind', sans-serif;
+      font-family: 'Hind_m', sans-serif;
       position: relative;
       display: inline-block;
       @include inc.mq(lap) {

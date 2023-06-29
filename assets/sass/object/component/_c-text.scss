@@ -16,10 +16,12 @@ c-text
     span {
       @include inc.sizingRem(font-size, wide, 14px, sp, 12px);
       @include inc.sizing(margin-bottom, wide, 24px, sp, 12px);
-      color: inc.$color-blu2;
+      //color: inc.$color-blu2;
+      color: inc.$color-blu;
       display: block;
       line-height: 1;
-      font-family: 'Hind', sans-serif;
+      //font-family: 'Hind', sans-serif;
+      font-family: 'Hind_m', sans-serif;
       font-weight: 500;
     }
     &.--peopel {
@@ -27,6 +29,7 @@ c-text
       span {
         color: inc.$color-blk;
         @include inc.sizing(margin-bottom, wide, 80px, sp, 32px);
+        font-family: "Zen Kaku Gothic New", sans-serif;
       }
     }
   }

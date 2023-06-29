@@ -38,7 +38,7 @@ if (strstr($url, 'test/')) {
         <p>明日を拓く、長野の中小企業を<br>支える人になりませんか。</p>
         <ul class="p-home--main-list list01">
           <li class="p-home--main-list-item -white"><a href="<?php echo $path; ?>guideline/"><span>募集要項を確認する</span></a></li>
-          <li class="p-home--main-list-item -yellow"><a href="<?php echo $path; ?>entry/" target="_blank"><span>エントリーはこちら</span></a></li>
+          <li class="p-home--main-list-item -yellow"><a href="https://job.mynavi.jp/24/pc/search/corp94407/outline.html" target="_blank"><span>エントリーはこちら</span></a></li>
         </ul>
       </div>
     </section>

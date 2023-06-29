@@ -7,6 +7,10 @@
 /*
 i-functions
 -----------------------------------------------------*/
+@font-face {
+  font-family: "Hind_m";
+  src: url("/recruit/assets/fonts/Hind/Hind-Medium.ttf") format("truetype");
+}
 /*
 i-setting
 -----------------------------------------------------*/
@@ -593,10 +597,10 @@ c-text
 .c-text--h1 span {
   font-size: clamp(0.75rem, 0.18vw + 0.7rem, 0.875rem);
   margin-bottom: clamp(12px, 1.08vw + 7.1px, 24px);
-  color: #008BBA;
+  color: #1B6EC3;
   display: block;
   line-height: 1;
-  font-family: "Hind", sans-serif;
+  font-family: "Hind_m", sans-serif;
   font-weight: 500;
 }
 .c-text--h1.--peopel {
@@ -605,6 +609,7 @@ c-text
 .c-text--h1.--peopel span {
   color: #171717;
   margin-bottom: clamp(32px, 4.33vw + 12.1px, 80px);
+  font-family: "Zen Kaku Gothic New", sans-serif;
 }
 .c-text--h2 {
   font-size: clamp(1.25rem, 0.36vw + 1.15rem, 1.5rem);
@@ -2957,7 +2962,7 @@ p-home
   font-weight: 500;
   list-style: 1;
   display: block;
-  font-family: "Hind", sans-serif;
+  font-family: "Hind_m", sans-serif;
 }
 .p-home--about h2 em.bracketsL {
   margin-left: -20px;
@@ -3026,7 +3031,7 @@ p-home
   font-weight: 500;
   list-style: 1;
   display: block;
-  font-family: "Hind", sans-serif;
+  font-family: "Hind_m", sans-serif;
 }
 .p-home--people {
   margin-bottom: clamp(64px, 1.44vw + 57.4px, 80px);
@@ -3044,7 +3049,7 @@ p-home
   font-weight: 500;
   list-style: 1;
   display: block;
-  font-family: "Hind", sans-serif;
+  font-family: "Hind_m", sans-serif;
 }
 .p-home--zadankai {
   margin-bottom: clamp(64px, 1.44vw + 57.4px, 80px);
@@ -3133,7 +3138,7 @@ p-home
   font-weight: 500;
   list-style: 1;
   display: block;
-  font-family: "Hind", sans-serif;
+  font-family: "Hind_m", sans-serif;
 }
 .p-home--case div p {
   margin: 0 0 0rem;
@@ -4210,7 +4215,7 @@ p-about
   color: #1B6EC3;
   font-weight: 500;
   line-height: 1;
-  font-family: "Hind", sans-serif;
+  font-family: "Hind_m", sans-serif;
   position: relative;
   display: inline-block;
 }
@@ -5166,7 +5171,7 @@ p-zadankai
   text-align: center;
 }
 .p-zadankai--member h2 {
-  font-family: "Hind", sans-serif;
+  font-family: "Hind_m", sans-serif;
   font-size: clamp(0.75rem, 1.36vw + 0.3625rem, 1.125rem);
   font-weight: 500;
   text-align: center;
@@ -5236,7 +5241,7 @@ p-zadankai
   left: 0;
   margin-top: clamp(16px, 1.71vw + 8.2px, 35px);
   margin-left: clamp(20px, 2.53vw + 8.3px, 48px);
-  font-family: "Hind", sans-serif;
+  font-family: "Hind_m", sans-serif;
 }
 .p-zadankai--q-title.--q-title02::before {
   content: "Q2";

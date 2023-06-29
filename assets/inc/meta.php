@@ -6,6 +6,17 @@ $path = 'https://nagano-cgc.or.jp/recruit_test/';
 $path = 'https://nagano-cgc.or.jp/recruit/';
 }
 ?>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HXT77G1D74"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-HXT77G1D74');
+</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30228181-1"></script>
 <script>
@@ -16,6 +27,7 @@ $path = 'https://nagano-cgc.or.jp/recruit/';
     gtag('js', new Date());
     gtag('config', 'UA-30228181-1');
 </script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <title><?php if(!empty($title_3rd) ){ echo $title_3rd.' | '; } ?><?php if(!empty($title_2nd) ){ echo $title_2nd.' | '; } ?>採用サイト | 長野県信用保証協会</title>
