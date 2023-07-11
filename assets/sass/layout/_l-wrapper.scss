@@ -18,6 +18,9 @@ l-wrapper
   @include inc.mq(vr) {
     padding: 0 2rem;
   }
+  @include inc.mq(wide) {
+    max-width: 86%;
+  }
 }
 
 .l-footer .l-wrapper {

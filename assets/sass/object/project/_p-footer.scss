@@ -238,7 +238,8 @@ p-footer
   }
   &__logo {
     position: relative;
-    @include inc.sizing(width, wide, 345px, tab, 345px);
+    @include inc.sizing(width, wide, 345px, tab, 330px);
+    //width: 345px;
     & > img {
       @include inc.mq(vr) {
         height: 53px;

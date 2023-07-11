@@ -8,11 +8,11 @@ p-header
   @include inc.mq(vr) {
     height: 100px!important;
   }
-  overscroll-behavior: contain;
-  overflow-y: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  touch-action: none;
+  // overscroll-behavior: contain;
+  // overflow-y: scroll;
+  // scrollbar-width: none;
+  // -ms-overflow-style: none;
+  // touch-action: none;
   display: flex;
   justify-content: space-between;
   padding: 0 3% 0 3%;

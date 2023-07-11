@@ -66,6 +66,11 @@ l-wrapper
     padding: 0 2rem;
   }
 }
+@media screen and (min-width: 1568px) {
+  .l-wrapper {
+    max-width: 86%;
+  }
+}
 
 .l-footer .l-wrapper {
   padding: 0 10%;
@@ -1127,7 +1132,7 @@ p-footer
 }
 .p-footer__logo {
   position: relative;
-  width: clamp(345px, 0vw + 345px, 345px);
+  width: clamp(330px, 2.25vw + 309.7px, 345px);
 }
 .p-footer__logo > img {
   height: 31px;
@@ -1298,13 +1303,6 @@ p-header
 -----------------------------------------------------*/
 .p-header {
   height: 60px !important;
-  -ms-scroll-chaining: none;
-      overscroll-behavior: contain;
-  overflow-y: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  -ms-touch-action: none;
-      touch-action: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
