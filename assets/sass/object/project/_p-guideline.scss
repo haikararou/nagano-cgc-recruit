@@ -36,6 +36,12 @@ p-guideline
             padding-bottom: 0;
             margin-bottom: 0;
           }
+          span {
+            @include inc.sizingRem(font-size, wide, 14px, sp, 13px);
+            padding-top: .6rem;
+            display: block;
+            line-height: 1.6;
+          }
         }
         & > dl {
           & > div {
@@ -55,6 +61,10 @@ p-guideline
           }
         }
       }
+    }
+    & + .c-text--h3 {
+      @include inc.sizing(margin-top, wide, 48px, sp, 32px);
+      @include inc.sizing(margin-bottom, wide, 32px, sp, 24px);
     }
   }
   &--flow {
@@ -90,3 +100,63 @@ p-guideline
     }
   }
 }
+
+
+.btn-entry {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  height: 5rem;
+  border-radius: 2.5rem;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  transition: background-color 0.3s linear;
+  background: inc.$color-yel;
+  position: relative;
+  span {
+    color: #1B6EC3;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: clamp(1rem, 0.54vw + 0.84375rem, 1.375rem);
+  }
+  &::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../img/arw/yellow_right.svg) no-repeat 50% 50%;
+    background-size: contain;
+    position: absolute;
+    right: 11%;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  @include inc.mq(vr) {
+    &::after {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  @media (hover: hover) {
+    &:hover {
+      background-color: inc.$color-light-yel;
+      &::after {
+        right: 10.5%;
+      }
+    }
+  }
+}
+

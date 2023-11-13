@@ -153,6 +153,13 @@ p-footer
             }
           }
         }
+        &.-yellow.-arw {
+          &::after {
+            width: 20px;
+            height: 20px;
+            background: url(../img/arw/yellow_right.svg) no-repeat 50% 50%;
+          }
+        }
       }
       &-faq {
         margin: 2.5rem auto 0;

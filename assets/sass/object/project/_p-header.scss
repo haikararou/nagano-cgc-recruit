@@ -143,6 +143,15 @@ p-header
       }
     }
   }
+  &__nav-entry.-arw {
+    span {
+      &::after {
+        width: 13px;
+        height: 13px;
+        background: url(../img/arw/yellow_right.svg) no-repeat 0 0 ;
+      }
+    }
+  }
   //========================  SP  ========================//
   &__sp {
     position: fixed;

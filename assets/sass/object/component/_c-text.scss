@@ -60,6 +60,15 @@ c-text
       }
     }
   }
+  &--h2.-L {
+    @include inc.sizing(padding-left, wide, 24px, sp, 16px);
+    @include inc.sizing(padding-right, wide, 24px, sp, 16px);
+    @include inc.sizing(padding-top, wide, 16px, sp, 12px);
+    @include inc.sizing(padding-bottom, wide, 16px, sp, 12px);
+    @include inc.sizing(margin-bottom, wide, 48px, sp, 32px);
+    @include inc.sizing(border-radius, wide, 8px, sp, 4px);
+    background: inc.$color-light-blu;
+  }
   &--h3 {
     @include inc.sizingRem(font-size, wide, 20px, sp, 16px);
     @include inc.sizing(line-height, wide, 30px, sp, 24px);
