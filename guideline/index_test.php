@@ -156,7 +156,7 @@ if (strstr($url, 'test/')) {
               <dd></dd>
             </div>
           </dl>
-          <div class="btn-entry"><a href="#" target="_blank"><span>エントリーはこちら</span></a></div>
+          <div class="btn-entry"><a href="#" target="_blank"><span>エントリーはこちら</span></a><span class="caption">マイナビのページにジャンプします。</span></div>
         </div>
       </div>
 
@@ -272,7 +272,7 @@ if (strstr($url, 'test/')) {
               <dd></dd>
             </div>
           </dl>
-          <div class="btn-entry"><a href="https://job.mynavi.jp/24/pc/search/corp94407/outline.html" target="_blank"><span>エントリーはこちら</span></a></div>
+          <div class="btn-entry"><a href="https://job.mynavi.jp/24/pc/search/corp94407/outline.html" target="_blank"><span>エントリーはこちら</span></a><span class="caption">「マイナビ転職」のページにジャンプします。</span></div>
         </div>
       </div>
 

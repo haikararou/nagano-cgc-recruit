@@ -34,12 +34,12 @@ if (strstr($url, 'test/')) {
     <section class="l-wrapper__container l-wrapper3">
       <div class="p-text-box">
         <h2 class="c-text--h2 -L">新卒採用</h2>
-        <div class="btn-entry"><a href="https://job.mynavi.jp/24/pc/search/corp94407/outline.html" target="_blank"><span>エントリーはこちら</span></a></div>
+        <div class="btn-entry"><a href="https://job.mynavi.jp/24/pc/search/corp94407/outline.html" target="_blank"><span>エントリーはこちら</span></a><span class="caption">マイナビのページにジャンプします。</span></div>
         </div>
       </div>
       <div class="p-text-box">
         <h2 class="c-text--h2 -L">中途採用</h2>
-        <div class="btn-entry"><a href="#" target="_blank"><span>エントリーはこちら</span></a></div>
+        <div class="btn-entry"><a href="#" target="_blank"><span>エントリーはこちら</span></a><span class="caption">「マイナビ転職」のページにジャンプします。</span></div>
         </div>
       </div>
     </section>
